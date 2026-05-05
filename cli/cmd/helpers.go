@@ -123,6 +123,16 @@ func LogErr(err error) {
 	log.Error("command failed", "error", err)
 }
 
+// PrintOutput json 时输出原始 API 数据，txt 时输出格式化数据
+func PrintOutput(raw, formatted interface{}) error {
+	w := output.NewWriter(output.FormatTxt)
+	if outputFormat == "json" {
+		w = output.NewWriter(output.FormatJSON)
+		return w.Print(raw)
+	}
+	return w.Print(formatted)
+}
+
 // ResolveSubjectID 根据名称搜索条目并返回第一个匹配 ID
 func ResolveSubjectID(client *api.HTTPClient, name string) (int, error) {
 	r, err := client.SearchSubjects(BackgroundCtx(), api.SearchSubjectRequest{Keyword: name, Sort: "match"}, 3, 0)

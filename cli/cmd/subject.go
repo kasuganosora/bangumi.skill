@@ -53,7 +53,7 @@ var subjectGetCmd = &cobra.Command{
 		if err != nil {
 			return err
 		}
-		return LoadFormat().Print(formatSubjectDetail(s))
+		return PrintOutput(s, formatSubjectDetail(s))
 	},
 }
 
@@ -75,7 +75,7 @@ var subjectRelationsCmd = &cobra.Command{
 		if err != nil {
 			return err
 		}
-		return LoadFormat().Print(formatRelations(rels))
+		return PrintOutput(rels, formatRelations(rels))
 	},
 }
 
@@ -97,7 +97,7 @@ var subjectCharactersCmd = &cobra.Command{
 		if err != nil {
 			return err
 		}
-		return LoadFormat().Print(formatSubjectChars(chars))
+		return PrintOutput(chars, formatSubjectChars(chars))
 	},
 }
 
@@ -119,7 +119,7 @@ var subjectPersonsCmd = &cobra.Command{
 		if err != nil {
 			return err
 		}
-		return LoadFormat().Print(formatSubjectPersons(persons))
+		return PrintOutput(persons, formatSubjectPersons(persons))
 	},
 }
 

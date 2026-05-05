@@ -83,7 +83,7 @@ var searchSubjectsCmd = &cobra.Command{
 		if err != nil {
 			return err
 		}
-		return LoadFormat().Print(formatSubjects(result))
+		return PrintOutput(result, formatSubjects(result))
 	},
 }
 
@@ -115,7 +115,7 @@ var searchCharactersCmd = &cobra.Command{
 		if err != nil {
 			return err
 		}
-		return LoadFormat().Print(formatCharacters(result))
+		return PrintOutput(result, formatCharacters(result))
 	},
 }
 
@@ -147,7 +147,7 @@ var searchPersonsCmd = &cobra.Command{
 		if err != nil {
 			return err
 		}
-		return LoadFormat().Print(formatPersons(result))
+		return PrintOutput(result, formatPersons(result))
 	},
 }
 

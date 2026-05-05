@@ -49,7 +49,7 @@ var userGetCmd = &cobra.Command{
 		if err != nil {
 			return err
 		}
-		return LoadFormat().Print(formatUser(u))
+		return PrintOutput(u, formatUser(u))
 	},
 }
 
@@ -66,7 +66,7 @@ var userMeCmd = &cobra.Command{
 		if err != nil {
 			return err
 		}
-		return LoadFormat().Print(formatUser(u))
+		return PrintOutput(u, formatUser(u))
 	},
 }
 
@@ -170,7 +170,7 @@ var collectionListCmd = &cobra.Command{
 		if err != nil {
 			return err
 		}
-		return LoadFormat().Print(formatCollections(result))
+		return PrintOutput(result, formatCollections(result))
 	},
 }
 
@@ -189,7 +189,7 @@ var collectionGetCmd = &cobra.Command{
 		if err != nil {
 			return err
 		}
-		return LoadFormat().Print(formatCollection(c))
+		return PrintOutput(c, formatCollection(c))
 	},
 }
 
@@ -306,7 +306,7 @@ var collectionEpisodesCmd = &cobra.Command{
 		if err != nil {
 			return err
 		}
-		return LoadFormat().Print(eps)
+		return PrintOutput(eps, eps)
 	},
 }
 
@@ -409,7 +409,7 @@ var collectionCharactersCmd = &cobra.Command{
 		if err != nil {
 			return err
 		}
-		return LoadFormat().Print(formatCharCollection(chars))
+		return PrintOutput(chars, formatCharCollection(chars))
 	},
 }
 
@@ -443,7 +443,7 @@ var collectionPersonsCmd = &cobra.Command{
 		if err != nil {
 			return err
 		}
-		return LoadFormat().Print(formatPersonCollection(persons))
+		return PrintOutput(persons, formatPersonCollection(persons))
 	},
 }
 

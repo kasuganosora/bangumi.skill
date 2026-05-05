@@ -36,7 +36,7 @@ var calendarCmd = &cobra.Command{
 		if err != nil {
 			return err
 		}
-		return LoadFormat().Print(formatCalendar(items))
+		return PrintOutput(items, formatCalendar(items))
 	},
 }
 

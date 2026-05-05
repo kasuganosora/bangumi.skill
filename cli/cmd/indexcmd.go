@@ -74,7 +74,7 @@ var indexCreateCmd = &cobra.Command{
 		if err != nil {
 			return err
 		}
-		return LoadFormat().Print(formatIndex(idx))
+		return PrintOutput(idx, formatIndex(idx))
 	},
 }
 
@@ -119,7 +119,7 @@ var indexEditCmd = &cobra.Command{
 		if err != nil {
 			return err
 		}
-		return LoadFormat().Print(formatIndex(idx))
+		return PrintOutput(idx, formatIndex(idx))
 	},
 }
 
@@ -142,7 +142,7 @@ var indexSubjectsCmd = &cobra.Command{
 		if err != nil {
 			return err
 		}
-		return LoadFormat().Print(subs)
+		return PrintOutput(subs, subs)
 	},
 }
 

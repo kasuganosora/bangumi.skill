@@ -68,7 +68,7 @@ var episodeListCmd = &cobra.Command{
 		if err != nil {
 			return err
 		}
-		return LoadFormat().Print(formatEpisodes(eps))
+		return PrintOutput(eps, formatEpisodes(eps))
 	},
 }
 
@@ -87,7 +87,7 @@ var episodeGetCmd = &cobra.Command{
 		if err != nil {
 			return err
 		}
-		return LoadFormat().Print(formatEpisode(ep))
+		return PrintOutput(ep, formatEpisode(ep))
 	},
 }
 

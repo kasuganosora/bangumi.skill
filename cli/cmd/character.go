@@ -53,7 +53,7 @@ var characterGetCmd = &cobra.Command{
 		if err != nil {
 			return err
 		}
-		return LoadFormat().Print(formatCharacter(c))
+		return PrintOutput(c, formatCharacter(c))
 	},
 }
 
@@ -79,7 +79,7 @@ var characterSubjectsCmd = &cobra.Command{
 		if err != nil {
 			return err
 		}
-		return LoadFormat().Print(formatCharSubjects(subs))
+		return PrintOutput(subs, formatCharSubjects(subs))
 	},
 }
 
@@ -105,7 +105,7 @@ var characterPersonsCmd = &cobra.Command{
 		if err != nil {
 			return err
 		}
-		return LoadFormat().Print(formatCharPersons(persons))
+		return PrintOutput(persons, formatCharPersons(persons))
 	},
 }
 
