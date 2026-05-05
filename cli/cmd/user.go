@@ -3,6 +3,7 @@ package cmd
 import (
 	"fmt"
 	"strings"
+	"time"
 
 	"github.com/kasuganosora/bangumi.skill/cli/api"
 	"github.com/spf13/cobra"
@@ -581,7 +582,7 @@ func formatCharCollection(items []api.UserCharacterCollection) fmt.Stringer {
 		b.WriteString(fmt.Sprintf("收藏的角色 (%d 项):\n", len(items)))
 		b.WriteString(strings.Repeat("─", 40) + "\n")
 		for i, c := range items {
-			b.WriteString(fmt.Sprintf("%d. %s [ID:%d]  %s\n", i+1, c.Name, c.ID, c.CreatedAt))
+			b.WriteString(fmt.Sprintf("%d. %s [ID:%d]  %s\n", i+1, c.Name, c.ID, fmtDate(c.CreatedAt)))
 		}
 		return b.String()
 	})
@@ -593,8 +594,16 @@ func formatPersonCollection(items []api.UserPersonCollection) fmt.Stringer {
 		b.WriteString(fmt.Sprintf("收藏的人物 (%d 项):\n", len(items)))
 		b.WriteString(strings.Repeat("─", 40) + "\n")
 		for i, p := range items {
-			b.WriteString(fmt.Sprintf("%d. %s [ID:%d]  %s\n", i+1, p.Name, p.ID, p.CreatedAt))
+			b.WriteString(fmt.Sprintf("%d. %s [ID:%d]  %s\n", i+1, p.Name, p.ID, fmtDate(p.CreatedAt)))
 		}
 		return b.String()
 	})
+}
+
+func fmtDate(iso string) string {
+	t, err := time.Parse(time.RFC3339, iso)
+	if err != nil {
+		return iso
+	}
+	return t.Format("2006-01-02 15:04:05")
 }
