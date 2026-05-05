@@ -134,11 +134,11 @@ func formatCharacter(c *api.CharacterDetail) fmt.Stringer {
 func formatCharSubjects(subs []api.V0RelatedSubject) fmt.Stringer {
 	return stringerFunc(func() string {
 		var b strings.Builder
-		b.WriteString(fmt.Sprintf("出演条目 (%d 项):\n", len(subs)))
+		fmt.Fprintf(&b, "出演条目 (%d 项):\n", len(subs))
 		for i, s := range subs {
-			b.WriteString(fmt.Sprintf("%d. %s", i+1, s.Name))
+			fmt.Fprintf(&b, "%d. %s", i+1, s.Name)
 			if s.NameCN != "" {
-				b.WriteString(fmt.Sprintf(" (%s)", s.NameCN))
+				fmt.Fprintf(&b, " (%s)", s.NameCN)
 			}
 			b.WriteString(fmt.Sprintf(" [ID:%d]", s.ID))
 			if s.Staff != "" {
