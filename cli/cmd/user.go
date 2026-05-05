@@ -18,6 +18,8 @@ func init() {
 	collectionCmd.AddCommand(collectionUpdateCmd)
 	collectionCmd.AddCommand(collectionEpisodesCmd)
 	collectionCmd.AddCommand(collectionUpdateEpisodeCmd)
+	collectionCmd.AddCommand(collectionCharactersCmd)
+	collectionCmd.AddCommand(collectionPersonsCmd)
 }
 
 // --- user ---
@@ -377,6 +379,74 @@ var collectionUpdateEpisodeCmd = &cobra.Command{
 		}
 		fmt.Println(emoji)
 		return nil
+	},
+}
+
+// ── collection characters ──
+
+var collectionCharactersCmd = &cobra.Command{
+	Use:   "characters [用户名]",
+	Short: "查看收藏的角色（默认自己）",
+	Long: `查看用户收藏的角色列表。不传用户名默认查看自己。
+
+示例:
+  bangumi collection characters              # 自己收藏的角色
+  bangumi collection characters sai          # sai收藏的角色`,
+	Args: cobra.MaximumNArgs(1),
+	RunE: func(cmd *cobra.Command, args []string) error {
+		client, _, err := NewAPIClient()
+		if err != nil {
+			return err
+		}
+		username := ""
+		if len(args) == 1 {
+			username = args[0]
+		} else {
+			me, err := client.GetMe(BackgroundCtx())
+			if err != nil {
+				return fmt.Errorf("请指定用户名或确保已登录: %w", err)
+			}
+			username = me.Username
+		}
+		chars, err := client.GetUserCharacterCollections(BackgroundCtx(), username)
+		if err != nil {
+			return err
+		}
+		return LoadFormat().Print(chars)
+	},
+}
+
+// ── collection persons ──
+
+var collectionPersonsCmd = &cobra.Command{
+	Use:   "persons [用户名]",
+	Short: "查看收藏的人物（默认自己）",
+	Long: `查看用户收藏的人物列表（声优/导演等）。不传用户名默认查看自己。
+
+示例:
+  bangumi collection persons                   # 自己收藏的人物
+  bangumi collection persons sai               # sai收藏的人物`,
+	Args: cobra.MaximumNArgs(1),
+	RunE: func(cmd *cobra.Command, args []string) error {
+		client, _, err := NewAPIClient()
+		if err != nil {
+			return err
+		}
+		username := ""
+		if len(args) == 1 {
+			username = args[0]
+		} else {
+			me, err := client.GetMe(BackgroundCtx())
+			if err != nil {
+				return fmt.Errorf("请指定用户名或确保已登录: %w", err)
+			}
+			username = me.Username
+		}
+		persons, err := client.GetUserPersonCollections(BackgroundCtx(), username)
+		if err != nil {
+			return err
+		}
+		return LoadFormat().Print(persons)
 	},
 }
 
