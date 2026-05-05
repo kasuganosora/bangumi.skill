@@ -49,11 +49,34 @@ var characterGetCmd = &cobra.Command{
 		if err != nil {
 			return err
 		}
-		c, err := client.GetCharacterByID(BackgroundCtx(), id)
-		if err != nil {
-			return err
+		ctx := BackgroundCtx()
+
+		// 并行获取角色详情 + 出演作品 + 声优
+		type result struct {
+			c   *api.CharacterDetail
+			sub []api.V0RelatedSubject
+			ps  []api.CharacterPerson
 		}
-		return PrintOutput(c, formatCharacter(c))
+		ch := make(chan result, 1)
+		go func() {
+			var r result
+			r.c, _ = client.GetCharacterByID(ctx, id)
+			r.sub, _ = client.GetCharacterSubjects(ctx, id)
+			r.ps, _ = client.GetCharacterPersons(ctx, id)
+			ch <- r
+		}()
+		r := <-ch
+
+		if r.c == nil {
+			return fmt.Errorf("未找到角色 (ID: %d)", id)
+		}
+
+		full := &api.CharacterFull{
+			Detail:   *r.c,
+			Subjects: r.sub,
+			Persons:  r.ps,
+		}
+		return PrintOutput(full, formatCharacterFull(full))
 	},
 }
 
@@ -107,6 +130,62 @@ var characterPersonsCmd = &cobra.Command{
 		}
 		return PrintOutput(persons, formatCharPersons(persons))
 	},
+}
+
+func formatCharacterFull(f *api.CharacterFull) fmt.Stringer {
+	return stringerFunc(func() string {
+		var b strings.Builder
+		c := f.Detail
+
+		// ── 基本信息 ──
+		fmt.Fprintf(&b, "🎭 %s [ID:%d]\n", c.Name, c.ID)
+		if c.Gender != "" {
+			fmt.Fprintf(&b, "性别: %s", c.Gender)
+		}
+		if c.BloodType != nil {
+			fmt.Fprintf(&b, " | 血型: %s", bloodName(*c.BloodType))
+		}
+		b.WriteString("\n")
+		if c.BirthYear != nil {
+			fmt.Fprintf(&b, "生日: %d-%d-%d\n", *c.BirthYear, *c.BirthMon, *c.BirthDay)
+		}
+		fmt.Fprintf(&b, "收藏数: %d | 评论数: %d\n", c.Stat.Collects, c.Stat.Comments)
+		if c.Summary != "" {
+			fmt.Fprintf(&b, "简介: %s\n", c.Summary)
+		}
+
+		// ── 出演作品 ──
+		if len(f.Subjects) > 0 {
+			b.WriteString("\n")
+			fmt.Fprintf(&b, "出演作品 (%d 项):\n", len(f.Subjects))
+			for i, s := range f.Subjects {
+				fmt.Fprintf(&b, "  %d. %s", i+1, s.Name)
+				if s.NameCN != "" {
+					fmt.Fprintf(&b, " (%s)", s.NameCN)
+				}
+				fmt.Fprintf(&b, " [ID:%d]", s.ID)
+				if s.Staff != "" {
+					fmt.Fprintf(&b, " - %s", s.Staff)
+				}
+				b.WriteString("\n")
+			}
+		}
+
+		// ── 声优 ──
+		if len(f.Persons) > 0 {
+			b.WriteString("\n")
+			fmt.Fprintf(&b, "声优 (%d 人):\n", len(f.Persons))
+			for i, p := range f.Persons {
+				fmt.Fprintf(&b, "  %d. %s [ID:%d] | 角色: %s", i+1, p.Name, p.ID, p.SubjectName)
+				if p.SubjectNameCN != "" {
+					fmt.Fprintf(&b, " (%s)", p.SubjectNameCN)
+				}
+				b.WriteString("\n")
+			}
+		}
+
+		return b.String()
+	})
 }
 
 func formatCharacter(c *api.CharacterDetail) fmt.Stringer {

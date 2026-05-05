@@ -178,6 +178,13 @@ type CharacterDetail struct {
 	Stat      Stat          `json:"stat"`
 }
 
+// CharacterFull 角色完整信息（详情 + 出演条目 + 声优）
+type CharacterFull struct {
+	Detail   CharacterDetail    `json:"detail"`
+	Subjects []V0RelatedSubject `json:"subjects"`
+	Persons  []CharacterPerson  `json:"persons"`
+}
+
 // CharacterPerson 角色关联的人物（声优）
 type CharacterPerson struct {
 	ID            int           `json:"id"`
