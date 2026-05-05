@@ -143,11 +143,11 @@ func (c *HTTPClient) GetUserCharacterCollections(ctx context.Context, username s
 	if err != nil {
 		return nil, err
 	}
-	var result []UserCharacterCollection
+	var result Paged[UserCharacterCollection]
 	if err := c.do(req, &result); err != nil {
 		return nil, fmt.Errorf("get character collections: %w", err)
 	}
-	return result, nil
+	return result.Data, nil
 }
 
 // UpdateUserCharacterCollection 更新当前用户角色收藏
@@ -165,11 +165,11 @@ func (c *HTTPClient) GetUserPersonCollections(ctx context.Context, username stri
 	if err != nil {
 		return nil, err
 	}
-	var result []UserPersonCollection
+	var result Paged[UserPersonCollection]
 	if err := c.do(req, &result); err != nil {
 		return nil, fmt.Errorf("get person collections: %w", err)
 	}
-	return result, nil
+	return result.Data, nil
 }
 
 // UpdateUserPersonCollection 更新当前用户人物收藏
