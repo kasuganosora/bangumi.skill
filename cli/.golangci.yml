@@ -1,12 +1,13 @@
-linters-settings:
-  staticcheck:
-    checks:
-      - all
-      - "-QF1012"  # disable "use fmt.Fprintf instead of WriteString(fmt.Sprintf)"
+version: "2"
 
 linters:
   enable:
     - errcheck
     - govet
     - staticcheck
-    - gofmt
+
+  settings:
+    staticcheck:
+      checks:
+        - all
+        - "-QF1012"
