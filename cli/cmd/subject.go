@@ -1,6 +1,7 @@
 package cmd
 
 import (
+	"encoding/json"
 	"fmt"
 	"strings"
 
@@ -234,3 +235,6 @@ func parseInt(s string) (int, error) {
 type stringerFunc func() string
 
 func (f stringerFunc) String() string { return f() }
+func (f stringerFunc) MarshalJSON() ([]byte, error) {
+	return json.Marshal(f())
+}

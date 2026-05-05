@@ -52,11 +52,6 @@ func (w *Writer) printTxt(data interface{}) error {
 }
 
 func (w *Writer) printJSON(data interface{}) error {
-	// fmt.Stringer 类型无法被 JSON 序列化，输出其字符串表示
-	if s, ok := data.(fmt.Stringer); ok {
-		_, err := fmt.Fprintln(w.Out, s.String())
-		return err
-	}
 	encoder := json.NewEncoder(w.Out)
 	encoder.SetIndent("", "  ")
 	return encoder.Encode(data)
