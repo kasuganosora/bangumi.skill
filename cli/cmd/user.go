@@ -127,7 +127,7 @@ var collectionCmd = &cobra.Command{
 }
 
 var collectionListCmd = &cobra.Command{
-	Use:   "list [用户名]",
+	Use:   "list [用户名或ID]",
 	Short: "列出收藏（默认自己）",
 	Long: `列出用户收藏的条目，可按类型和收藏状态筛选。不传用户名默认查看自己的收藏。
 
@@ -386,13 +386,14 @@ var collectionUpdateEpisodeCmd = &cobra.Command{
 // ── collection characters ──
 
 var collectionCharactersCmd = &cobra.Command{
-	Use:   "characters [用户名]",
+	Use:   "characters [用户名或ID]",
 	Short: "查看收藏的角色（默认自己）",
-	Long: `查看用户收藏的角色列表。不传用户名默认查看自己。
+	Long: `查看用户收藏的角色列表。不传参数默认查看自己。
 
 示例:
-  bangumi collection characters              # 自己收藏的角色
-  bangumi collection characters sai          # sai收藏的角色`,
+  bangumi collection characters              # 自己的收藏
+  bangumi collection characters sai          # 用户名
+  bangumi collection characters 10718        # 用户ID`,
 	Args: cobra.MaximumNArgs(1),
 	RunE: func(cmd *cobra.Command, args []string) error {
 		client, _, err := NewAPIClient()
@@ -420,13 +421,14 @@ var collectionCharactersCmd = &cobra.Command{
 // ── collection persons ──
 
 var collectionPersonsCmd = &cobra.Command{
-	Use:   "persons [用户名]",
+	Use:   "persons [用户名或ID]",
 	Short: "查看收藏的人物（默认自己）",
-	Long: `查看用户收藏的人物列表（声优/导演等）。不传用户名默认查看自己。
+	Long: `查看用户收藏的人物列表（声优/导演等）。不传参数默认查看自己。
 
 示例:
-  bangumi collection persons                   # 自己收藏的人物
-  bangumi collection persons sai               # sai收藏的人物`,
+  bangumi collection persons                  # 自己的收藏
+  bangumi collection persons sai              # 用户名
+  bangumi collection persons 10718            # 用户ID`,
 	Args: cobra.MaximumNArgs(1),
 	RunE: func(cmd *cobra.Command, args []string) error {
 		client, _, err := NewAPIClient()
