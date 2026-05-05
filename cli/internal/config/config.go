@@ -95,7 +95,7 @@ func RequireToken() (*TokenData, error) {
 	}
 	if td == nil || td.AccessToken == "" {
 		return nil, fmt.Errorf(
-			"未设置个人令牌。\n\n请先申请个人令牌: https://next.bgm.tv/demo/access-token\n然后运行: bangumi auth login --token <你的令牌>\n",
+			"未设置个人令牌\n\n请先申请个人令牌: https://next.bgm.tv/demo/access-token\n然后运行: bangumi auth login --token <你的令牌>",
 		)
 	}
 	return td, nil

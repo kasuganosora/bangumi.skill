@@ -422,7 +422,7 @@ func (s *HTTPClientSuite) SetupSuite() {
 			// 支持通过 query 参数模拟错误
 			if r.URL.Query().Get("error") == "401" {
 				w.WriteHeader(http.StatusUnauthorized)
-				w.Write([]byte(`{"error":"unauthorized"}`))
+				_, _ = w.Write([]byte(`{"error":"unauthorized"}`))
 				return
 			}
 			s.handleCalendar(w, r)
@@ -468,7 +468,7 @@ func (s *HTTPClientSuite) handleCalendar(w http.ResponseWriter, r *http.Request)
 		},
 	}
 	w.Header().Set("Content-Type", "application/json")
-	json.NewEncoder(w).Encode(resp)
+	_ = json.NewEncoder(w).Encode(resp)
 }
 
 func TestHTTPClientSuite(t *testing.T) {
@@ -504,7 +504,7 @@ func (s *HTTPClientSuite) TestGetCalendar_ErrorResponse() {
 	// 创建一个始终返回 401 的独立 server
 	errServer := httptest.NewServer(http.HandlerFunc(func(w http.ResponseWriter, r *http.Request) {
 		w.WriteHeader(http.StatusUnauthorized)
-		w.Write([]byte(`{"error":"unauthorized"}`))
+		_, _ = w.Write([]byte(`{"error":"unauthorized"}`))
 	}))
 	defer errServer.Close()
 

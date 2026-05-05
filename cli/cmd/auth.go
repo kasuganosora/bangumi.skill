@@ -73,7 +73,7 @@ var authLoginCmd = &cobra.Command{
 
 		out := LoadFormat()
 		if outputFormat == "json" {
-			out.Print(map[string]interface{}{
+			_ = out.Print(map[string]interface{}{
 				"status":   "ok",
 				"user_id":  status.UserID,
 				"username": me.Username,
@@ -100,7 +100,7 @@ var authStatusCmd = &cobra.Command{
 		if td == nil {
 			out := LoadFormat()
 			if outputFormat == "json" {
-				out.Print(map[string]string{"status": "no_token"})
+				_ = out.Print(map[string]string{"status": "no_token"})
 			} else {
 				fmt.Println("未设置令牌。")
 				fmt.Println("请申请: https://next.bgm.tv/demo/access-token")
@@ -119,7 +119,7 @@ var authStatusCmd = &cobra.Command{
 		}
 		out := LoadFormat()
 		if outputFormat == "json" {
-			out.Print(status)
+			_ = out.Print(status)
 		} else {
 			fmt.Printf("令牌有效 ✅\n用户 ID: %d\n客户端 ID: %s\n过期时间戳: %d\n",
 				status.UserID, status.ClientID, status.Expires)

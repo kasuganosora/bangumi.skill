@@ -61,9 +61,9 @@ func NewAPIClient() (*api.HTTPClient, *config.TokenData, error) {
 		}
 		if td == nil || td.AccessToken == "" {
 			client, _ := api.NewClient(opts...)
-			return client, nil, fmt.Errorf(
-				"未设置个人令牌。\n\n请先申请个人令牌: https://next.bgm.tv/demo/access-token\n然后运行: bangumi auth login --token <你的令牌>\n",
-			)
+		return client, nil, fmt.Errorf(
+			"未设置个人令牌\n\n请先申请个人令牌: https://next.bgm.tv/demo/access-token\n然后运行: bangumi auth login --token <你的令牌>",
+		)
 		}
 		opts = append(opts, api.WithAccessToken(td.AccessToken))
 	}
@@ -87,7 +87,7 @@ func NewAPIClient() (*api.HTTPClient, *config.TokenData, error) {
 	}
 
 	opts = append(opts, api.WithOnUnauthorized(func() {
-		config.DeleteToken()
+		_ = config.DeleteToken()
 		fmt.Fprintln(os.Stderr, "\n⚠️ 令牌已失效，已清除本地令牌。")
 		fmt.Fprintln(os.Stderr, "请重新设置: bangumi auth login --token <新令牌>")
 		fmt.Fprintln(os.Stderr, "令牌申请: https://next.bgm.tv/demo/access-token")

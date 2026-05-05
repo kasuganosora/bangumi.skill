@@ -76,7 +76,7 @@ func (s *FixtureServerSuite) serveFixture(w http.ResponseWriter, name string) {
 	data, err := os.ReadFile(path)
 	if err != nil {
 		w.WriteHeader(http.StatusInternalServerError)
-		w.Write([]byte(`{"error":"fixture not found: ` + name + `"}`))
+		_, _ = w.Write([]byte(`{"error":"fixture not found: ` + name + `"}`))
 		return
 	}
 	// 验证有效 JSON
@@ -86,7 +86,7 @@ func (s *FixtureServerSuite) serveFixture(w http.ResponseWriter, name string) {
 		return
 	}
 	w.Header().Set("Content-Type", "application/json")
-	w.Write(data)
+	_, _ = w.Write(data)
 }
 
 func TestFixtureServerSuite(t *testing.T) {

@@ -49,15 +49,15 @@ func formatCalendar(items []api.CalendarItem) fmt.Stringer {
 			if len(item.Items) == 0 {
 				continue
 			}
-			b.WriteString(fmt.Sprintf("\n【%s (%s)】\n", item.Weekday.CN, item.Weekday.JA))
+			fmt.Fprintf(&b, "\n【%s (%s)】\n", item.Weekday.CN, item.Weekday.JA)
 			for i, s := range item.Items {
-				b.WriteString(fmt.Sprintf("  %d. %s", i+1, s.Name))
+				fmt.Fprintf(&b, "  %d. %s", i+1, s.Name)
 				if s.NameCN != "" {
-					b.WriteString(fmt.Sprintf(" (%s)", s.NameCN))
+					fmt.Fprintf(&b, " (%s)", s.NameCN)
 				}
-				b.WriteString(fmt.Sprintf("  [ID:%d]", s.ID))
+				fmt.Fprintf(&b, "  [ID:%d]", s.ID)
 				if s.Rating.Score > 0 {
-					b.WriteString(fmt.Sprintf("  ⭐%.1f", s.Rating.Score))
+					fmt.Fprintf(&b, "  ⭐%.1f", s.Rating.Score)
 				}
 				b.WriteString("\n")
 			}

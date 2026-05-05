@@ -290,7 +290,7 @@ func (c *HTTPClient) getImageRedirect(ctx context.Context, path string, imgType 
 	if err != nil {
 		return "", fmt.Errorf("get image: %w", err)
 	}
-	defer resp.Body.Close()
+	defer func() { _ = resp.Body.Close() }()
 
 	if resp.StatusCode == 302 {
 		return resp.Header.Get("Location"), nil
@@ -304,7 +304,7 @@ func (c *HTTPClient) do(req *http.Request, v interface{}) error {
 	if err != nil {
 		return fmt.Errorf("http request: %w", err)
 	}
-	defer resp.Body.Close()
+	defer func() { _ = resp.Body.Close() }()
 
 	if resp.StatusCode < 200 || resp.StatusCode >= 300 {
 		body, _ := io.ReadAll(io.LimitReader(resp.Body, 4096))

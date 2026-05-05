@@ -93,7 +93,7 @@ func (s *OAuthSuite) handleTokenStatus(w http.ResponseWriter, r *http.Request) {
 		UserID:      42,
 	}
 	w.Header().Set("Content-Type", "application/json")
-	json.NewEncoder(w).Encode(status)
+	_ = json.NewEncoder(w).Encode(status)
 }
 
 func (s *OAuthSuite) writeToken(w http.ResponseWriter, access, refresh string) {
@@ -106,7 +106,7 @@ func (s *OAuthSuite) writeToken(w http.ResponseWriter, access, refresh string) {
 		UserID:       42,
 	}
 	w.Header().Set("Content-Type", "application/json")
-	json.NewEncoder(w).Encode(token)
+	_ = json.NewEncoder(w).Encode(token)
 }
 
 func TestOAuthSuite(t *testing.T) {
