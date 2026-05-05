@@ -1,0 +1,51 @@
+{
+  "data": [
+    {
+      "subject_id": 1,
+      "subject_type": 2,
+      "rate": 8,
+      "type": 2,
+      "comment": "",
+      "tags": ["test"],
+      "ep_status": 12,
+      "vol_status": 0,
+      "updated_at": "2025-01-01T00:00:00+08:00",
+      "private": false,
+      "subject": {
+        "id": 1,
+        "url": "https://bgm.tv/subject/1",
+        "type": 2,
+        "name": "テストアニメ",
+        "name_cn": "测试动画",
+        "summary": "用于测试的示例条目",
+        "air_date": "2025-01-01",
+        "air_weekday": 1,
+        "images": {
+          "large": "https://lain.bgm.tv/pic/cover/l/icon.jpg",
+          "common": "https://lain.bgm.tv/pic/cover/c/icon.jpg",
+          "medium": "https://lain.bgm.tv/pic/cover/m/icon.jpg",
+          "small": "https://lain.bgm.tv/pic/cover/s/icon.jpg",
+          "grid": "https://lain.bgm.tv/pic/cover/g/icon.jpg"
+        },
+        "eps": 12,
+        "eps_count": 12,
+        "rating": {
+          "total": 100,
+          "count": {"1": 1, "2": 1, "3": 1, "4": 1, "5": 10, "6": 20, "7": 30, "8": 25, "9": 8, "10": 3},
+          "score": 7.5
+        },
+        "rank": 100,
+        "collection": {
+          "wish": 50,
+          "collect": 100,
+          "doing": 20,
+          "on_hold": 5,
+          "dropped": 3
+        }
+      }
+    }
+  ],
+  "total": 1,
+  "limit": 5,
+  "offset": 0
+}

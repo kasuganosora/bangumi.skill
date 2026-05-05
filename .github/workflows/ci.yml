@@ -1,0 +1,124 @@
+name: CI
+
+on:
+  push:
+    branches: [master, main]
+    tags: ["v*"]
+  pull_request:
+    branches: [master, main]
+
+permissions:
+  contents: write
+
+jobs:
+  # ── Lint + Test ──
+  lint-test:
+    name: Lint & Test
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: cli
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-go@v5
+        with:
+          go-version: "1.24"
+          cache-dependency-path: cli/go.sum
+
+      - name: go fmt
+        run: |
+          unformatted=$(gofmt -l .)
+          if [ -n "$unformatted" ]; then
+            echo "The following files need gofmt:"
+            echo "$unformatted"
+            exit 1
+          fi
+
+      - name: golangci-lint
+        uses: golangci/golangci-lint-action@v7
+        with:
+          version: latest
+          working-directory: cli
+          args: --timeout=5m
+
+      - name: Test
+        run: go test ./... -count=1 -timeout=60s
+
+  # ── Build + Release ──
+  release:
+    name: Build & Release
+    needs: lint-test
+    if: startsWith(github.ref, 'refs/tags/v')
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        include:
+          # Linux
+          - os: ubuntu-latest
+            goos: linux
+            goarch: amd64
+            bin: bangumi
+          - os: ubuntu-latest
+            goos: linux
+            goarch: arm64
+            bin: bangumi
+          # Windows
+          - os: ubuntu-latest
+            goos: windows
+            goarch: amd64
+            bin: bangumi.exe
+          - os: ubuntu-latest
+            goos: windows
+            goarch: arm64
+            bin: bangumi.exe
+          # macOS
+          - os: ubuntu-latest
+            goos: darwin
+            goarch: amd64
+            bin: bangumi
+          - os: ubuntu-latest
+            goos: darwin
+            goarch: arm64
+            bin: bangumi
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-go@v5
+        with:
+          go-version: "1.24"
+
+      - name: Get version
+        id: version
+        run: echo "VERSION=${GITHUB_REF#refs/tags/v}" >> $GITHUB_OUTPUT
+
+      - name: Build
+        working-directory: cli
+        env:
+          GOOS: ${{ matrix.goos }}
+          GOARCH: ${{ matrix.goarch }}
+        run: |
+          go build -ldflags "-s -w \
+            -X 'main.version=${{ steps.version.outputs.VERSION }}' \
+            -X 'main.commit=${{ github.sha }}' \
+            -X 'main.date=$(date -u +%Y-%m-%dT%H:%M:%SZ)' \
+            -X 'github.com/kasuganosora/bangumi.skill/cli/api.version=${{ steps.version.outputs.VERSION }}'" \
+            -o ../skill/${{ matrix.bin }} .
+
+      - name: Package skill
+        run: |
+          mkdir -p release/bangumi
+          cp skill/SKILL.md release/bangumi/
+          cp skill/${{ matrix.bin }} release/bangumi/
+          cd release
+          zip -r "../skill-bangumi-${{ steps.version.outputs.VERSION }}-${{ matrix.goos }}-${{ matrix.goarch }}.zip" bangumi/
+          cd ..
+          sha256sum "skill-bangumi-${{ steps.version.outputs.VERSION }}-${{ matrix.goos }}-${{ matrix.goarch }}.zip" > "skill-bangumi-${{ steps.version.outputs.VERSION }}-${{ matrix.goos }}-${{ matrix.goarch }}.zip.sha256"
+
+      - name: Upload release assets
+        uses: softprops/action-gh-release@v2
+        with:
+          files: |
+            skill-bangumi-*.zip
+            skill-bangumi-*.zip.sha256
+          generate_release_notes: true

@@ -1,0 +1,272 @@
+{
+  "data": [
+    {
+      "id": 179271,
+      "name": "セイバー",
+      "type": 1,
+      "images": {
+        "large": "https://lain.bgm.tv/pic/crt/l/20/e8/179271_crt_zQhW4.jpg?r=1752135380",
+        "medium": "https://lain.bgm.tv/r/400/pic/crt/l/20/e8/179271_crt_zQhW4.jpg?r=1752135380",
+        "small": "https://lain.bgm.tv/r/100/pic/crt/l/20/e8/179271_crt_zQhW4.jpg?r=1752135380",
+        "grid": "https://lain.bgm.tv/pic/crt/g/20/e8/179271_crt_zQhW4.jpg?r=1752135380"
+      },
+      "summary": "特殊作戦群隊員。",
+      "locked": false,
+      "infobox": [
+        {
+          "key": "简体中文名",
+          "value": "Saber"
+        },
+        {
+          "key": "别名",
+          "value": []
+        },
+        {
+          "key": "性别",
+          "value": "男"
+        }
+      ],
+      "gender": "male",
+      "blood_type": null,
+      "birth_year": null,
+      "birth_mon": null,
+      "birth_day": null,
+      "stat": {
+        "comments": 0,
+        "collects": 0
+      }
+    },
+    {
+      "id": 16247,
+      "name": "セイバーライオン",
+      "type": 1,
+      "images": {
+        "large": "https://lain.bgm.tv/pic/crt/l/63/50/16247_crt_YYsBw.jpg",
+        "medium": "https://lain.bgm.tv/r/400/pic/crt/l/63/50/16247_crt_YYsBw.jpg",
+        "small": "https://lain.bgm.tv/r/100/pic/crt/l/63/50/16247_crt_YYsBw.jpg",
+        "grid": "https://lain.bgm.tv/pic/crt/g/63/50/16247_crt_YYsBw.jpg"
+      },
+      "summary": "嗷嗷嗷嗷嗷嗷嗷嗷，嗷嗷嗷嗷嗷嗷、嗷嗷、嗷嗷嗷嗷嗷~\r\n嗷嗷嗷嗷嗷嗷，嗷嗷嗷嗷嗷嗷嗷嗷嗷嗷，嗷嗷哦嗷嗷嗷嗷嗷嗷~\r\n嗷嗷嗷嗷嗷嗷嗷嗷嗷嗷嗷，嗷嗷嗷嗷嗷嗷嗷嗷嗷嗷嗷嗷嗷，嗷嗷嗷嗷嗷嗷嗷嗷嗷嗷，嗷嗷嗷嗷嗷嗷嗷嗷嗷嗷嗷~\r\n嗷嗷嗷嗷嗷嗷嗷嗷~",
+      "locked": false,
+      "infobox": [
+        {
+          "key": "简体中文名",
+          "value": "狮SABER"
+        },
+        {
+          "key": "别名",
+          "value": [
+            {
+              "k": "英文名",
+              "v": "saber lion"
+            }
+          ]
+        },
+        {
+          "key": "武器",
+          "value": "ニクスカリバー タイプ"
+        },
+        {
+          "key": "喜好",
+          "value": "吃"
+        },
+        {
+          "key": "喜欢的食物",
+          "value": "Lancer"
+        }
+      ],
+      "gender": "",
+      "blood_type": null,
+      "birth_year": null,
+      "birth_mon": null,
+      "birth_day": null,
+      "stat": {
+        "comments": 5,
+        "collects": 44
+      }
+    },
+    {
+      "id": 149537,
+      "name": "仮面ライダーセイバー",
+      "type": 1,
+      "images": {
+        "large": "https://lain.bgm.tv/pic/crt/l/62/c2/149537_crt_J6XUJ.jpg",
+        "medium": "https://lain.bgm.tv/r/400/pic/crt/l/62/c2/149537_crt_J6XUJ.jpg",
+        "small": "https://lain.bgm.tv/r/100/pic/crt/l/62/c2/149537_crt_J6XUJ.jpg",
+        "grid": "https://lain.bgm.tv/pic/crt/g/62/c2/149537_crt_J6XUJ.jpg"
+      },
+      "summary": "神山飛羽真が、火炎剣烈火と聖剣ソードライバー、ブレイブドラゴンワンダーライドブックを使って変身した姿。\r\n\r\n「聖なる炎」を生み出す火炎剣烈火を手に、心正しき者を癒し、邪悪な存在を焼き払う炎の剣士。\r\n\r\n右半身「ライドライト」にブレイブドラゴンの力を宿しており、神獣「ブレイブドラゴン」を呼び出して共に戦うこともできる。\r\n\r\n15年前、まだ幼かった頃の神山飛羽真を救った炎の剣士でもあり、当時は上條大地が仮面ライダーセイバーとして火炎剣烈火を振るっていた。",
+      "locked": false,
+      "infobox": [
+        {
+          "key": "简体中文名",
+          "value": "假面骑士Saber"
+        },
+        {
+          "key": "别名",
+          "value": [
+            {
+              "v": "假面骑士圣刃"
+            },
+            {
+              "v": "仮面ライダーセイバー ブレイブドラゴン"
+            },
+            {
+              "v": "假面骑士Saber Brave Dragon"
+            },
+            {
+              "v": "炎之剑士"
+            },
+            {
+              "k": "英文名",
+              "v": "Kamen Rider Saber"
+            }
+          ]
+        },
+        {
+          "key": "性别",
+          "value": "男"
+        },
+        {
+          "key": "身高",
+          "value": "217.0cm"
+        },
+        {
+          "key": "体重",
+          "value": "98.5kg"
+        }
+      ],
+      "gender": "male",
+      "blood_type": null,
+      "birth_year": null,
+      "birth_mon": null,
+      "birth_day": null,
+      "stat": {
+        "comments": 0,
+        "collects": 2
+      }
+    },
+    {
+      "id": 105500,
+      "name": "リチャード・ランスロット",
+      "type": 1,
+      "images": {
+        "large": "https://lain.bgm.tv/pic/crt/l/1d/8e/105500_crt_E1la5.jpg",
+        "medium": "https://lain.bgm.tv/r/400/pic/crt/l/1d/8e/105500_crt_E1la5.jpg",
+        "small": "https://lain.bgm.tv/r/100/pic/crt/l/1d/8e/105500_crt_E1la5.jpg",
+        "grid": "https://lain.bgm.tv/pic/crt/g/1d/8e/105500_crt_E1la5.jpg"
+      },
+      "summary": "ランスロット家が代々勤め上げた英国王室特別諜報部に所属し、ガニメデのホテルで進児と出会ったときには『武者修行で来た』とだけ言っていたが、実は彼だけすでにビスマルク・チームに選ばれた事を知っていた（1話ラストでIDカードを持ってる）。\r\n\r\nAt Saber Rider\r\n主人公にして、ラムロッド・ユニットのリーダー。先に触れたとおり、タイトルで名前張ってる。（注：本来はラムロッド・ユニットがビスマルク・チームにあたる名前だが、作中チーム名は『スターシェリフス』で呼ばれることが多い）",
+      "locked": false,
+      "infobox": [
+        {
+          "key": "简体中文名",
+          "value": "理查德·兰斯洛特"
+        },
+        {
+          "key": "别名",
+          "value": [
+            {
+              "v": "Saber Rider"
+            },
+            {
+              "v": "セイバー・ライダー"
+            },
+            {
+              "v": "战刀骑士"
+            },
+            {
+              "k": "英文名",
+              "v": "Richard Lancelot"
+            }
+          ]
+        },
+        {
+          "key": "性别",
+          "value": "男"
+        },
+        {
+          "key": "CV",
+          "value": "島田 敏（日版），Rob Paulsen（美版）"
+        }
+      ],
+      "gender": "male",
+      "blood_type": null,
+      "birth_year": null,
+      "birth_mon": null,
+      "birth_day": null,
+      "stat": {
+        "comments": 0,
+        "collects": 0
+      }
+    },
+    {
+      "id": 138733,
+      "name": "木曽義仲",
+      "type": 1,
+      "images": {
+        "large": "https://lain.bgm.tv/pic/crt/l/32/16/138733_crt_v4p61.jpg?r=1695774805",
+        "medium": "https://lain.bgm.tv/r/400/pic/crt/l/32/16/138733_crt_v4p61.jpg?r=1695774805",
+        "small": "https://lain.bgm.tv/r/100/pic/crt/l/32/16/138733_crt_v4p61.jpg?r=1695774805",
+        "grid": "https://lain.bgm.tv/pic/crt/g/32/16/138733_crt_v4p61.jpg?r=1695774805"
+      },
+      "summary": "“恶鬼会招来黑暗。\r\n而我的任务，就是驱散黑暗！”\r\n拥有“剑士”职阶的无主从者。\r\n骑乘灰毛马，挥舞大太刀的铠武者。\r\n将被称为恶鬼的人视为敌人，为了消灭他们而追踪其行踪。",
+      "locked": false,
+      "infobox": [
+        {
+          "key": "简体中文名",
+          "value": "木曾义仲"
+        },
+        {
+          "key": "别名",
+          "value": [
+            {
+              "k": "第二中文名",
+              "v": "无主Saber"
+            }
+          ]
+        },
+        {
+          "key": "性别",
+          "value": "男"
+        },
+        {
+          "key": "身高",
+          "value": "178cm"
+        },
+        {
+          "key": "体重",
+          "value": "70kg"
+        },
+        {
+          "key": "属性",
+          "value": "中立·中庸"
+        },
+        {
+          "key": "职阶",
+          "value": "Saber"
+        },
+        {
+          "key": "人物设定",
+          "value": "桜井光"
+        },
+        {
+          "key": "角色设计",
+          "value": "しらび"
+        }
+      ],
+      "gender": "male",
+      "blood_type": null,
+      "birth_year": null,
+      "birth_mon": null,
+      "birth_day": null,
+      "stat": {
+        "comments": 2,
+        "collects": 2
+      }
+    }
+  ],
+  "total": 55,
+  "limit": 5,
+  "offset": 0
+}

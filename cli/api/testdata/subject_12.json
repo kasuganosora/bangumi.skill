@@ -1,0 +1,293 @@
+{
+  "id": 12,
+  "name": "ちょびっツ",
+  "name_cn": "人形电脑天使心",
+  "summary": "在不久的将来，电子技术飞速发展，电脑成为人们生活中不可缺少的一部分。主角的名字是本须和秀树，是个19岁的少年，由于考试失败，来到东京上补习班，过着贫穷潦倒的生活……\r\n到达东京的第一天，他很幸运的在垃圾堆捡到一个人型电脑，一直以来秀树都非常渴望拥有个人电脑。当他抱着她带返公寓后，却不知如何开机，在意想不到的地方找到开关并开启后，故事就此展开。\r\n",
+  "type": 2,
+  "date": "2002-04-02",
+  "platform": "TV",
+  "images": {
+    "large": "https://lain.bgm.tv/pic/cover/l/c2/0a/12_q23bZ.jpg",
+    "common": "https://lain.bgm.tv/r/400/pic/cover/l/c2/0a/12_q23bZ.jpg",
+    "medium": "https://lain.bgm.tv/r/800/pic/cover/l/c2/0a/12_q23bZ.jpg",
+    "small": "https://lain.bgm.tv/r/200/pic/cover/l/c2/0a/12_q23bZ.jpg",
+    "grid": "https://lain.bgm.tv/r/100/pic/cover/l/c2/0a/12_q23bZ.jpg"
+  },
+  "infobox": [
+    {
+      "key": "中文名",
+      "value": "人形电脑天使心"
+    },
+    {
+      "key": "别名",
+      "value": [
+        {
+          "v": "人型电脑天使心"
+        },
+        {
+          "v": "Chobits"
+        }
+      ]
+    },
+    {
+      "key": "话数",
+      "value": "27"
+    },
+    {
+      "key": "放送开始",
+      "value": "2002年4月2日"
+    },
+    {
+      "key": "放送星期",
+      "value": "星期二"
+    },
+    {
+      "key": "官方网站",
+      "value": "http://www.tbs.co.jp/chobits"
+    },
+    {
+      "key": "播放电视台",
+      "value": "TBS系列"
+    },
+    {
+      "key": "播放结束",
+      "value": "2002年9月24日"
+    },
+    {
+      "key": "导演",
+      "value": "浅香守生"
+    },
+    {
+      "key": "音乐",
+      "value": "高浪敬太郎"
+    },
+    {
+      "key": "Copyright",
+      "value": "©CLAMP・講談社 / ちょびっツ製作委員会"
+    },
+    {
+      "key": "原作",
+      "value": "CLAMP"
+    },
+    {
+      "key": "人物设定",
+      "value": "阿部恒"
+    },
+    {
+      "key": "音响监督",
+      "value": "三間雅文"
+    },
+    {
+      "key": "动画制作",
+      "value": "MADHOUSE"
+    },
+    {
+      "key": "录音",
+      "value": "录音调整：内田誠；录音工作室：アオイスタジオ"
+    },
+    {
+      "key": "录音助理",
+      "value": "鳥羽瀬縁"
+    },
+    {
+      "key": "音效",
+      "value": "小山健二；助手：三井友和"
+    },
+    {
+      "key": "文艺",
+      "value": "浦畑達彦"
+    },
+    {
+      "key": "设定制作",
+      "value": "加茂靖子"
+    },
+    {
+      "key": "制片人",
+      "value": "源生哲雄、関戸雄一、小野達矢"
+    },
+    {
+      "key": "助理制片人",
+      "value": "稲垣英樹、金庭こず恵、大森啓幸、齋藤優一郎"
+    },
+    {
+      "key": "製作",
+      "value": "TBS、ちょびっツ製作委員会（パイオニアLDC、ムービック）"
+    },
+    {
+      "key": "副导演",
+      "value": "田中洋之（除13）、井上英紀（仅13）"
+    },
+    {
+      "key": "音响",
+      "value": "テクノサウンド（中島朋子、岡村啓一郎（1話-19話）、小野寺正光（20話-））"
+    },
+    {
+      "key": "道具设计",
+      "value": "小物設定：木村雅広"
+    },
+    {
+      "key": "音乐制作",
+      "value": "ビクターエンタテインメント；音乐制作协力：日音、フジマッハ、パワーボックス（14話-）"
+    },
+    {
+      "key": "企画",
+      "value": "関純二、丸山正雄"
+    },
+    {
+      "key": "音乐制作人",
+      "value": "佐々木史朗"
+    }
+  ],
+  "volumes": 0,
+  "eps": 27,
+  "total_episodes": 27,
+  "rating": {
+    "total": 5329,
+    "count": {
+      "1": 6,
+      "10": 255,
+      "2": 7,
+      "3": 14,
+      "4": 32,
+      "5": 111,
+      "6": 676,
+      "7": 1771,
+      "8": 1929,
+      "9": 528
+    },
+    "score": 7.5
+  },
+  "collection": {
+    "wish": 3907,
+    "collect": 8425,
+    "doing": 816,
+    "on_hold": 995,
+    "dropped": 266
+  },
+  "tags": [
+    {
+      "name": "CLAMP",
+      "count": 1322
+    },
+    {
+      "name": "人形电脑天使心",
+      "count": 1093
+    },
+    {
+      "name": "MADHouse",
+      "count": 662
+    },
+    {
+      "name": "TV",
+      "count": 661
+    },
+    {
+      "name": "叽",
+      "count": 586
+    },
+    {
+      "name": "2002",
+      "count": 580
+    },
+    {
+      "name": "治愈",
+      "count": 512
+    },
+    {
+      "name": "chobits",
+      "count": 453
+    },
+    {
+      "name": "漫画改",
+      "count": 417
+    },
+    {
+      "name": "恋爱",
+      "count": 395
+    },
+    {
+      "name": "田中理惠",
+      "count": 345
+    },
+    {
+      "name": "小叽",
+      "count": 312
+    },
+    {
+      "name": "科幻",
+      "count": 265
+    },
+    {
+      "name": "Chobits~初次感动~",
+      "count": 188
+    },
+    {
+      "name": "启动键",
+      "count": 155
+    },
+    {
+      "name": "萝莉",
+      "count": 149
+    },
+    {
+      "name": "日常",
+      "count": 131
+    },
+    {
+      "name": "漫改",
+      "count": 116
+    },
+    {
+      "name": "日本",
+      "count": 97
+    },
+    {
+      "name": "浅香守生",
+      "count": 96
+    },
+    {
+      "name": "2002年4月",
+      "count": 94
+    },
+    {
+      "name": "ちぃ",
+      "count": 40
+    },
+    {
+      "name": "杉田智和",
+      "count": 38
+    },
+    {
+      "name": "搞笑",
+      "count": 31
+    },
+    {
+      "name": "2002年",
+      "count": 31
+    },
+    {
+      "name": "童年",
+      "count": 20
+    },
+    {
+      "name": "S田",
+      "count": 19
+    },
+    {
+      "name": "半年番",
+      "count": 17
+    },
+    {
+      "name": "萌",
+      "count": 15
+    },
+    {
+      "name": "动画",
+      "count": 13
+    }
+  ],
+  "nsfw": false,
+  "locked": false,
+  "series": false,
+  "series_entry": 0
+}

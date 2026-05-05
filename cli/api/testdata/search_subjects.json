@@ -1,0 +1,774 @@
+{
+  "data": [
+    {
+      "id": 342084,
+      "name": "EVA-EXTRA-EX",
+      "name_cn": "新世紀福音戰士 特典漫畫 E-E-E",
+      "summary": "表紙描き下ろし：錦織敦史\r\n漫画　“EVANGELION:3.0（-120min.)”収録\r\nこれまで語られることのなかった『ヱヴァンゲリヲン新劇場版：Q』前日譚\r\n企画・原作・監修　庵野秀明\r\n脚本・監督　鶴巻和哉\r\n漫画　松原秀典　前田真宏\r\n\r\n描き下ろし寄稿：\r\n浅野直之、井関修一、金世俊、田中将賀、新井浩一、錦織敦史、前田真宏、鶴巻和哉、松井祐亮（カラーデジタル部）、岩里昌則（カラーデジタル部）\r\n\r\n特別寄稿：庵野 秀明\r\n\r\n＜松原秀典描き下ろし特別告知画像＞（こちらの画像は冊子に収録されておりません）",
+      "type": 1,
+      "date": "2021-06-12",
+      "platform": "漫画",
+      "images": {
+        "large": "https://lain.bgm.tv/pic/cover/l/f4/7a/342084_ZanAA.jpg",
+        "common": "https://lain.bgm.tv/r/400/pic/cover/l/f4/7a/342084_ZanAA.jpg",
+        "medium": "https://lain.bgm.tv/r/800/pic/cover/l/f4/7a/342084_ZanAA.jpg",
+        "small": "https://lain.bgm.tv/r/200/pic/cover/l/f4/7a/342084_ZanAA.jpg",
+        "grid": "https://lain.bgm.tv/r/100/pic/cover/l/f4/7a/342084_ZanAA.jpg"
+      },
+      "infobox": [
+        {
+          "key": "中文名",
+          "value": "新世紀福音戰士 特典漫畫 E-E-E"
+        },
+        {
+          "key": "别名",
+          "value": [
+            {
+              "v": "EVANGELION:3.0(-120min.) and ILLUSTRATION"
+            }
+          ]
+        },
+        {
+          "key": "出版社",
+          "value": "(C)Khara"
+        },
+        {
+          "key": "发售日",
+          "value": "2021-06-12"
+        },
+        {
+          "key": "册数",
+          "value": "1"
+        },
+        {
+          "key": "页数",
+          "value": "36"
+        },
+        {
+          "key": "话数",
+          "value": "1"
+        },
+        {
+          "key": "其他",
+          "value": "https://www.evangelion.co.jp/news/210607-2/"
+        }
+      ],
+      "volumes": 1,
+      "eps": 1,
+      "total_episodes": 1,
+      "rating": {
+        "total": 89,
+        "count": {
+          "1": 0,
+          "10": 17,
+          "2": 0,
+          "3": 0,
+          "4": 0,
+          "5": 6,
+          "6": 7,
+          "7": 17,
+          "8": 29,
+          "9": 13
+        },
+        "score": 8
+      },
+      "collection": {
+        "wish": 45,
+        "collect": 157,
+        "doing": 6,
+        "on_hold": 2,
+        "dropped": 4
+      },
+      "tags": [
+        {
+          "name": "漫画",
+          "count": 48
+        },
+        {
+          "name": "EVA",
+          "count": 33
+        },
+        {
+          "name": "特典",
+          "count": 23
+        },
+        {
+          "name": "短篇",
+          "count": 15
+        },
+        {
+          "name": "超短篇",
+          "count": 11
+        },
+        {
+          "name": "2021",
+          "count": 10
+        },
+        {
+          "name": "纯爱",
+          "count": 8
+        },
+        {
+          "name": "鶴巻和哉",
+          "count": 8
+        },
+        {
+          "name": "單卷",
+          "count": 7
+        },
+        {
+          "name": "庵野秀明",
+          "count": 7
+        },
+        {
+          "name": "Las",
+          "count": 7
+        },
+        {
+          "name": "前田真宏",
+          "count": 4
+        },
+        {
+          "name": "14年",
+          "count": 3
+        },
+        {
+          "name": "哭死",
+          "count": 3
+        },
+        {
+          "name": "甜",
+          "count": 2
+        },
+        {
+          "name": "动态漫",
+          "count": 1
+        },
+        {
+          "name": "短編",
+          "count": 1
+        },
+        {
+          "name": "青春",
+          "count": 1
+        },
+        {
+          "name": "單篇",
+          "count": 1
+        },
+        {
+          "name": "Manga",
+          "count": 1
+        },
+        {
+          "name": "松原秀典",
+          "count": 1
+        },
+        {
+          "name": "マンガ",
+          "count": 1
+        }
+      ],
+      "nsfw": false,
+      "locked": false,
+      "series": false,
+      "series_entry": 0
+    },
+    {
+      "id": 115001,
+      "name": "エヴァ札",
+      "name_cn": "EVA花札",
+      "summary": "EVA札がアプリで登場！EVAモチーフの花札で「こいこい」が遊べます。\r\n通常の花札の役はもちろん、EVANGELION ならではの「特別役」も設定されています。",
+      "type": 4,
+      "date": "2012-06-22",
+      "platform": "游戏",
+      "images": {
+        "large": "https://lain.bgm.tv/pic/cover/l/9a/d6/115001_w4z4U.jpg",
+        "common": "https://lain.bgm.tv/r/400/pic/cover/l/9a/d6/115001_w4z4U.jpg",
+        "medium": "https://lain.bgm.tv/r/800/pic/cover/l/9a/d6/115001_w4z4U.jpg",
+        "small": "https://lain.bgm.tv/r/200/pic/cover/l/9a/d6/115001_w4z4U.jpg",
+        "grid": "https://lain.bgm.tv/r/100/pic/cover/l/9a/d6/115001_w4z4U.jpg"
+      },
+      "infobox": [
+        {
+          "key": "中文名",
+          "value": "EVA花札"
+        },
+        {
+          "key": "别名",
+          "value": "EVA花牌"
+        },
+        {
+          "key": "英文名",
+          "value": "Evangelion Flower Card"
+        },
+        {
+          "key": "平台",
+          "value": "Android"
+        },
+        {
+          "key": "游戏类型",
+          "value": "TAB"
+        },
+        {
+          "key": "游玩人数",
+          "value": "1人"
+        },
+        {
+          "key": "发行日期",
+          "value": "2012-06-22"
+        }
+      ],
+      "volumes": 0,
+      "eps": 0,
+      "total_episodes": 0,
+      "rating": {
+        "total": 1,
+        "count": {
+          "1": 0,
+          "10": 0,
+          "2": 0,
+          "3": 0,
+          "4": 0,
+          "5": 0,
+          "6": 0,
+          "7": 1,
+          "8": 0,
+          "9": 0
+        },
+        "score": 7
+      },
+      "collection": {
+        "wish": 2,
+        "collect": 3,
+        "doing": 1,
+        "on_hold": 0,
+        "dropped": 2
+      },
+      "tags": [
+        {
+          "name": "TAB",
+          "count": 2
+        },
+        {
+          "name": "Android",
+          "count": 2
+        },
+        {
+          "name": "2012年",
+          "count": 1
+        },
+        {
+          "name": "2012年6月",
+          "count": 1
+        },
+        {
+          "name": "手机游戏",
+          "count": 1
+        },
+        {
+          "name": "2012",
+          "count": 1
+        },
+        {
+          "name": "游戏",
+          "count": 1
+        },
+        {
+          "name": "iOS",
+          "count": 1
+        }
+      ],
+      "nsfw": false,
+      "locked": false,
+      "series": false,
+      "series_entry": 0
+    },
+    {
+      "id": 2682,
+      "name": "ぷちえゔぁ",
+      "name_cn": "EVA爆笑学园",
+      "summary": "故事发生在一所名叫第3新东京世立NERV学园中，校长是严肃又寡言的碇原度。作为校长的儿子，碇真嗣感到压力很大。于此同时，来自外国的红发转学生明日香，分裂成三个、以姐妹的形式出场的凌波丽都给碇真嗣的学校生活带来了翻天覆地的变化。此外，在原作中高大帅气的初号机，也将以娇小可爱的形象，作为学院的一份子出现在动画中。 动画以《新世界福音战士》中的角色为原型，一改原作沉重严肃的气氛，描述了轻松愉快的校园生活。制作方首次采用了3D的Q版造型，配以实景背景和2D拼接，造就了多元化的绘画风格。",
+      "type": 2,
+      "date": "2007-03-20",
+      "platform": "WEB",
+      "images": {
+        "large": "https://lain.bgm.tv/pic/cover/l/f1/5e/2682_141hJ.jpg",
+        "common": "https://lain.bgm.tv/r/400/pic/cover/l/f1/5e/2682_141hJ.jpg",
+        "medium": "https://lain.bgm.tv/r/800/pic/cover/l/f1/5e/2682_141hJ.jpg",
+        "small": "https://lain.bgm.tv/r/200/pic/cover/l/f1/5e/2682_141hJ.jpg",
+        "grid": "https://lain.bgm.tv/r/100/pic/cover/l/f1/5e/2682_141hJ.jpg"
+      },
+      "infobox": [
+        {
+          "key": "中文名",
+          "value": "EVA爆笑学园"
+        },
+        {
+          "key": "别名",
+          "value": [
+            {
+              "v": "ぷちえう゛ぁ"
+            },
+            {
+              "v": "Q版EVA"
+            },
+            {
+              "v": "福音小战士"
+            },
+            {
+              "v": "新世纪福音战士原创网络动画：爆笑学园"
+            },
+            {
+              "v": "新世纪福音战士ONA：爆笑学园"
+            },
+            {
+              "v": "Puchi Eva: Evangelion@School"
+            },
+            {
+              "v": "Petit Eva: Evangelion@School"
+            },
+            {
+              "v": "ぷちえゔぁ〜EVANGELION@SCHOOL〜"
+            }
+          ]
+        },
+        {
+          "key": "话数",
+          "value": "24"
+        },
+        {
+          "key": "放送开始",
+          "value": "2007年3月20日"
+        },
+        {
+          "key": "官方网站",
+          "value": "http://www.evangelion.co.jp/petit_eva/"
+        },
+        {
+          "key": "播放电视台",
+          "value": "BANDAI CHANNEL"
+        },
+        {
+          "key": "播放结束",
+          "value": "2009年3月11日"
+        },
+        {
+          "key": "其他",
+          "value": "WEB放送,DVD"
+        },
+        {
+          "key": "导演",
+          "value": "桜井弘明、三木俊一郎"
+        },
+        {
+          "key": "动画制作",
+          "value": "XEBEC、カナバングラフィックス"
+        }
+      ],
+      "volumes": 0,
+      "eps": 24,
+      "total_episodes": 24,
+      "rating": {
+        "total": 793,
+        "count": {
+          "1": 9,
+          "10": 28,
+          "2": 7,
+          "3": 12,
+          "4": 39,
+          "5": 80,
+          "6": 202,
+          "7": 236,
+          "8": 153,
+          "9": 27
+        },
+        "score": 6.6
+      },
+      "collection": {
+        "wish": 541,
+        "collect": 1196,
+        "doing": 46,
+        "on_hold": 93,
+        "dropped": 63
+      },
+      "tags": [
+        {
+          "name": "EVA",
+          "count": 305
+        },
+        {
+          "name": "Q版",
+          "count": 228
+        },
+        {
+          "name": "GAINAX",
+          "count": 132
+        },
+        {
+          "name": "泡面番",
+          "count": 114
+        },
+        {
+          "name": "2007",
+          "count": 102
+        },
+        {
+          "name": "恶搞",
+          "count": 82
+        },
+        {
+          "name": "短片",
+          "count": 79
+        },
+        {
+          "name": "大萌",
+          "count": 72
+        },
+        {
+          "name": "WEB",
+          "count": 71
+        },
+        {
+          "name": "XEBEC",
+          "count": 69
+        },
+        {
+          "name": "原创",
+          "count": 43
+        },
+        {
+          "name": "水泡眼",
+          "count": 40
+        },
+        {
+          "name": "萌",
+          "count": 40
+        },
+        {
+          "name": "骗钱",
+          "count": 32
+        },
+        {
+          "name": "无对话",
+          "count": 31
+        },
+        {
+          "name": "Q版劇",
+          "count": 18
+        },
+        {
+          "name": "搞笑",
+          "count": 17
+        },
+        {
+          "name": "三木俊一郎",
+          "count": 14
+        },
+        {
+          "name": "EVA学园",
+          "count": 14
+        },
+        {
+          "name": "TV",
+          "count": 13
+        },
+        {
+          "name": "樱井弘明",
+          "count": 11
+        },
+        {
+          "name": "桜井弘明",
+          "count": 10
+        },
+        {
+          "name": "坑爹",
+          "count": 9
+        },
+        {
+          "name": "2007年3月",
+          "count": 8
+        },
+        {
+          "name": "新世纪福音战士",
+          "count": 7
+        },
+        {
+          "name": "カナバングラフィックス",
+          "count": 7
+        },
+        {
+          "name": "KanabanGraphics",
+          "count": 7
+        },
+        {
+          "name": "3D",
+          "count": 6
+        },
+        {
+          "name": "日本",
+          "count": 6
+        },
+        {
+          "name": "泡面",
+          "count": 5
+        }
+      ],
+      "nsfw": false,
+      "locked": false,
+      "series": false,
+      "series_entry": 0
+    },
+    {
+      "id": 31106,
+      "name": "それをなすもの―「新世紀エヴァンゲリオン」コンセプトデザインワークス (Newtype EVA BOOK)",
+      "name_cn": "",
+      "summary": "「新世紀エヴァンゲリオン」について、メカニックサイドの人間がどうアプローチしていたのかを、ビジュアル中心に伝える。今明かされるデザインの数々。",
+      "type": 1,
+      "date": "1998-03-01",
+      "platform": "画集",
+      "images": {
+        "large": "https://lain.bgm.tv/pic/cover/l/4f/1b/31106_N8686.jpg",
+        "common": "https://lain.bgm.tv/r/400/pic/cover/l/4f/1b/31106_N8686.jpg",
+        "medium": "https://lain.bgm.tv/r/800/pic/cover/l/4f/1b/31106_N8686.jpg",
+        "small": "https://lain.bgm.tv/r/200/pic/cover/l/4f/1b/31106_N8686.jpg",
+        "grid": "https://lain.bgm.tv/r/100/pic/cover/l/4f/1b/31106_N8686.jpg"
+      },
+      "infobox": [
+        {
+          "key": "出版社",
+          "value": "角川書店"
+        },
+        {
+          "key": "价格",
+          "value": "￥ 1,470"
+        },
+        {
+          "key": "发售日",
+          "value": "1998-03"
+        },
+        {
+          "key": "页数",
+          "value": "143"
+        },
+        {
+          "key": "ISBN",
+          "value": "9784048529082"
+        },
+        {
+          "key": "作者",
+          "value": "山下 いくと"
+        },
+        {
+          "key": "ISBN-10",
+          "value": "4048529080"
+        }
+      ],
+      "volumes": 0,
+      "eps": 0,
+      "total_episodes": 0,
+      "rating": {
+        "total": 11,
+        "count": {
+          "1": 0,
+          "10": 1,
+          "2": 0,
+          "3": 0,
+          "4": 0,
+          "5": 0,
+          "6": 2,
+          "7": 1,
+          "8": 6,
+          "9": 1
+        },
+        "score": 7.8
+      },
+      "collection": {
+        "wish": 9,
+        "collect": 21,
+        "doing": 1,
+        "on_hold": 2,
+        "dropped": 0
+      },
+      "tags": [
+        {
+          "name": "设定集",
+          "count": 6
+        },
+        {
+          "name": "新世紀エヴァンゲリオン",
+          "count": 5
+        },
+        {
+          "name": "画集・設定資料集",
+          "count": 2
+        },
+        {
+          "name": "角川書店",
+          "count": 2
+        },
+        {
+          "name": "山下いくと",
+          "count": 2
+        },
+        {
+          "name": "角川书店",
+          "count": 2
+        },
+        {
+          "name": "资料书",
+          "count": 1
+        },
+        {
+          "name": "きお诚児",
+          "count": 1
+        },
+        {
+          "name": "EVA",
+          "count": 1
+        }
+      ],
+      "nsfw": false,
+      "locked": false,
+      "series": false,
+      "series_entry": 0
+    },
+    {
+      "id": 235657,
+      "name": "ぷちえゔぁ Evangelion@Game",
+      "name_cn": "Q版新世纪福音战士",
+      "summary": "《Q版新世纪福音战士》是日本游戏制造商Bandai Namco Games公司制作，以大家耳熟能详的“新世纪福音战士”官方制作推出的Q版风格的作品为蓝本，再现了游戏中风趣幽默的风格，让人忍俊不禁。 游戏中拥有众多的小游戏，而这些小游戏的触发条件也是千奇百怪的。不亲手试试的话，是无法体验到本作的乐趣的。\r\n===\r\n深受欢迎的动画《新世纪福音战士》进行了Q版化之后而诞生的《小EVA》自从动画版播出以来一直人气不低，在该片中，真嗣、明日香、绫波等大家熟悉的角色都以Q版的形式登场。现在这部作品也将会在NDS上推出游戏版，并且将与2008年春季发售。这将会是一款AVG，舞台正是第三新东京市立NERV学园，在游戏中收录了许许多多以这座学校中的生活为题材的小游戏，基本操作非常简单，只要点击屏幕中比较突出的地方，然后画个圈将其圈起来就可以了。负责本作开发的是曾经制作了《高机动幻想曲》等名作的芝村裕史。\r\n进入游戏后，只要触碰一下画面，就可以开始进行游戏操作了。在上画面会有美里老师给予玩家特别的提示，玩家看到画面中觉得有古怪的地方，就可以直接用笔去触碰，可以看到各种地方对应的反应。比如在迷你游戏“蛋糕抢夺大作战”中，明日香与E老大争夺美里老师所送的蛋糕，触碰下画面觉得有古怪的地方，引导真嗣移动并让他吃到蛋糕。比如圈起真嗣旁边的电视机，电源就会打开，并且开始播放动画。圈起插座之后，真嗣就会过去将电源线拔掉，E老大就无法做出任何行动了。本作也具有收集要素，过关之后玩家可以得到收集道具，在这当中还有要圈起特定地点才能拿到的东西，因此这就是要鼓励玩家到处多多触碰，说不定会有意想不到的收获哦！",
+      "type": 4,
+      "date": "2008-03-20",
+      "platform": "游戏",
+      "images": {
+        "large": "https://lain.bgm.tv/pic/cover/l/3b/31/235657_NWid6.jpg",
+        "common": "https://lain.bgm.tv/r/400/pic/cover/l/3b/31/235657_NWid6.jpg",
+        "medium": "https://lain.bgm.tv/r/800/pic/cover/l/3b/31/235657_NWid6.jpg",
+        "small": "https://lain.bgm.tv/r/200/pic/cover/l/3b/31/235657_NWid6.jpg",
+        "grid": "https://lain.bgm.tv/r/100/pic/cover/l/3b/31/235657_NWid6.jpg"
+      },
+      "infobox": [
+        {
+          "key": "中文名",
+          "value": "Q版新世纪福音战士"
+        },
+        {
+          "key": "别名",
+          "value": [
+            {
+              "v": "Q版EVA"
+            },
+            {
+              "v": "小EVA"
+            },
+            {
+              "v": "福音小战士：EVANGELION@GAME"
+            },
+            {
+              "v": "Puchi EVA - Evangelion@Game"
+            },
+            {
+              "v": "Petit Eva - Evangelion@Game"
+            }
+          ]
+        },
+        {
+          "key": "平台",
+          "value": [
+            {
+              "v": "NDS"
+            }
+          ]
+        },
+        {
+          "key": "游戏类型",
+          "value": "文字冒险"
+        },
+        {
+          "key": "游玩人数",
+          "value": "1"
+        },
+        {
+          "key": "发行日期",
+          "value": "2008年3月20日"
+        },
+        {
+          "key": "website",
+          "value": "http://www.b.bngi-channel.jp/petit_eva/"
+        },
+        {
+          "key": "适合年龄",
+          "value": "全年龄"
+        }
+      ],
+      "volumes": 0,
+      "eps": 0,
+      "total_episodes": 0,
+      "rating": {
+        "total": 10,
+        "count": {
+          "1": 1,
+          "10": 0,
+          "2": 0,
+          "3": 1,
+          "4": 0,
+          "5": 0,
+          "6": 6,
+          "7": 1,
+          "8": 1,
+          "9": 0
+        },
+        "score": 5.5
+      },
+      "collection": {
+        "wish": 4,
+        "collect": 13,
+        "doing": 3,
+        "on_hold": 0,
+        "dropped": 5
+      },
+      "tags": [
+        {
+          "name": "NDS",
+          "count": 5
+        },
+        {
+          "name": "Q版新世纪福音战士",
+          "count": 3
+        },
+        {
+          "name": "Petit_Eva",
+          "count": 2
+        },
+        {
+          "name": "2008-3-20",
+          "count": 2
+        },
+        {
+          "name": "ぷちえゔぁ",
+          "count": 2
+        },
+        {
+          "name": "NBGI",
+          "count": 2
+        },
+        {
+          "name": "BANDAI",
+          "count": 1
+        },
+        {
+          "name": "游戏",
+          "count": 1
+        }
+      ],
+      "nsfw": false,
+      "locked": false,
+      "series": false,
+      "series_entry": 0
+    }
+  ],
+  "total": 123,
+  "limit": 5,
+  "offset": 0
+}

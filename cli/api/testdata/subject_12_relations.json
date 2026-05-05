@@ -1,0 +1,149 @@
+[
+  {
+    "id": 4994,
+    "name": "Raison d'être",
+    "name_cn": "存在的理由",
+    "relation": "片尾曲",
+    "type": 3
+  },
+  {
+    "id": 563580,
+    "name": "ちょびっツ～ちぃだけのヒト～",
+    "name_cn": "",
+    "relation": "游戏",
+    "type": 4
+  },
+  {
+    "id": 95062,
+    "name": "ドラマCD「ちょびっツ」Chapter.5",
+    "name_cn": "",
+    "relation": "广播剧",
+    "type": 3
+  },
+  {
+    "id": 95060,
+    "name": "ちょびっツ ドラマCD「ちょびっツ」Chapter.4",
+    "name_cn": "",
+    "relation": "广播剧",
+    "type": 3
+  },
+  {
+    "id": 95059,
+    "name": "ちょびっツ ドラマCD「ちょびっツ」Chapter.3",
+    "name_cn": "",
+    "relation": "广播剧",
+    "type": 3
+  },
+  {
+    "id": 95058,
+    "name": "ちょびっツ ドラマCD「ちょびっツ」 Chapter.2",
+    "name_cn": "",
+    "relation": "广播剧",
+    "type": 3
+  },
+  {
+    "id": 95057,
+    "name": "ちょびっツ ドラマCD chapter.1",
+    "name_cn": "",
+    "relation": "广播剧",
+    "type": 3
+  },
+  {
+    "id": 62538,
+    "name": "ちょびっツ",
+    "name_cn": "人形电脑天使心",
+    "relation": "游戏",
+    "type": 4
+  },
+  {
+    "id": 57933,
+    "name": "ちょびっツ「ちびっツ」",
+    "name_cn": "人形电脑天使心：送东西",
+    "relation": "番外篇",
+    "type": 2
+  },
+  {
+    "id": 21275,
+    "name": "Clampazar",
+    "name_cn": "",
+    "relation": "其他",
+    "type": 3
+  },
+  {
+    "id": 4995,
+    "name": "だれもいない町",
+    "name_cn": "空无一人的城市",
+    "relation": "其他",
+    "type": 3
+  },
+  {
+    "id": 11,
+    "name": "ちょびっツの「ツ」の字 - Chobits Fan Book",
+    "name_cn": "",
+    "relation": "画集",
+    "type": 1
+  },
+  {
+    "id": 4993,
+    "name": "ニンギョヒメ",
+    "name_cn": "人魚姬",
+    "relation": "片尾曲",
+    "type": 3
+  },
+  {
+    "id": 4992,
+    "name": "Chobits Original Soundtrack 002",
+    "name_cn": "",
+    "relation": "原声集",
+    "type": 3
+  },
+  {
+    "id": 4991,
+    "name": "Chobits Original Soundtrack 001",
+    "name_cn": "",
+    "relation": "原声集",
+    "type": 3
+  },
+  {
+    "id": 4990,
+    "name": "ちょびっツ キャラクターソング・コレクション",
+    "name_cn": "",
+    "relation": "角色歌",
+    "type": 3
+  },
+  {
+    "id": 4989,
+    "name": "Let Me Be With You",
+    "name_cn": "",
+    "relation": "片头曲",
+    "type": 3
+  },
+  {
+    "id": 4011,
+    "name": "機動天使エンジェリックレイヤー",
+    "name_cn": "天使领域",
+    "relation": "角色出演",
+    "type": 2
+  },
+  {
+    "id": 2891,
+    "name": "ツバサ・クロニクル",
+    "name_cn": "翼·年代记",
+    "relation": "角色出演",
+    "type": 2
+  },
+  {
+    "id": 2478,
+    "name": "こばと。",
+    "name_cn": "小鸠。",
+    "relation": "角色出演",
+    "type": 2
+  },
+  {
+    "id": 497,
+    "name": "ちょびっツ",
+    "name_cn": "人形电脑天使心",
+    "relation": "书籍",
+    "type": 1
+  }
+]

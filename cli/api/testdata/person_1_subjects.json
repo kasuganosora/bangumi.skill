@@ -1,0 +1,5546 @@
+[
+  {
+    "id": 12105,
+    "name": "OVA“文学少女”メモワールIII-恋する乙女の狂想曲- EDテーマ恋する乙女の狂想曲",
+    "name_cn": "",
+    "type": 3,
+    "images": {
+      "large": "",
+      "common": "",
+      "medium": "",
+      "small": "",
+      "grid": ""
+    },
+    "staff": "艺术家"
+  },
+  {
+    "id": 68284,
+    "name": "魔法少女リリカルなのは Reflection",
+    "name_cn": "魔法少女奈叶 Reflection",
+    "type": 2,
+    "images": {
+      "large": "",
+      "common": "",
+      "medium": "",
+      "small": "",
+      "grid": ""
+    },
+    "staff": "插入歌演出"
+  },
+  {
+    "id": 11011,
+    "name": "MAGIC ATTRACTION",
+    "name_cn": "",
+    "type": 3,
+    "images": {
+      "large": "",
+      "common": "",
+      "medium": "",
+      "small": "",
+      "grid": ""
+    },
+    "staff": "艺术家"
+  },
+  {
+    "id": 11013,
+    "name": "supersonic girl",
+    "name_cn": "",
+    "type": 3,
+    "images": {
+      "large": "",
+      "common": "",
+      "medium": "",
+      "small": "",
+      "grid": ""
+    },
+    "staff": "艺术家"
+  },
+  {
+    "id": 11012,
+    "name": "DREAM SKIPPER",
+    "name_cn": "",
+    "type": 3,
+    "images": {
+      "large": "",
+      "common": "",
+      "medium": "",
+      "small": "",
+      "grid": ""
+    },
+    "staff": "艺术家"
+  },
+  {
+    "id": 11008,
+    "name": "GREAT ACTIVITY",
+    "name_cn": "",
+    "type": 3,
+    "images": {
+      "large": "",
+      "common": "",
+      "medium": "",
+      "small": "",
+      "grid": ""
+    },
+    "staff": "艺术家"
+  },
+  {
+    "id": 6626,
+    "name": "THE WORKS ~志倉千代丸楽曲集~ 4.0",
+    "name_cn": "",
+    "type": 3,
+    "images": {
+      "large": "",
+      "common": "",
+      "medium": "",
+      "small": "",
+      "grid": ""
+    },
+    "staff": "艺术家"
+  },
+  {
+    "id": 6627,
+    "name": "THE WORKS ~志倉千代丸楽曲集~ 5.0",
+    "name_cn": "",
+    "type": 3,
+    "images": {
+      "large": "",
+      "common": "",
+      "medium": "",
+      "small": "",
+      "grid": ""
+    },
+    "staff": "艺术家"
+  },
+  {
+    "id": 9993,
+    "name": "evolution ~for beloved one~",
+    "name_cn": "",
+    "type": 3,
+    "images": {
+      "large": "",
+      "common": "",
+      "medium": "",
+      "small": "",
+      "grid": ""
+    },
+    "staff": "艺术家"
+  },
+  {
+    "id": 12560,
+    "name": "レイトン教授と永遠の歌姫 オリジナル・サウンドトラック",
+    "name_cn": "雷顿教授与永远的歌姬 原声带",
+    "type": 3,
+    "images": {
+      "large": "",
+      "common": "",
+      "medium": "",
+      "small": "",
+      "grid": ""
+    },
+    "staff": "艺术家"
+  },
+  {
+    "id": 13298,
+    "name": "Memories Off 10th Anniversary Perfect Vocal Collection",
+    "name_cn": "秋之回忆10周年精选集",
+    "type": 3,
+    "images": {
+      "large": "",
+      "common": "",
+      "medium": "",
+      "small": "",
+      "grid": ""
+    },
+    "staff": "艺术家"
+  },
+  {
+    "id": 15352,
+    "name": "POP MASTER",
+    "name_cn": "",
+    "type": 3,
+    "images": {
+      "large": "",
+      "common": "",
+      "medium": "",
+      "small": "",
+      "grid": ""
+    },
+    "staff": "作曲"
+  },
+  {
+    "id": 15352,
+    "name": "POP MASTER",
+    "name_cn": "",
+    "type": 3,
+    "images": {
+      "large": "",
+      "common": "",
+      "medium": "",
+      "small": "",
+      "grid": ""
+    },
+    "staff": "艺术家"
+  },
+  {
+    "id": 19476,
+    "name": "Animelo Summer Live 2011 -rainbow-",
+    "name_cn": "",
+    "type": 3,
+    "images": {
+      "large": "",
+      "common": "",
+      "medium": "",
+      "small": "",
+      "grid": ""
+    },
+    "staff": "艺术家"
+  },
+  {
+    "id": 9867,
+    "name": "MUSIC JAPAN 新世紀アニソンSP 完全版",
+    "name_cn": "MUSIC JAPAN 新世纪动画歌曲特别节目完全版",
+    "type": 3,
+    "images": {
+      "large": "",
+      "common": "",
+      "medium": "",
+      "small": "",
+      "grid": ""
+    },
+    "staff": "艺术家"
+  },
+  {
+    "id": 25082,
+    "name": "THE MUSEUM II",
+    "name_cn": "",
+    "type": 3,
+    "images": {
+      "large": "",
+      "common": "",
+      "medium": "",
+      "small": "",
+      "grid": ""
+    },
+    "staff": "艺术家"
+  },
+  {
+    "id": 27158,
+    "name": "THE MUSEUM",
+    "name_cn": "",
+    "type": 3,
+    "images": {
+      "large": "",
+      "common": "",
+      "medium": "",
+      "small": "",
+      "grid": ""
+    },
+    "staff": "艺术家"
+  },
+  {
+    "id": 31519,
+    "name": "J-アニソン神曲祭り[DJ和 in No.1 胸熱 MIX]",
+    "name_cn": "",
+    "type": 3,
+    "images": {
+      "large": "",
+      "common": "",
+      "medium": "",
+      "small": "",
+      "grid": ""
+    },
+    "staff": "艺术家"
+  },
+  {
+    "id": 1735,
+    "name": "Memories Off 〜それから〜",
+    "name_cn": "秋之回忆：从今以后",
+    "type": 4,
+    "images": {
+      "large": "",
+      "common": "",
+      "medium": "",
+      "small": "",
+      "grid": ""
+    },
+    "staff": "主题歌演出"
+  },
+  {
+    "id": 9866,
+    "name": "MUSIC JAPAN 新世紀アニソンSP.3 完全版",
+    "name_cn": "MUSIC JAPAN 新世纪动画歌曲特别节目3 完全版",
+    "type": 3,
+    "images": {
+      "large": "",
+      "common": "",
+      "medium": "",
+      "small": "",
+      "grid": ""
+    },
+    "staff": "艺术家"
+  },
+  {
+    "id": 37824,
+    "name": "PSPソフト シャイニング・ブレイド キャラクターソングアルバム",
+    "name_cn": "",
+    "type": 3,
+    "images": {
+      "large": "",
+      "common": "",
+      "medium": "",
+      "small": "",
+      "grid": ""
+    },
+    "staff": "艺术家"
+  },
+  {
+    "id": 4338,
+    "name": "ETERNAL BLAZE",
+    "name_cn": "",
+    "type": 3,
+    "images": {
+      "large": "",
+      "common": "",
+      "medium": "",
+      "small": "",
+      "grid": ""
+    },
+    "staff": "作词"
+  },
+  {
+    "id": 38221,
+    "name": "TIME SPACE EP",
+    "name_cn": "TIME SPACE EP",
+    "type": 3,
+    "images": {
+      "large": "",
+      "common": "",
+      "medium": "",
+      "small": "",
+      "grid": ""
+    },
+    "staff": "艺术家"
+  },
+  {
+    "id": 38035,
+    "name": "AQUA PLUS VOCAL COLLECTION VOL.8",
+    "name_cn": "",
+    "type": 3,
+    "images": {
+      "large": "",
+      "common": "",
+      "medium": "",
+      "small": "",
+      "grid": ""
+    },
+    "staff": "艺术家"
+  },
+  {
+    "id": 4172,
+    "name": "Silent Bible",
+    "name_cn": "",
+    "type": 3,
+    "images": {
+      "large": "",
+      "common": "",
+      "medium": "",
+      "small": "",
+      "grid": ""
+    },
+    "staff": "作词"
+  },
+  {
+    "id": 1338,
+    "name": "深愛",
+    "name_cn": "深爱",
+    "type": 3,
+    "images": {
+      "large": "",
+      "common": "",
+      "medium": "",
+      "small": "",
+      "grid": ""
+    },
+    "staff": "作词"
+  },
+  {
+    "id": 27061,
+    "name": "SECRET AMBITION",
+    "name_cn": "",
+    "type": 3,
+    "images": {
+      "large": "",
+      "common": "",
+      "medium": "",
+      "small": "",
+      "grid": ""
+    },
+    "staff": "作词"
+  },
+  {
+    "id": 48724,
+    "name": "FIRST LOVE SONG",
+    "name_cn": "",
+    "type": 3,
+    "images": {
+      "large": "",
+      "common": "",
+      "medium": "",
+      "small": "",
+      "grid": ""
+    },
+    "staff": "艺术家"
+  },
+  {
+    "id": 11006,
+    "name": "Trickster",
+    "name_cn": "",
+    "type": 3,
+    "images": {
+      "large": "",
+      "common": "",
+      "medium": "",
+      "small": "",
+      "grid": ""
+    },
+    "staff": "作词"
+  },
+  {
+    "id": 52096,
+    "name": "しゅごキャラ！バラエティー編 Vol.3",
+    "name_cn": "",
+    "type": 3,
+    "images": {
+      "large": "",
+      "common": "",
+      "medium": "",
+      "small": "",
+      "grid": ""
+    },
+    "staff": "艺术家"
+  },
+  {
+    "id": 42804,
+    "name": "WHITE ALBUM 2 ORIGINAL SOUNDTRACK ～setsuna～",
+    "name_cn": "",
+    "type": 3,
+    "images": {
+      "large": "",
+      "common": "",
+      "medium": "",
+      "small": "",
+      "grid": ""
+    },
+    "staff": "作词"
+  },
+  {
+    "id": 52762,
+    "name": "ROCKBOUND NEIGHBORS",
+    "name_cn": "",
+    "type": 3,
+    "images": {
+      "large": "",
+      "common": "",
+      "medium": "",
+      "small": "",
+      "grid": ""
+    },
+    "staff": "艺术家"
+  },
+  {
+    "id": 51730,
+    "name": "シャイニング・アーク",
+    "name_cn": "光明之舟",
+    "type": 4,
+    "images": {
+      "large": "",
+      "common": "",
+      "medium": "",
+      "small": "",
+      "grid": ""
+    },
+    "staff": "主题歌作词"
+  },
+  {
+    "id": 51730,
+    "name": "シャイニング・アーク",
+    "name_cn": "光明之舟",
+    "type": 4,
+    "images": {
+      "large": "",
+      "common": "",
+      "medium": "",
+      "small": "",
+      "grid": ""
+    },
+    "staff": "主题歌演出"
+  },
+  {
+    "id": 43578,
+    "name": "アンチェインブレイズ エクシヴ",
+    "name_cn": "",
+    "type": 4,
+    "images": {
+      "large": "",
+      "common": "",
+      "medium": "",
+      "small": "",
+      "grid": ""
+    },
+    "staff": "主题歌演出"
+  },
+  {
+    "id": 61250,
+    "name": "「シャイニング・アーク」 天使のファンディスク",
+    "name_cn": "",
+    "type": 3,
+    "images": {
+      "large": "",
+      "common": "",
+      "medium": "",
+      "small": "",
+      "grid": ""
+    },
+    "staff": "艺术家"
+  },
+  {
+    "id": 2475,
+    "name": "ロザリオとバンパイア CAPU2",
+    "name_cn": "十字架与吸血鬼 CAPU2",
+    "type": 2,
+    "images": {
+      "large": "",
+      "common": "",
+      "medium": "",
+      "small": "",
+      "grid": ""
+    },
+    "staff": "主题歌演出"
+  },
+  {
+    "id": 65791,
+    "name": "みなみけのみなうた",
+    "name_cn": "",
+    "type": 3,
+    "images": {
+      "large": "",
+      "common": "",
+      "medium": "",
+      "small": "",
+      "grid": ""
+    },
+    "staff": "艺术家"
+  },
+  {
+    "id": 42244,
+    "name": "BRIGHT STREAM",
+    "name_cn": "",
+    "type": 3,
+    "images": {
+      "large": "",
+      "common": "",
+      "medium": "",
+      "small": "",
+      "grid": ""
+    },
+    "staff": "作词"
+  },
+  {
+    "id": 68799,
+    "name": "Preserved Roses",
+    "name_cn": "",
+    "type": 3,
+    "images": {
+      "large": "",
+      "common": "",
+      "medium": "",
+      "small": "",
+      "grid": ""
+    },
+    "staff": "艺术家"
+  },
+  {
+    "id": 72164,
+    "name": "絶園のテンペスト プレミアムドラマCD Vol.02",
+    "name_cn": "",
+    "type": 3,
+    "images": {
+      "large": "",
+      "common": "",
+      "medium": "",
+      "small": "",
+      "grid": ""
+    },
+    "staff": "艺术家"
+  },
+  {
+    "id": 74907,
+    "name": "七人のナナ - Success, success / Birdie, birdie",
+    "name_cn": "",
+    "type": 3,
+    "images": {
+      "large": "",
+      "common": "",
+      "medium": "",
+      "small": "",
+      "grid": ""
+    },
+    "staff": "艺术家"
+  },
+  {
+    "id": 74908,
+    "name": "七人のナナ 〜side story of nana〜 音楽の時間",
+    "name_cn": "",
+    "type": 3,
+    "images": {
+      "large": "",
+      "common": "",
+      "medium": "",
+      "small": "",
+      "grid": ""
+    },
+    "staff": "艺术家"
+  },
+  {
+    "id": 7182,
+    "name": "IMPACT EXCITER",
+    "name_cn": "",
+    "type": 3,
+    "images": {
+      "large": "",
+      "common": "",
+      "medium": "",
+      "small": "",
+      "grid": ""
+    },
+    "staff": "艺术家"
+  },
+  {
+    "id": 76834,
+    "name": "Vitalization",
+    "name_cn": "",
+    "type": 3,
+    "images": {
+      "large": "",
+      "common": "",
+      "medium": "",
+      "small": "",
+      "grid": ""
+    },
+    "staff": "作词"
+  },
+  {
+    "id": 76856,
+    "name": "戦姫絶唱シンフォギアG キャラクターソング1",
+    "name_cn": "",
+    "type": 3,
+    "images": {
+      "large": "",
+      "common": "",
+      "medium": "",
+      "small": "",
+      "grid": ""
+    },
+    "staff": "艺术家"
+  },
+  {
+    "id": 3858,
+    "name": "PHANTOM MINDS",
+    "name_cn": "",
+    "type": 3,
+    "images": {
+      "large": "",
+      "common": "",
+      "medium": "",
+      "small": "",
+      "grid": ""
+    },
+    "staff": "艺术家"
+  },
+  {
+    "id": 18630,
+    "name": "純潔パラドックス",
+    "name_cn": "",
+    "type": 3,
+    "images": {
+      "large": "",
+      "common": "",
+      "medium": "",
+      "small": "",
+      "grid": ""
+    },
+    "staff": "艺术家"
+  },
+  {
+    "id": 78167,
+    "name": "ラブひな ヴォーカル・コンプリート・ボックス「届け、私たちの歌」",
+    "name_cn": "",
+    "type": 3,
+    "images": {
+      "large": "",
+      "common": "",
+      "medium": "",
+      "small": "",
+      "grid": ""
+    },
+    "staff": "艺术家"
+  },
+  {
+    "id": 78228,
+    "name": "エンジェリックコンサート ボーカルコレクション",
+    "name_cn": "",
+    "type": 3,
+    "images": {
+      "large": "",
+      "common": "",
+      "medium": "",
+      "small": "",
+      "grid": ""
+    },
+    "staff": "艺术家"
+  },
+  {
+    "id": 78230,
+    "name": "シスター・プリンセス VOICE CD Sweet Good Night Part2",
+    "name_cn": "",
+    "type": 3,
+    "images": {
+      "large": "",
+      "common": "",
+      "medium": "",
+      "small": "",
+      "grid": ""
+    },
+    "staff": "艺术家"
+  },
+  {
+    "id": 78231,
+    "name": "シスター・プリンセス VOICE CD My Little Wish Part2",
+    "name_cn": "",
+    "type": 3,
+    "images": {
+      "large": "",
+      "common": "",
+      "medium": "",
+      "small": "",
+      "grid": ""
+    },
+    "staff": "艺术家"
+  },
+  {
+    "id": 78233,
+    "name": "シスター・プリンセス VOICE CD Dream of you Part2",
+    "name_cn": "",
+    "type": 3,
+    "images": {
+      "large": "",
+      "common": "",
+      "medium": "",
+      "small": "",
+      "grid": ""
+    },
+    "staff": "艺术家"
+  },
+  {
+    "id": 31594,
+    "name": "ゲームボーカルベスト~志倉千代丸楽曲集~Vol.2",
+    "name_cn": "",
+    "type": 3,
+    "images": {
+      "large": "",
+      "common": "",
+      "medium": "",
+      "small": "",
+      "grid": ""
+    },
+    "staff": "艺术家"
+  },
+  {
+    "id": 78238,
+    "name": "SAKURA~雪月華~劇中歌全集",
+    "name_cn": "",
+    "type": 3,
+    "images": {
+      "large": "",
+      "common": "",
+      "medium": "",
+      "small": "",
+      "grid": ""
+    },
+    "staff": "艺术家"
+  },
+  {
+    "id": 78249,
+    "name": "瓶詰妖精イメージアルバム four seasons",
+    "name_cn": "",
+    "type": 3,
+    "images": {
+      "large": "",
+      "common": "",
+      "medium": "",
+      "small": "",
+      "grid": ""
+    },
+    "staff": "艺术家"
+  },
+  {
+    "id": 78272,
+    "name": "Purism×EgoistドラマCD VOL.2～ぽんわり☆スクールDAYS後編～",
+    "name_cn": "",
+    "type": 3,
+    "images": {
+      "large": "",
+      "common": "",
+      "medium": "",
+      "small": "",
+      "grid": ""
+    },
+    "staff": "艺术家"
+  },
+  {
+    "id": 78273,
+    "name": "Purism×EgoistドラマCD VOL.3～ココロのツバサ～",
+    "name_cn": "",
+    "type": 3,
+    "images": {
+      "large": "",
+      "common": "",
+      "medium": "",
+      "small": "",
+      "grid": ""
+    },
+    "staff": "艺术家"
+  },
+  {
+    "id": 78370,
+    "name": "戦姫絶唱シンフォギアG キャラクターソング4",
+    "name_cn": "",
+    "type": 3,
+    "images": {
+      "large": "",
+      "common": "",
+      "medium": "",
+      "small": "",
+      "grid": ""
+    },
+    "staff": "艺术家"
+  },
+  {
+    "id": 69637,
+    "name": "宇宙戦艦ヤマト",
+    "name_cn": "",
+    "type": 3,
+    "images": {
+      "large": "",
+      "common": "",
+      "medium": "",
+      "small": "",
+      "grid": ""
+    },
+    "staff": "艺术家"
+  },
+  {
+    "id": 78721,
+    "name": "HYBRID UNIVERSE(DVD付)",
+    "name_cn": "",
+    "type": 3,
+    "images": {
+      "large": "",
+      "common": "",
+      "medium": "",
+      "small": "",
+      "grid": ""
+    },
+    "staff": "艺术家"
+  },
+  {
+    "id": 76834,
+    "name": "Vitalization",
+    "name_cn": "",
+    "type": 3,
+    "images": {
+      "large": "",
+      "common": "",
+      "medium": "",
+      "small": "",
+      "grid": ""
+    },
+    "staff": "艺术家"
+  },
+  {
+    "id": 42244,
+    "name": "BRIGHT STREAM",
+    "name_cn": "",
+    "type": 3,
+    "images": {
+      "large": "",
+      "common": "",
+      "medium": "",
+      "small": "",
+      "grid": ""
+    },
+    "staff": "艺术家"
+  },
+  {
+    "id": 81549,
+    "name": "革命デュアリズム",
+    "name_cn": "",
+    "type": 3,
+    "images": {
+      "large": "",
+      "common": "",
+      "medium": "",
+      "small": "",
+      "grid": ""
+    },
+    "staff": "艺术家"
+  },
+  {
+    "id": 30214,
+    "name": "戦姫絶唱シンフォギア キャラクターソング1 ツヴァイウィング",
+    "name_cn": "战姬绝唱SYMPHOGEAR 角色歌#1 ZWEI WING",
+    "type": 3,
+    "images": {
+      "large": "",
+      "common": "",
+      "medium": "",
+      "small": "",
+      "grid": ""
+    },
+    "staff": "艺术家"
+  },
+  {
+    "id": 11006,
+    "name": "Trickster",
+    "name_cn": "",
+    "type": 3,
+    "images": {
+      "large": "",
+      "common": "",
+      "medium": "",
+      "small": "",
+      "grid": ""
+    },
+    "staff": "艺术家"
+  },
+  {
+    "id": 29048,
+    "name": "魔法少女リリカルなのはA’s PORTABLE -THE GEARS OF DESTINY-",
+    "name_cn": "魔法少女奈叶As 携带版-命运齿轮-",
+    "type": 4,
+    "images": {
+      "large": "",
+      "common": "",
+      "medium": "",
+      "small": "",
+      "grid": ""
+    },
+    "staff": "主题歌演出"
+  },
+  {
+    "id": 84533,
+    "name": "戦姫絶唱シンフォギアG オリジナルサウンドトラック1",
+    "name_cn": "",
+    "type": 3,
+    "images": {
+      "large": "",
+      "common": "",
+      "medium": "",
+      "small": "",
+      "grid": ""
+    },
+    "staff": "艺术家"
+  },
+  {
+    "id": 4941,
+    "name": "WHITE ALBUM キャラクターソング\u0026サウンドトラック",
+    "name_cn": "",
+    "type": 3,
+    "images": {
+      "large": "",
+      "common": "",
+      "medium": "",
+      "small": "",
+      "grid": ""
+    },
+    "staff": "作词"
+  },
+  {
+    "id": 4941,
+    "name": "WHITE ALBUM キャラクターソング\u0026サウンドトラック",
+    "name_cn": "",
+    "type": 3,
+    "images": {
+      "large": "",
+      "common": "",
+      "medium": "",
+      "small": "",
+      "grid": ""
+    },
+    "staff": "艺术家"
+  },
+  {
+    "id": 70131,
+    "name": "革命機ヴァルヴレイヴ 2ndシーズン",
+    "name_cn": "革命机Valvrave 第二季",
+    "type": 2,
+    "images": {
+      "large": "",
+      "common": "",
+      "medium": "",
+      "small": "",
+      "grid": ""
+    },
+    "staff": "主题歌演出"
+  },
+  {
+    "id": 86394,
+    "name": "J-アニソン神曲祭り -パラダイス- [DJ和 in No.1胸熱MIX]",
+    "name_cn": "",
+    "type": 3,
+    "images": {
+      "large": "",
+      "common": "",
+      "medium": "",
+      "small": "",
+      "grid": ""
+    },
+    "staff": "艺术家"
+  },
+  {
+    "id": 14427,
+    "name": "BLOOD-C",
+    "name_cn": "",
+    "type": 2,
+    "images": {
+      "large": "",
+      "common": "",
+      "medium": "",
+      "small": "",
+      "grid": ""
+    },
+    "staff": "主题歌演出"
+  },
+  {
+    "id": 152197,
+    "name": "BAYONET CHARGE / RADIANT FORCE (IGNITED arrangement) / いつかの虹、花の想い出",
+    "name_cn": "",
+    "type": 3,
+    "images": {
+      "large": "",
+      "common": "",
+      "medium": "",
+      "small": "",
+      "grid": ""
+    },
+    "staff": "艺术家"
+  },
+  {
+    "id": 86648,
+    "name": "POWER GATE",
+    "name_cn": "",
+    "type": 3,
+    "images": {
+      "large": "",
+      "common": "",
+      "medium": "",
+      "small": "",
+      "grid": ""
+    },
+    "staff": "艺术家"
+  },
+  {
+    "id": 86650,
+    "name": "The place of happiness",
+    "name_cn": "",
+    "type": 3,
+    "images": {
+      "large": "",
+      "common": "",
+      "medium": "",
+      "small": "",
+      "grid": ""
+    },
+    "staff": "艺术家"
+  },
+  {
+    "id": 86656,
+    "name": "Heaven Knows",
+    "name_cn": "",
+    "type": 3,
+    "images": {
+      "large": "",
+      "common": "",
+      "medium": "",
+      "small": "",
+      "grid": ""
+    },
+    "staff": "艺术家"
+  },
+  {
+    "id": 86657,
+    "name": "想い",
+    "name_cn": "",
+    "type": 3,
+    "images": {
+      "large": "",
+      "common": "",
+      "medium": "",
+      "small": "",
+      "grid": ""
+    },
+    "staff": "艺术家"
+  },
+  {
+    "id": 88854,
+    "name": "つよきす Cool×Sweet コンプリートセレクション",
+    "name_cn": "",
+    "type": 3,
+    "images": {
+      "large": "",
+      "common": "",
+      "medium": "",
+      "small": "",
+      "grid": ""
+    },
+    "staff": "艺术家"
+  },
+  {
+    "id": 52492,
+    "name": "Memories Off Duet",
+    "name_cn": "秋之回忆 二重奏",
+    "type": 4,
+    "images": {
+      "large": "",
+      "common": "",
+      "medium": "",
+      "small": "",
+      "grid": ""
+    },
+    "staff": "插入歌演出"
+  },
+  {
+    "id": 4939,
+    "name": "WHITE ALBUM キャラクターソング(2)",
+    "name_cn": "",
+    "type": 3,
+    "images": {
+      "large": "",
+      "common": "",
+      "medium": "",
+      "small": "",
+      "grid": ""
+    },
+    "staff": "艺术家"
+  },
+  {
+    "id": 11553,
+    "name": "ULTIMATE DIAMOND",
+    "name_cn": "",
+    "type": 3,
+    "images": {
+      "large": "",
+      "common": "",
+      "medium": "",
+      "small": "",
+      "grid": ""
+    },
+    "staff": "艺术家"
+  },
+  {
+    "id": 78271,
+    "name": "Purism×Egoist ドラマCD VOL.1～ぽんわり☆スクールDAYS前編～",
+    "name_cn": "",
+    "type": 3,
+    "images": {
+      "large": "",
+      "common": "",
+      "medium": "",
+      "small": "",
+      "grid": ""
+    },
+    "staff": "艺术家"
+  },
+  {
+    "id": 1264,
+    "name": "魔法少女リリカルなのはStrikerS",
+    "name_cn": "魔法少女奈叶StrikerS",
+    "type": 2,
+    "images": {
+      "large": "",
+      "common": "",
+      "medium": "",
+      "small": "",
+      "grid": ""
+    },
+    "staff": "插入歌演出"
+  },
+  {
+    "id": 4124,
+    "name": "ハートキャッチプリキュア!",
+    "name_cn": "Heart Catch 光之美少女！",
+    "type": 2,
+    "images": {
+      "large": "",
+      "common": "",
+      "medium": "",
+      "small": "",
+      "grid": ""
+    },
+    "staff": "插入歌演出"
+  },
+  {
+    "id": 96888,
+    "name": "戦姫絶唱シンフォギアG オリジナルサウンドトラック6",
+    "name_cn": "",
+    "type": 3,
+    "images": {
+      "large": "",
+      "common": "",
+      "medium": "",
+      "small": "",
+      "grid": ""
+    },
+    "staff": "艺术家"
+  },
+  {
+    "id": 97360,
+    "name": "プリキュア~永遠のともだち~(2014ver.)",
+    "name_cn": "",
+    "type": 3,
+    "images": {
+      "large": "",
+      "common": "",
+      "medium": "",
+      "small": "",
+      "grid": ""
+    },
+    "staff": "艺术家"
+  },
+  {
+    "id": 97364,
+    "name": "映画プリキュアオールスターズ NewStage3 永遠のともだち オリジナル・サウンドトラック",
+    "name_cn": "",
+    "type": 3,
+    "images": {
+      "large": "",
+      "common": "",
+      "medium": "",
+      "small": "",
+      "grid": ""
+    },
+    "staff": "艺术家"
+  },
+  {
+    "id": 97473,
+    "name": "空の境界 ドラマCD 終末録音 the Garden of oblivion",
+    "name_cn": "",
+    "type": 3,
+    "images": {
+      "large": "",
+      "common": "",
+      "medium": "",
+      "small": "",
+      "grid": ""
+    },
+    "staff": "艺术家"
+  },
+  {
+    "id": 11010,
+    "name": "MASSIVE WONDERS",
+    "name_cn": "",
+    "type": 3,
+    "images": {
+      "large": "",
+      "common": "",
+      "medium": "",
+      "small": "",
+      "grid": ""
+    },
+    "staff": "作词"
+  },
+  {
+    "id": 11010,
+    "name": "MASSIVE WONDERS",
+    "name_cn": "",
+    "type": 3,
+    "images": {
+      "large": "",
+      "common": "",
+      "medium": "",
+      "small": "",
+      "grid": ""
+    },
+    "staff": "艺术家"
+  },
+  {
+    "id": 4673,
+    "name": "innocent starter",
+    "name_cn": "",
+    "type": 3,
+    "images": {
+      "large": "",
+      "common": "",
+      "medium": "",
+      "small": "",
+      "grid": ""
+    },
+    "staff": "作词"
+  },
+  {
+    "id": 4338,
+    "name": "ETERNAL BLAZE",
+    "name_cn": "",
+    "type": 3,
+    "images": {
+      "large": "",
+      "common": "",
+      "medium": "",
+      "small": "",
+      "grid": ""
+    },
+    "staff": "艺术家"
+  },
+  {
+    "id": 27061,
+    "name": "SECRET AMBITION",
+    "name_cn": "",
+    "type": 3,
+    "images": {
+      "large": "",
+      "common": "",
+      "medium": "",
+      "small": "",
+      "grid": ""
+    },
+    "staff": "艺术家"
+  },
+  {
+    "id": 100038,
+    "name": "SUPERNAL LIBERTY",
+    "name_cn": "",
+    "type": 3,
+    "images": {
+      "large": "",
+      "common": "",
+      "medium": "",
+      "small": "",
+      "grid": ""
+    },
+    "staff": "作词"
+  },
+  {
+    "id": 100038,
+    "name": "SUPERNAL LIBERTY",
+    "name_cn": "",
+    "type": 3,
+    "images": {
+      "large": "",
+      "common": "",
+      "medium": "",
+      "small": "",
+      "grid": ""
+    },
+    "staff": "作曲"
+  },
+  {
+    "id": 100038,
+    "name": "SUPERNAL LIBERTY",
+    "name_cn": "",
+    "type": 3,
+    "images": {
+      "large": "",
+      "common": "",
+      "medium": "",
+      "small": "",
+      "grid": ""
+    },
+    "staff": "艺术家"
+  },
+  {
+    "id": 1264,
+    "name": "魔法少女リリカルなのはStrikerS",
+    "name_cn": "魔法少女奈叶StrikerS",
+    "type": 2,
+    "images": {
+      "large": "",
+      "common": "",
+      "medium": "",
+      "small": "",
+      "grid": ""
+    },
+    "staff": "主题歌演出"
+  },
+  {
+    "id": 12950,
+    "name": "SCARLET KNIGHT",
+    "name_cn": "",
+    "type": 3,
+    "images": {
+      "large": "",
+      "common": "",
+      "medium": "",
+      "small": "",
+      "grid": ""
+    },
+    "staff": "作词"
+  },
+  {
+    "id": 12950,
+    "name": "SCARLET KNIGHT",
+    "name_cn": "",
+    "type": 3,
+    "images": {
+      "large": "",
+      "common": "",
+      "medium": "",
+      "small": "",
+      "grid": ""
+    },
+    "staff": "艺术家"
+  },
+  {
+    "id": 4172,
+    "name": "Silent Bible",
+    "name_cn": "",
+    "type": 3,
+    "images": {
+      "large": "",
+      "common": "",
+      "medium": "",
+      "small": "",
+      "grid": ""
+    },
+    "staff": "艺术家"
+  },
+  {
+    "id": 71362,
+    "name": "HEAVENS DIVIDE / 恋の抑止力",
+    "name_cn": "",
+    "type": 3,
+    "images": {
+      "large": "",
+      "common": "",
+      "medium": "",
+      "small": "",
+      "grid": ""
+    },
+    "staff": "艺术家"
+  },
+  {
+    "id": 101214,
+    "name": "つ.ぼ.み~Future Flower~/スペシャル*カラフル",
+    "name_cn": "",
+    "type": 3,
+    "images": {
+      "large": "",
+      "common": "",
+      "medium": "",
+      "small": "",
+      "grid": ""
+    },
+    "staff": "艺术家"
+  },
+  {
+    "id": 101374,
+    "name": "乖離性ミリオンアーサー",
+    "name_cn": "乖离性百万亚瑟王",
+    "type": 4,
+    "images": {
+      "large": "",
+      "common": "",
+      "medium": "",
+      "small": "",
+      "grid": ""
+    },
+    "staff": "主题歌演出"
+  },
+  {
+    "id": 27585,
+    "name": "Synchrogazer",
+    "name_cn": "",
+    "type": 3,
+    "images": {
+      "large": "",
+      "common": "",
+      "medium": "",
+      "small": "",
+      "grid": ""
+    },
+    "staff": "艺术家"
+  },
+  {
+    "id": 4673,
+    "name": "innocent starter",
+    "name_cn": "",
+    "type": 3,
+    "images": {
+      "large": "",
+      "common": "",
+      "medium": "",
+      "small": "",
+      "grid": ""
+    },
+    "staff": "艺术家"
+  },
+  {
+    "id": 62020,
+    "name": "SUPER GENERATION",
+    "name_cn": "",
+    "type": 3,
+    "images": {
+      "large": "",
+      "common": "",
+      "medium": "",
+      "small": "",
+      "grid": ""
+    },
+    "staff": "作词"
+  },
+  {
+    "id": 62020,
+    "name": "SUPER GENERATION",
+    "name_cn": "",
+    "type": 3,
+    "images": {
+      "large": "",
+      "common": "",
+      "medium": "",
+      "small": "",
+      "grid": ""
+    },
+    "staff": "作曲"
+  },
+  {
+    "id": 62020,
+    "name": "SUPER GENERATION",
+    "name_cn": "",
+    "type": 3,
+    "images": {
+      "large": "",
+      "common": "",
+      "medium": "",
+      "small": "",
+      "grid": ""
+    },
+    "staff": "艺术家"
+  },
+  {
+    "id": 27585,
+    "name": "Synchrogazer",
+    "name_cn": "",
+    "type": 3,
+    "images": {
+      "large": "",
+      "common": "",
+      "medium": "",
+      "small": "",
+      "grid": ""
+    },
+    "staff": "作词"
+  },
+  {
+    "id": 1338,
+    "name": "深愛",
+    "name_cn": "深爱",
+    "type": 3,
+    "images": {
+      "large": "",
+      "common": "",
+      "medium": "",
+      "small": "",
+      "grid": ""
+    },
+    "staff": "艺术家"
+  },
+  {
+    "id": 993,
+    "name": "WHITE ALBUM",
+    "name_cn": "白色相簿",
+    "type": 2,
+    "images": {
+      "large": "",
+      "common": "",
+      "medium": "",
+      "small": "",
+      "grid": ""
+    },
+    "staff": "插入歌演出"
+  },
+  {
+    "id": 3296,
+    "name": "夢幻",
+    "name_cn": "",
+    "type": 3,
+    "images": {
+      "large": "",
+      "common": "",
+      "medium": "",
+      "small": "",
+      "grid": ""
+    },
+    "staff": "艺术家"
+  },
+  {
+    "id": 3296,
+    "name": "夢幻",
+    "name_cn": "",
+    "type": 3,
+    "images": {
+      "large": "",
+      "common": "",
+      "medium": "",
+      "small": "",
+      "grid": ""
+    },
+    "staff": "作词"
+  },
+  {
+    "id": 19723,
+    "name": "STARCAMP EP",
+    "name_cn": "",
+    "type": 3,
+    "images": {
+      "large": "",
+      "common": "",
+      "medium": "",
+      "small": "",
+      "grid": ""
+    },
+    "staff": "作词"
+  },
+  {
+    "id": 19723,
+    "name": "STARCAMP EP",
+    "name_cn": "",
+    "type": 3,
+    "images": {
+      "large": "",
+      "common": "",
+      "medium": "",
+      "small": "",
+      "grid": ""
+    },
+    "staff": "艺术家"
+  },
+  {
+    "id": 128992,
+    "name": "Angel Blossom",
+    "name_cn": "",
+    "type": 3,
+    "images": {
+      "large": "",
+      "common": "",
+      "medium": "",
+      "small": "",
+      "grid": ""
+    },
+    "staff": "作词"
+  },
+  {
+    "id": 49097,
+    "name": "BLACK DIAMOND",
+    "name_cn": "",
+    "type": 3,
+    "images": {
+      "large": "",
+      "common": "",
+      "medium": "",
+      "small": "",
+      "grid": ""
+    },
+    "staff": "艺术家"
+  },
+  {
+    "id": 107956,
+    "name": "AQUA PLUS VOCAL COLLECTION VOL.9",
+    "name_cn": "",
+    "type": 3,
+    "images": {
+      "large": "",
+      "common": "",
+      "medium": "",
+      "small": "",
+      "grid": ""
+    },
+    "staff": "作词"
+  },
+  {
+    "id": 17346,
+    "name": "迷宮バタフライ",
+    "name_cn": "",
+    "type": 3,
+    "images": {
+      "large": "",
+      "common": "",
+      "medium": "",
+      "small": "",
+      "grid": ""
+    },
+    "staff": "艺术家"
+  },
+  {
+    "id": 110523,
+    "name": "宇宙戦艦ヤマト2199 主題歌集",
+    "name_cn": "",
+    "type": 3,
+    "images": {
+      "large": "",
+      "common": "",
+      "medium": "",
+      "small": "",
+      "grid": ""
+    },
+    "staff": "艺术家"
+  },
+  {
+    "id": 32223,
+    "name": "「きっと恋をしている」\u0026 ボイストラック「リコと眠ろう」",
+    "name_cn": "",
+    "type": 3,
+    "images": {
+      "large": "",
+      "common": "",
+      "medium": "",
+      "small": "",
+      "grid": ""
+    },
+    "staff": "艺术家"
+  },
+  {
+    "id": 112897,
+    "name": "禁断のレジスタンス",
+    "name_cn": "",
+    "type": 3,
+    "images": {
+      "large": "",
+      "common": "",
+      "medium": "",
+      "small": "",
+      "grid": ""
+    },
+    "staff": "作词"
+  },
+  {
+    "id": 112897,
+    "name": "禁断のレジスタンス",
+    "name_cn": "",
+    "type": 3,
+    "images": {
+      "large": "",
+      "common": "",
+      "medium": "",
+      "small": "",
+      "grid": ""
+    },
+    "staff": "艺术家"
+  },
+  {
+    "id": 46643,
+    "name": "Justice to Believe",
+    "name_cn": "",
+    "type": 3,
+    "images": {
+      "large": "",
+      "common": "",
+      "medium": "",
+      "small": "",
+      "grid": ""
+    },
+    "staff": "作词"
+  },
+  {
+    "id": 46643,
+    "name": "Justice to Believe",
+    "name_cn": "",
+    "type": 3,
+    "images": {
+      "large": "",
+      "common": "",
+      "medium": "",
+      "small": "",
+      "grid": ""
+    },
+    "staff": "艺术家"
+  },
+  {
+    "id": 118319,
+    "name": "宇宙戦艦ヤマト2199 追憶の航海 オリジナル・サウンドトラック",
+    "name_cn": "",
+    "type": 3,
+    "images": {
+      "large": "",
+      "common": "",
+      "medium": "",
+      "small": "",
+      "grid": ""
+    },
+    "staff": "艺术家"
+  },
+  {
+    "id": 118480,
+    "name": "クロスアンジュ 天使と竜の輪舞(ロンド) オリジナルサウンドトラック1",
+    "name_cn": "",
+    "type": 3,
+    "images": {
+      "large": "",
+      "common": "",
+      "medium": "",
+      "small": "",
+      "grid": ""
+    },
+    "staff": "艺术家"
+  },
+  {
+    "id": 56951,
+    "name": "革命機ヴァルヴレイヴ",
+    "name_cn": "革命机Valvrave",
+    "type": 2,
+    "images": {
+      "large": "",
+      "common": "",
+      "medium": "",
+      "small": "",
+      "grid": ""
+    },
+    "staff": "主题歌演出"
+  },
+  {
+    "id": 120050,
+    "name": "エデン",
+    "name_cn": "",
+    "type": 3,
+    "images": {
+      "large": "",
+      "common": "",
+      "medium": "",
+      "small": "",
+      "grid": ""
+    },
+    "staff": "作词"
+  },
+  {
+    "id": 120050,
+    "name": "エデン",
+    "name_cn": "",
+    "type": 3,
+    "images": {
+      "large": "",
+      "common": "",
+      "medium": "",
+      "small": "",
+      "grid": ""
+    },
+    "staff": "艺术家"
+  },
+  {
+    "id": 118823,
+    "name": "メモリーズオフ ドラマCD「Bridge」",
+    "name_cn": "",
+    "type": 3,
+    "images": {
+      "large": "",
+      "common": "",
+      "medium": "",
+      "small": "",
+      "grid": ""
+    },
+    "staff": "艺术家"
+  },
+  {
+    "id": 122018,
+    "name": "シャイニング・レゾナンス ミュージックコレクション",
+    "name_cn": "",
+    "type": 3,
+    "images": {
+      "large": "",
+      "common": "",
+      "medium": "",
+      "small": "",
+      "grid": ""
+    },
+    "staff": "艺术家"
+  },
+  {
+    "id": 34905,
+    "name": "DEARS十二星座物語外伝～二四の物語～",
+    "name_cn": "",
+    "type": 3,
+    "images": {
+      "large": "",
+      "common": "",
+      "medium": "",
+      "small": "",
+      "grid": ""
+    },
+    "staff": "艺术家"
+  },
+  {
+    "id": 34908,
+    "name": "DEARS十二星座物語外伝～25の物語～",
+    "name_cn": "",
+    "type": 3,
+    "images": {
+      "large": "",
+      "common": "",
+      "medium": "",
+      "small": "",
+      "grid": ""
+    },
+    "staff": "艺术家"
+  },
+  {
+    "id": 34904,
+    "name": "DEARS十二星座物語～ARTEMiS Side～",
+    "name_cn": "",
+    "type": 3,
+    "images": {
+      "large": "",
+      "common": "",
+      "medium": "",
+      "small": "",
+      "grid": ""
+    },
+    "staff": "艺术家"
+  },
+  {
+    "id": 184868,
+    "name": "STARTING NOW!",
+    "name_cn": "",
+    "type": 3,
+    "images": {
+      "large": "",
+      "common": "",
+      "medium": "",
+      "small": "",
+      "grid": ""
+    },
+    "staff": "作词"
+  },
+  {
+    "id": 128992,
+    "name": "Angel Blossom",
+    "name_cn": "",
+    "type": 3,
+    "images": {
+      "large": "",
+      "common": "",
+      "medium": "",
+      "small": "",
+      "grid": ""
+    },
+    "staff": "艺术家"
+  },
+  {
+    "id": 117324,
+    "name": "バジリスク~甲賀忍法帖~音絵巻 第一章",
+    "name_cn": "",
+    "type": 3,
+    "images": {
+      "large": "",
+      "common": "",
+      "medium": "",
+      "small": "",
+      "grid": ""
+    },
+    "staff": "艺术家"
+  },
+  {
+    "id": 110867,
+    "name": "魔法少女リリカルなのはViVid",
+    "name_cn": "魔法少女奈叶ViVid",
+    "type": 2,
+    "images": {
+      "large": "",
+      "common": "",
+      "medium": "",
+      "small": "",
+      "grid": ""
+    },
+    "staff": "主题歌演出"
+  },
+  {
+    "id": 110867,
+    "name": "魔法少女リリカルなのはViVid",
+    "name_cn": "魔法少女奈叶ViVid",
+    "type": 2,
+    "images": {
+      "large": "",
+      "common": "",
+      "medium": "",
+      "small": "",
+      "grid": ""
+    },
+    "staff": "主题歌作词"
+  },
+  {
+    "id": 993,
+    "name": "WHITE ALBUM",
+    "name_cn": "白色相簿",
+    "type": 2,
+    "images": {
+      "large": "",
+      "common": "",
+      "medium": "",
+      "small": "",
+      "grid": ""
+    },
+    "staff": "主题歌演出"
+  },
+  {
+    "id": 7491,
+    "name": "ドラマCD Rozen Maiden-ローゼン・メイデン-",
+    "name_cn": "",
+    "type": 3,
+    "images": {
+      "large": "",
+      "common": "",
+      "medium": "",
+      "small": "",
+      "grid": ""
+    },
+    "staff": "艺术家"
+  },
+  {
+    "id": 133075,
+    "name": "メモオフHistory/白河ほたる～想い出はいつだって”たるたる”",
+    "name_cn": "",
+    "type": 3,
+    "images": {
+      "large": "",
+      "common": "",
+      "medium": "",
+      "small": "",
+      "grid": ""
+    },
+    "staff": "艺术家"
+  },
+  {
+    "id": 133101,
+    "name": "Memories Off 2nd ドラマCD",
+    "name_cn": "",
+    "type": 3,
+    "images": {
+      "large": "",
+      "common": "",
+      "medium": "",
+      "small": "",
+      "grid": ""
+    },
+    "staff": "艺术家"
+  },
+  {
+    "id": 54552,
+    "name": "宇宙戦艦ヤマト2199",
+    "name_cn": "宇宙战舰大和号2199",
+    "type": 2,
+    "images": {
+      "large": "",
+      "common": "",
+      "medium": "",
+      "small": "",
+      "grid": ""
+    },
+    "staff": "主题歌演出"
+  },
+  {
+    "id": 135518,
+    "name": "クロスアンジュ 天使と竜の輪舞(ロンド) オリジナルサウンドトラック3",
+    "name_cn": "",
+    "type": 3,
+    "images": {
+      "large": "",
+      "common": "",
+      "medium": "",
+      "small": "",
+      "grid": ""
+    },
+    "staff": "艺术家"
+  },
+  {
+    "id": 420597,
+    "name": "映画ハートキャッチプリキュア! 花の都でファッションショー…ですか!? オリジナル・サウンドトラック",
+    "name_cn": "",
+    "type": 3,
+    "images": {
+      "large": "",
+      "common": "",
+      "medium": "",
+      "small": "",
+      "grid": ""
+    },
+    "staff": "艺术家"
+  },
+  {
+    "id": 137668,
+    "name": "メモリーズオフ2nd・ミニアルバム・コレクションVol.1 遠いこの空から",
+    "name_cn": "",
+    "type": 3,
+    "images": {
+      "large": "",
+      "common": "",
+      "medium": "",
+      "small": "",
+      "grid": ""
+    },
+    "staff": "艺术家"
+  },
+  {
+    "id": 137671,
+    "name": "メモリーズオフ2nd・ミニアルバム・コレクションVol.2 イミテーション",
+    "name_cn": "",
+    "type": 3,
+    "images": {
+      "large": "",
+      "common": "",
+      "medium": "",
+      "small": "",
+      "grid": ""
+    },
+    "staff": "艺术家"
+  },
+  {
+    "id": 138073,
+    "name": "Exterminate",
+    "name_cn": "",
+    "type": 3,
+    "images": {
+      "large": "",
+      "common": "",
+      "medium": "",
+      "small": "",
+      "grid": ""
+    },
+    "staff": "作词"
+  },
+  {
+    "id": 138073,
+    "name": "Exterminate",
+    "name_cn": "",
+    "type": 3,
+    "images": {
+      "large": "",
+      "common": "",
+      "medium": "",
+      "small": "",
+      "grid": ""
+    },
+    "staff": "艺术家"
+  },
+  {
+    "id": 86649,
+    "name": "LOVE \u0026 HISTORY",
+    "name_cn": "",
+    "type": 3,
+    "images": {
+      "large": "",
+      "common": "",
+      "medium": "",
+      "small": "",
+      "grid": ""
+    },
+    "staff": "艺术家"
+  },
+  {
+    "id": 136986,
+    "name": "戦姫絶唱シンフォギア GX キャラクターソング1",
+    "name_cn": "",
+    "type": 3,
+    "images": {
+      "large": "",
+      "common": "",
+      "medium": "",
+      "small": "",
+      "grid": ""
+    },
+    "staff": "艺术家"
+  },
+  {
+    "id": 60298,
+    "name": "Theme of Lan Fan by THE ALCHEMISTS",
+    "name_cn": "",
+    "type": 3,
+    "images": {
+      "large": "",
+      "common": "",
+      "medium": "",
+      "small": "",
+      "grid": ""
+    },
+    "staff": "艺术家"
+  },
+  {
+    "id": 41459,
+    "name": "Theme of Fullmetal Alchemist by THE ALCHEMISTS",
+    "name_cn": "",
+    "type": 3,
+    "images": {
+      "large": "",
+      "common": "",
+      "medium": "",
+      "small": "",
+      "grid": ""
+    },
+    "staff": "艺术家"
+  },
+  {
+    "id": 140324,
+    "name": "戦姫絶唱シンフォギア GX キャラクターソング3",
+    "name_cn": "",
+    "type": 3,
+    "images": {
+      "large": "",
+      "common": "",
+      "medium": "",
+      "small": "",
+      "grid": ""
+    },
+    "staff": "艺术家"
+  },
+  {
+    "id": 140526,
+    "name": "THE LAST -NARUTO THE MOVIE- 特典CD",
+    "name_cn": "",
+    "type": 3,
+    "images": {
+      "large": "",
+      "common": "",
+      "medium": "",
+      "small": "",
+      "grid": ""
+    },
+    "staff": "艺术家"
+  },
+  {
+    "id": 90512,
+    "name": "戦姫絶唱シンフォギアGX",
+    "name_cn": "战姬绝唱SYMPHOGEAR GX",
+    "type": 2,
+    "images": {
+      "large": "",
+      "common": "",
+      "medium": "",
+      "small": "",
+      "grid": ""
+    },
+    "staff": "插入歌演出"
+  },
+  {
+    "id": 90512,
+    "name": "戦姫絶唱シンフォギアGX",
+    "name_cn": "战姬绝唱SYMPHOGEAR GX",
+    "type": 2,
+    "images": {
+      "large": "",
+      "common": "",
+      "medium": "",
+      "small": "",
+      "grid": ""
+    },
+    "staff": "主题歌演出"
+  },
+  {
+    "id": 90512,
+    "name": "戦姫絶唱シンフォギアGX",
+    "name_cn": "战姬绝唱SYMPHOGEAR GX",
+    "type": 2,
+    "images": {
+      "large": "",
+      "common": "",
+      "medium": "",
+      "small": "",
+      "grid": ""
+    },
+    "staff": "主题歌作词"
+  },
+  {
+    "id": 13498,
+    "name": "映画 ハートキャッチプリキュア! 花の都でファッションショー…ですか!?",
+    "name_cn": "电影 Heart Catch 光之美少女！超级时尚秀在花之都...真的吗！？",
+    "type": 2,
+    "images": {
+      "large": "",
+      "common": "",
+      "medium": "",
+      "small": "",
+      "grid": ""
+    },
+    "staff": "主题歌演出"
+  },
+  {
+    "id": 145383,
+    "name": "RADIANT FORCE / Just Loving X-Edge",
+    "name_cn": "",
+    "type": 3,
+    "images": {
+      "large": "",
+      "common": "",
+      "medium": "",
+      "small": "",
+      "grid": ""
+    },
+    "staff": "艺术家"
+  },
+  {
+    "id": 147939,
+    "name": "戦姫絶唱シンフォギアGX オリジナルサウンドトラック",
+    "name_cn": "",
+    "type": 3,
+    "images": {
+      "large": "",
+      "common": "",
+      "medium": "",
+      "small": "",
+      "grid": ""
+    },
+    "staff": "艺术家"
+  },
+  {
+    "id": 29903,
+    "name": "スイッチガール!!",
+    "name_cn": "开关少女",
+    "type": 6,
+    "images": {
+      "large": "",
+      "common": "",
+      "medium": "",
+      "small": "",
+      "grid": ""
+    },
+    "staff": "主题歌演出"
+  },
+  {
+    "id": 149324,
+    "name": "ムシウタ 第6巻 特典 ドラマCD ムシウタbug",
+    "name_cn": "虫之歌DVD第6巻限定版特典 广播剧CD",
+    "type": 3,
+    "images": {
+      "large": "",
+      "common": "",
+      "medium": "",
+      "small": "",
+      "grid": ""
+    },
+    "staff": "艺术家"
+  },
+  {
+    "id": 148714,
+    "name": "SMASHING ANTHEMS",
+    "name_cn": "",
+    "type": 3,
+    "images": {
+      "large": "",
+      "common": "",
+      "medium": "",
+      "small": "",
+      "grid": ""
+    },
+    "staff": "作词"
+  },
+  {
+    "id": 148714,
+    "name": "SMASHING ANTHEMS",
+    "name_cn": "",
+    "type": 3,
+    "images": {
+      "large": "",
+      "common": "",
+      "medium": "",
+      "small": "",
+      "grid": ""
+    },
+    "staff": "作曲"
+  },
+  {
+    "id": 163898,
+    "name": "Beyond the BLADE (IGNITED arrangement) / TRUST HEART (IGNITED arrangement)",
+    "name_cn": "",
+    "type": 3,
+    "images": {
+      "large": "",
+      "common": "",
+      "medium": "",
+      "small": "",
+      "grid": ""
+    },
+    "staff": "艺术家"
+  },
+  {
+    "id": 1263,
+    "name": "魔法少女リリカルなのはA's",
+    "name_cn": "魔法少女奈叶A's",
+    "type": 2,
+    "images": {
+      "large": "",
+      "common": "",
+      "medium": "",
+      "small": "",
+      "grid": ""
+    },
+    "staff": "插入歌演出"
+  },
+  {
+    "id": 1262,
+    "name": "魔法少女リリカルなのは",
+    "name_cn": "魔法少女奈叶",
+    "type": 2,
+    "images": {
+      "large": "",
+      "common": "",
+      "medium": "",
+      "small": "",
+      "grid": ""
+    },
+    "staff": "主题歌演出"
+  },
+  {
+    "id": 20187,
+    "name": "無限のフロンティアEXCEED スーパーロボット大戦OGサーガ",
+    "name_cn": "无限边境EXCEED 超级机器人大战OG传说 超越",
+    "type": 4,
+    "images": {
+      "large": "",
+      "common": "",
+      "medium": "",
+      "small": "",
+      "grid": ""
+    },
+    "staff": "主题歌演出"
+  },
+  {
+    "id": 1263,
+    "name": "魔法少女リリカルなのはA's",
+    "name_cn": "魔法少女奈叶A's",
+    "type": 2,
+    "images": {
+      "large": "",
+      "common": "",
+      "medium": "",
+      "small": "",
+      "grid": ""
+    },
+    "staff": "主题歌演出"
+  },
+  {
+    "id": 94735,
+    "name": "ロザリオとバンパイア アイドルカバーBEST",
+    "name_cn": "",
+    "type": 3,
+    "images": {
+      "large": "",
+      "common": "",
+      "medium": "",
+      "small": "",
+      "grid": ""
+    },
+    "staff": "艺术家"
+  },
+  {
+    "id": 170413,
+    "name": "深愛 (しんあい) (幻冬舎文庫)",
+    "name_cn": "",
+    "type": 1,
+    "images": {
+      "large": "",
+      "common": "",
+      "medium": "",
+      "small": "",
+      "grid": ""
+    },
+    "staff": "作者"
+  },
+  {
+    "id": 1262,
+    "name": "魔法少女リリカルなのは",
+    "name_cn": "魔法少女奈叶",
+    "type": 2,
+    "images": {
+      "large": "",
+      "common": "",
+      "medium": "",
+      "small": "",
+      "grid": ""
+    },
+    "staff": "主题歌作词"
+  },
+  {
+    "id": 25834,
+    "name": "戦姫絶唱シンフォギア",
+    "name_cn": "战姬绝唱SYMPHOGEAR",
+    "type": 2,
+    "images": {
+      "large": "",
+      "common": "",
+      "medium": "",
+      "small": "",
+      "grid": ""
+    },
+    "staff": "插入歌演出"
+  },
+  {
+    "id": 4221,
+    "name": "瓶詰妖精",
+    "name_cn": "瓶诘妖精",
+    "type": 2,
+    "images": {
+      "large": "",
+      "common": "",
+      "medium": "",
+      "small": "",
+      "grid": ""
+    },
+    "staff": "主题歌演出"
+  },
+  {
+    "id": 25834,
+    "name": "戦姫絶唱シンフォギア",
+    "name_cn": "战姬绝唱SYMPHOGEAR",
+    "type": 2,
+    "images": {
+      "large": "",
+      "common": "",
+      "medium": "",
+      "small": "",
+      "grid": ""
+    },
+    "staff": "主题歌演出"
+  },
+  {
+    "id": 25834,
+    "name": "戦姫絶唱シンフォギア",
+    "name_cn": "战姬绝唱SYMPHOGEAR",
+    "type": 2,
+    "images": {
+      "large": "",
+      "common": "",
+      "medium": "",
+      "small": "",
+      "grid": ""
+    },
+    "staff": "主题歌作词"
+  },
+  {
+    "id": 29862,
+    "name": "神曲奏界ポリフォニカ クリムゾンS キャラクターソング Vol.3 The Third Movement 「リボンの音符♪/あたたかな調べ」",
+    "name_cn": "",
+    "type": 3,
+    "images": {
+      "large": "",
+      "common": "",
+      "medium": "",
+      "small": "",
+      "grid": ""
+    },
+    "staff": "艺术家"
+  },
+  {
+    "id": 150746,
+    "name": "この美術部には問題がある！",
+    "name_cn": "这个美术社大有问题！",
+    "type": 2,
+    "images": {
+      "large": "",
+      "common": "",
+      "medium": "",
+      "small": "",
+      "grid": ""
+    },
+    "staff": "插入歌演出"
+  },
+  {
+    "id": 86969,
+    "name": "みなみけ びより",
+    "name_cn": "",
+    "type": 3,
+    "images": {
+      "large": "",
+      "common": "",
+      "medium": "",
+      "small": "",
+      "grid": ""
+    },
+    "staff": "艺术家"
+  },
+  {
+    "id": 74906,
+    "name": "七人のナナ",
+    "name_cn": "七人之奈奈",
+    "type": 2,
+    "images": {
+      "large": "",
+      "common": "",
+      "medium": "",
+      "small": "",
+      "grid": ""
+    },
+    "staff": "主题歌演出"
+  },
+  {
+    "id": 40283,
+    "name": "WILD EYES",
+    "name_cn": "",
+    "type": 3,
+    "images": {
+      "large": "",
+      "common": "",
+      "medium": "",
+      "small": "",
+      "grid": ""
+    },
+    "staff": "作词"
+  },
+  {
+    "id": 40283,
+    "name": "WILD EYES",
+    "name_cn": "",
+    "type": 3,
+    "images": {
+      "large": "",
+      "common": "",
+      "medium": "",
+      "small": "",
+      "grid": ""
+    },
+    "staff": "艺术家"
+  },
+  {
+    "id": 634228,
+    "name": "CRIMSON BULLET",
+    "name_cn": "",
+    "type": 3,
+    "images": {
+      "large": "",
+      "common": "",
+      "medium": "",
+      "small": "",
+      "grid": ""
+    },
+    "staff": "艺术家"
+  },
+  {
+    "id": 120896,
+    "name": "冬の終わりに",
+    "name_cn": "",
+    "type": 3,
+    "images": {
+      "large": "",
+      "common": "",
+      "medium": "",
+      "small": "",
+      "grid": ""
+    },
+    "staff": "艺术家"
+  },
+  {
+    "id": 23681,
+    "name": "DOG DAYS'",
+    "name_cn": "DOG DAYS'",
+    "type": 2,
+    "images": {
+      "large": "",
+      "common": "",
+      "medium": "",
+      "small": "",
+      "grid": ""
+    },
+    "staff": "主题歌演出"
+  },
+  {
+    "id": 109948,
+    "name": "クロスアンジュ 天使と竜の輪舞",
+    "name_cn": "CROSS ANGE 天使与龙的轮舞",
+    "type": 2,
+    "images": {
+      "large": "",
+      "common": "",
+      "medium": "",
+      "small": "",
+      "grid": ""
+    },
+    "staff": "主题歌演出"
+  },
+  {
+    "id": 136261,
+    "name": "1年777組 ドラマCD",
+    "name_cn": "",
+    "type": 3,
+    "images": {
+      "large": "",
+      "common": "",
+      "medium": "",
+      "small": "",
+      "grid": ""
+    },
+    "staff": "艺术家"
+  },
+  {
+    "id": 68284,
+    "name": "魔法少女リリカルなのは Reflection",
+    "name_cn": "魔法少女奈叶 Reflection",
+    "type": 2,
+    "images": {
+      "large": "",
+      "common": "",
+      "medium": "",
+      "small": "",
+      "grid": ""
+    },
+    "staff": "主题歌演出"
+  },
+  {
+    "id": 68284,
+    "name": "魔法少女リリカルなのは Reflection",
+    "name_cn": "魔法少女奈叶 Reflection",
+    "type": 2,
+    "images": {
+      "large": "",
+      "common": "",
+      "medium": "",
+      "small": "",
+      "grid": ""
+    },
+    "staff": "主题歌作词"
+  },
+  {
+    "id": 3485,
+    "name": "魔法少女リリカルなのは The MOVIE 1st",
+    "name_cn": "魔法少女奈叶 The MOVIE 1st",
+    "type": 2,
+    "images": {
+      "large": "",
+      "common": "",
+      "medium": "",
+      "small": "",
+      "grid": ""
+    },
+    "staff": "主题歌演出"
+  },
+  {
+    "id": 199694,
+    "name": "この美術部には問題がある! キャラクターソングCD vol.1",
+    "name_cn": "",
+    "type": 3,
+    "images": {
+      "large": "",
+      "common": "",
+      "medium": "",
+      "small": "",
+      "grid": ""
+    },
+    "staff": "艺术家"
+  },
+  {
+    "id": 195597,
+    "name": "花は咲く～アニメスター・バージョン～",
+    "name_cn": "",
+    "type": 3,
+    "images": {
+      "large": "",
+      "common": "",
+      "medium": "",
+      "small": "",
+      "grid": ""
+    },
+    "staff": "艺术家"
+  },
+  {
+    "id": 203341,
+    "name": "NEOGENE CREATION",
+    "name_cn": "",
+    "type": 3,
+    "images": {
+      "large": "",
+      "common": "",
+      "medium": "",
+      "small": "",
+      "grid": ""
+    },
+    "staff": "作词"
+  },
+  {
+    "id": 203341,
+    "name": "NEOGENE CREATION",
+    "name_cn": "",
+    "type": 3,
+    "images": {
+      "large": "",
+      "common": "",
+      "medium": "",
+      "small": "",
+      "grid": ""
+    },
+    "staff": "作曲"
+  },
+  {
+    "id": 205295,
+    "name": "オハヨウ/愛においで 逢いにおいで",
+    "name_cn": "",
+    "type": 3,
+    "images": {
+      "large": "",
+      "common": "",
+      "medium": "",
+      "small": "",
+      "grid": ""
+    },
+    "staff": "艺术家"
+  },
+  {
+    "id": 198689,
+    "name": "PERSONA5 The Animation -THE DAY BREAKERS- Drama CD: THE NIGHT BREAKERS",
+    "name_cn": "",
+    "type": 3,
+    "images": {
+      "large": "",
+      "common": "",
+      "medium": "",
+      "small": "",
+      "grid": ""
+    },
+    "staff": "艺术家"
+  },
+  {
+    "id": 50811,
+    "name": "戦姫絶唱シンフォギアG",
+    "name_cn": "战姬绝唱SYMPHOGEAR G",
+    "type": 2,
+    "images": {
+      "large": "",
+      "common": "",
+      "medium": "",
+      "small": "",
+      "grid": ""
+    },
+    "staff": "插入歌演出"
+  },
+  {
+    "id": 150746,
+    "name": "この美術部には問題がある！",
+    "name_cn": "这个美术社大有问题！",
+    "type": 2,
+    "images": {
+      "large": "",
+      "common": "",
+      "medium": "",
+      "small": "",
+      "grid": ""
+    },
+    "staff": "主题歌演出"
+  },
+  {
+    "id": 210327,
+    "name": "この美術部には問題がある! キャラクターソングCD vol.2",
+    "name_cn": "",
+    "type": 3,
+    "images": {
+      "large": "",
+      "common": "",
+      "medium": "",
+      "small": "",
+      "grid": ""
+    },
+    "staff": "艺术家"
+  },
+  {
+    "id": 2474,
+    "name": "ロザリオとバンパイア",
+    "name_cn": "十字架与吸血鬼",
+    "type": 2,
+    "images": {
+      "large": "",
+      "common": "",
+      "medium": "",
+      "small": "",
+      "grid": ""
+    },
+    "staff": "主题歌演出"
+  },
+  {
+    "id": 220403,
+    "name": "魔法少女リリカルなのは Detonation",
+    "name_cn": "魔法少女奈叶 Detonation",
+    "type": 2,
+    "images": {
+      "large": "",
+      "common": "",
+      "medium": "",
+      "small": "",
+      "grid": ""
+    },
+    "staff": "插入歌演出"
+  },
+  {
+    "id": 150746,
+    "name": "この美術部には問題がある！",
+    "name_cn": "这个美术社大有问题！",
+    "type": 2,
+    "images": {
+      "large": "",
+      "common": "",
+      "medium": "",
+      "small": "",
+      "grid": ""
+    },
+    "staff": "主题歌作词"
+  },
+  {
+    "id": 50811,
+    "name": "戦姫絶唱シンフォギアG",
+    "name_cn": "战姬绝唱SYMPHOGEAR G",
+    "type": 2,
+    "images": {
+      "large": "",
+      "common": "",
+      "medium": "",
+      "small": "",
+      "grid": ""
+    },
+    "staff": "主题歌演出"
+  },
+  {
+    "id": 50811,
+    "name": "戦姫絶唱シンフォギアG",
+    "name_cn": "战姬绝唱SYMPHOGEAR G",
+    "type": 2,
+    "images": {
+      "large": "",
+      "common": "",
+      "medium": "",
+      "small": "",
+      "grid": ""
+    },
+    "staff": "主题歌作词"
+  },
+  {
+    "id": 54942,
+    "name": "DOG DAYS''",
+    "name_cn": "DOG DAYS''",
+    "type": 2,
+    "images": {
+      "large": "",
+      "common": "",
+      "medium": "",
+      "small": "",
+      "grid": ""
+    },
+    "staff": "主题歌演出"
+  },
+  {
+    "id": 218605,
+    "name": "戦姫絶唱シンフォギアAXZ キャラクターソング3",
+    "name_cn": "",
+    "type": 3,
+    "images": {
+      "large": "",
+      "common": "",
+      "medium": "",
+      "small": "",
+      "grid": ""
+    },
+    "staff": "艺术家"
+  },
+  {
+    "id": 217397,
+    "name": "Destiny's Prelude",
+    "name_cn": "",
+    "type": 3,
+    "images": {
+      "large": "",
+      "common": "",
+      "medium": "",
+      "small": "",
+      "grid": ""
+    },
+    "staff": "作词"
+  },
+  {
+    "id": 217397,
+    "name": "Destiny's Prelude",
+    "name_cn": "",
+    "type": 3,
+    "images": {
+      "large": "",
+      "common": "",
+      "medium": "",
+      "small": "",
+      "grid": ""
+    },
+    "staff": "艺术家"
+  },
+  {
+    "id": 217398,
+    "name": "TESTAMENT",
+    "name_cn": "",
+    "type": 3,
+    "images": {
+      "large": "",
+      "common": "",
+      "medium": "",
+      "small": "",
+      "grid": ""
+    },
+    "staff": "作词"
+  },
+  {
+    "id": 217398,
+    "name": "TESTAMENT",
+    "name_cn": "",
+    "type": 3,
+    "images": {
+      "large": "",
+      "common": "",
+      "medium": "",
+      "small": "",
+      "grid": ""
+    },
+    "staff": "艺术家"
+  },
+  {
+    "id": 213243,
+    "name": "上坂すみれのヤバい○○",
+    "name_cn": "上坂堇的糟糕○○",
+    "type": 6,
+    "images": {
+      "large": "",
+      "common": "",
+      "medium": "",
+      "small": "",
+      "grid": ""
+    },
+    "staff": "配角"
+  },
+  {
+    "id": 220403,
+    "name": "魔法少女リリカルなのは Detonation",
+    "name_cn": "魔法少女奈叶 Detonation",
+    "type": 2,
+    "images": {
+      "large": "",
+      "common": "",
+      "medium": "",
+      "small": "",
+      "grid": ""
+    },
+    "staff": "主题歌演出"
+  },
+  {
+    "id": 220403,
+    "name": "魔法少女リリカルなのは Detonation",
+    "name_cn": "魔法少女奈叶 Detonation",
+    "type": 2,
+    "images": {
+      "large": "",
+      "common": "",
+      "medium": "",
+      "small": "",
+      "grid": ""
+    },
+    "staff": "主题歌作词"
+  },
+  {
+    "id": 220791,
+    "name": "「ロザリオとバンパイア」キャラクターソング1 赤夜萌香",
+    "name_cn": "",
+    "type": 3,
+    "images": {
+      "large": "",
+      "common": "",
+      "medium": "",
+      "small": "",
+      "grid": ""
+    },
+    "staff": "艺术家"
+  },
+  {
+    "id": 220801,
+    "name": "「ロザリオとバンパイア」 キャラクターソングシリーズ6 ザ・かぷっちゅ",
+    "name_cn": "",
+    "type": 3,
+    "images": {
+      "large": "",
+      "common": "",
+      "medium": "",
+      "small": "",
+      "grid": ""
+    },
+    "staff": "艺术家"
+  },
+  {
+    "id": 4942,
+    "name": "WHITE ALBUM キャラクターソング 緒方理奈",
+    "name_cn": "",
+    "type": 3,
+    "images": {
+      "large": "",
+      "common": "",
+      "medium": "",
+      "small": "",
+      "grid": ""
+    },
+    "staff": "艺术家"
+  },
+  {
+    "id": 220187,
+    "name": "バジリスク ～桜花忍法帖～",
+    "name_cn": "樱花忍法帖",
+    "type": 2,
+    "images": {
+      "large": "",
+      "common": "",
+      "medium": "",
+      "small": "",
+      "grid": ""
+    },
+    "staff": "主题歌演出"
+  },
+  {
+    "id": 229986,
+    "name": "THE MUSEUM III",
+    "name_cn": "",
+    "type": 3,
+    "images": {
+      "large": "",
+      "common": "",
+      "medium": "",
+      "small": "",
+      "grid": ""
+    },
+    "staff": "作词"
+  },
+  {
+    "id": 229986,
+    "name": "THE MUSEUM III",
+    "name_cn": "",
+    "type": 3,
+    "images": {
+      "large": "",
+      "common": "",
+      "medium": "",
+      "small": "",
+      "grid": ""
+    },
+    "staff": "艺术家"
+  },
+  {
+    "id": 231254,
+    "name": "激唱インフィニティ(IGNITED arrangement)／旋律ソロリティ(IGNITED arrangement)",
+    "name_cn": "",
+    "type": 3,
+    "images": {
+      "large": "",
+      "common": "",
+      "medium": "",
+      "small": "",
+      "grid": ""
+    },
+    "staff": "艺术家"
+  },
+  {
+    "id": 231259,
+    "name": "風月ノ疾双／必愛デュオシャウト",
+    "name_cn": "",
+    "type": 3,
+    "images": {
+      "large": "",
+      "common": "",
+      "medium": "",
+      "small": "",
+      "grid": ""
+    },
+    "staff": "艺术家"
+  },
+  {
+    "id": 231260,
+    "name": "死灯 -エイヴィヒカイト-／アクシアの風",
+    "name_cn": "",
+    "type": 3,
+    "images": {
+      "large": "",
+      "common": "",
+      "medium": "",
+      "small": "",
+      "grid": ""
+    },
+    "staff": "艺术家"
+  },
+  {
+    "id": 163711,
+    "name": "戦姫絶唱シンフォギアAXZ",
+    "name_cn": "战姬绝唱SYMPHOGEAR AXZ",
+    "type": 2,
+    "images": {
+      "large": "",
+      "common": "",
+      "medium": "",
+      "small": "",
+      "grid": ""
+    },
+    "staff": "插入歌演出"
+  },
+  {
+    "id": 245171,
+    "name": "バンドリ！ ガールズバンドパーティ！ カバーコレクション Vol.1",
+    "name_cn": "",
+    "type": 3,
+    "images": {
+      "large": "",
+      "common": "",
+      "medium": "",
+      "small": "",
+      "grid": ""
+    },
+    "staff": "作词"
+  },
+  {
+    "id": 163711,
+    "name": "戦姫絶唱シンフォギアAXZ",
+    "name_cn": "战姬绝唱SYMPHOGEAR AXZ",
+    "type": 2,
+    "images": {
+      "large": "",
+      "common": "",
+      "medium": "",
+      "small": "",
+      "grid": ""
+    },
+    "staff": "主题歌演出"
+  },
+  {
+    "id": 254813,
+    "name": "Mission Untouchable",
+    "name_cn": "",
+    "type": 3,
+    "images": {
+      "large": "",
+      "common": "",
+      "medium": "",
+      "small": "",
+      "grid": ""
+    },
+    "staff": "艺术家"
+  },
+  {
+    "id": 256891,
+    "name": "NEVER SURRENDER",
+    "name_cn": "",
+    "type": 3,
+    "images": {
+      "large": "",
+      "common": "",
+      "medium": "",
+      "small": "",
+      "grid": ""
+    },
+    "staff": "作词"
+  },
+  {
+    "id": 258192,
+    "name": "RAGNAROK THE ANIMATION SOUND TRACK \u0026 CHARACTER SONGS",
+    "name_cn": "",
+    "type": 3,
+    "images": {
+      "large": "",
+      "common": "",
+      "medium": "",
+      "small": "",
+      "grid": ""
+    },
+    "staff": "艺术家"
+  },
+  {
+    "id": 235130,
+    "name": "ぐらんぶる",
+    "name_cn": "碧蓝之海",
+    "type": 2,
+    "images": {
+      "large": "",
+      "common": "",
+      "medium": "",
+      "small": "",
+      "grid": ""
+    },
+    "staff": "主题歌演出"
+  },
+  {
+    "id": 256431,
+    "name": "WONDER QUEST EP",
+    "name_cn": "",
+    "type": 3,
+    "images": {
+      "large": "",
+      "common": "",
+      "medium": "",
+      "small": "",
+      "grid": ""
+    },
+    "staff": "艺术家"
+  },
+  {
+    "id": 256891,
+    "name": "NEVER SURRENDER",
+    "name_cn": "",
+    "type": 3,
+    "images": {
+      "large": "",
+      "common": "",
+      "medium": "",
+      "small": "",
+      "grid": ""
+    },
+    "staff": "艺术家"
+  },
+  {
+    "id": 261787,
+    "name": "A Teacher Maid to Suffer",
+    "name_cn": "",
+    "type": 3,
+    "images": {
+      "large": "",
+      "common": "",
+      "medium": "",
+      "small": "",
+      "grid": ""
+    },
+    "staff": "艺术家"
+  },
+  {
+    "id": 473773,
+    "name": "Haze",
+    "name_cn": "",
+    "type": 3,
+    "images": {
+      "large": "",
+      "common": "",
+      "medium": "",
+      "small": "",
+      "grid": ""
+    },
+    "staff": "作词"
+  },
+  {
+    "id": 270063,
+    "name": "Summer diaries",
+    "name_cn": "",
+    "type": 3,
+    "images": {
+      "large": "",
+      "common": "",
+      "medium": "",
+      "small": "",
+      "grid": ""
+    },
+    "staff": "艺术家"
+  },
+  {
+    "id": 270698,
+    "name": "バンドリ！ ガールズバンドパーティ！ カバーコレクション Vol.2",
+    "name_cn": "",
+    "type": 3,
+    "images": {
+      "large": "",
+      "common": "",
+      "medium": "",
+      "small": "",
+      "grid": ""
+    },
+    "staff": "作词"
+  },
+  {
+    "id": 270069,
+    "name": "ぐらんぶる オリジナルサウンドトラックCD",
+    "name_cn": "",
+    "type": 3,
+    "images": {
+      "large": "",
+      "common": "",
+      "medium": "",
+      "small": "",
+      "grid": ""
+    },
+    "staff": "艺术家"
+  },
+  {
+    "id": 177979,
+    "name": "ソーシャルゲーム「神撃のバハムート」 キャラクターソング 「CROSSING DESTINY」",
+    "name_cn": "",
+    "type": 3,
+    "images": {
+      "large": "",
+      "common": "",
+      "medium": "",
+      "small": "",
+      "grid": ""
+    },
+    "staff": "艺术家"
+  },
+  {
+    "id": 276174,
+    "name": "Bad Medichine",
+    "name_cn": "",
+    "type": 3,
+    "images": {
+      "large": "",
+      "common": "",
+      "medium": "",
+      "small": "",
+      "grid": ""
+    },
+    "staff": "艺术家"
+  },
+  {
+    "id": 188212,
+    "name": "TALES OF SYMPHONIA THE ANIMATION BONUS DISC IV ~COLLECTORS EDITION~",
+    "name_cn": "",
+    "type": 3,
+    "images": {
+      "large": "",
+      "common": "",
+      "medium": "",
+      "small": "",
+      "grid": ""
+    },
+    "staff": "艺术家"
+  },
+  {
+    "id": 188214,
+    "name": "TALES OF SYMPHONIA THE ANIMATION BONUS DISC II ~COLLECTORS EDITION~",
+    "name_cn": "",
+    "type": 3,
+    "images": {
+      "large": "",
+      "common": "",
+      "medium": "",
+      "small": "",
+      "grid": ""
+    },
+    "staff": "艺术家"
+  },
+  {
+    "id": 188213,
+    "name": "TALES OF SYMPHONIA THE ANIMATION BONUS DISC III ~COLLECTORS EDITION~",
+    "name_cn": "",
+    "type": 3,
+    "images": {
+      "large": "",
+      "common": "",
+      "medium": "",
+      "small": "",
+      "grid": ""
+    },
+    "staff": "艺术家"
+  },
+  {
+    "id": 3713,
+    "name": "TALES OF SYMPHONIA THE ANIMATION シルヴァラント ソングス",
+    "name_cn": "",
+    "type": 3,
+    "images": {
+      "large": "",
+      "common": "",
+      "medium": "",
+      "small": "",
+      "grid": ""
+    },
+    "staff": "艺术家"
+  },
+  {
+    "id": 283497,
+    "name": "WILD ARMS the Vth Vanguard ORIGINAL SCORE Vol.1",
+    "name_cn": "",
+    "type": 3,
+    "images": {
+      "large": "",
+      "common": "",
+      "medium": "",
+      "small": "",
+      "grid": ""
+    },
+    "staff": "作词"
+  },
+  {
+    "id": 283497,
+    "name": "WILD ARMS the Vth Vanguard ORIGINAL SCORE Vol.1",
+    "name_cn": "",
+    "type": 3,
+    "images": {
+      "large": "",
+      "common": "",
+      "medium": "",
+      "small": "",
+      "grid": ""
+    },
+    "staff": "艺术家"
+  },
+  {
+    "id": 283498,
+    "name": "WILD ARMS the Vth Vanguard ORIGINAL SCORE Vol.2",
+    "name_cn": "",
+    "type": 3,
+    "images": {
+      "large": "",
+      "common": "",
+      "medium": "",
+      "small": "",
+      "grid": ""
+    },
+    "staff": "作词"
+  },
+  {
+    "id": 283498,
+    "name": "WILD ARMS the Vth Vanguard ORIGINAL SCORE Vol.2",
+    "name_cn": "",
+    "type": 3,
+    "images": {
+      "large": "",
+      "common": "",
+      "medium": "",
+      "small": "",
+      "grid": ""
+    },
+    "staff": "艺术家"
+  },
+  {
+    "id": 283880,
+    "name": "METANOIA",
+    "name_cn": "",
+    "type": 3,
+    "images": {
+      "large": "",
+      "common": "",
+      "medium": "",
+      "small": "",
+      "grid": ""
+    },
+    "staff": "作词"
+  },
+  {
+    "id": 8374,
+    "name": "魔法少女リリカルなのはA's PORTABLE -THE BATTLE OF ACES-",
+    "name_cn": "魔法少女奈叶As 携带版-王牌之战-",
+    "type": 4,
+    "images": {
+      "large": "",
+      "common": "",
+      "medium": "",
+      "small": "",
+      "grid": ""
+    },
+    "staff": "主题歌演出"
+  },
+  {
+    "id": 283880,
+    "name": "METANOIA",
+    "name_cn": "",
+    "type": 3,
+    "images": {
+      "large": "",
+      "common": "",
+      "medium": "",
+      "small": "",
+      "grid": ""
+    },
+    "staff": "艺术家"
+  },
+  {
+    "id": 287154,
+    "name": "TVアニメ「戦姫絶唱シンフォギアXV」キャラクターソング6",
+    "name_cn": "",
+    "type": 3,
+    "images": {
+      "large": "",
+      "common": "",
+      "medium": "",
+      "small": "",
+      "grid": ""
+    },
+    "staff": "艺术家"
+  },
+  {
+    "id": 170689,
+    "name": "戦姫絶唱シンフォギアXV",
+    "name_cn": "战姬绝唱SYMPHOGEAR XV",
+    "type": 2,
+    "images": {
+      "large": "",
+      "common": "",
+      "medium": "",
+      "small": "",
+      "grid": ""
+    },
+    "staff": "插入歌演出"
+  },
+  {
+    "id": 170689,
+    "name": "戦姫絶唱シンフォギアXV",
+    "name_cn": "战姬绝唱SYMPHOGEAR XV",
+    "type": 2,
+    "images": {
+      "large": "",
+      "common": "",
+      "medium": "",
+      "small": "",
+      "grid": ""
+    },
+    "staff": "主题歌演出"
+  },
+  {
+    "id": 3835,
+    "name": "THE ETERNAL DIVA",
+    "name_cn": "电影 雷顿教授与永远的歌姬 主题曲集",
+    "type": 3,
+    "images": {
+      "large": "",
+      "common": "",
+      "medium": "",
+      "small": "",
+      "grid": ""
+    },
+    "staff": "艺术家"
+  },
+  {
+    "id": 291304,
+    "name": "『ご注文はうさぎですか？？ ～Sing For You ～』特典ディスク「劇中歌ハイレゾ音源収録 DVD-ROM」",
+    "name_cn": "",
+    "type": 3,
+    "images": {
+      "large": "",
+      "common": "",
+      "medium": "",
+      "small": "",
+      "grid": ""
+    },
+    "staff": "艺术家"
+  },
+  {
+    "id": 260772,
+    "name": "ご注文はうさぎですか？？～Sing For You～",
+    "name_cn": "请问您今天要来点兔子吗？？～Sing for You～",
+    "type": 2,
+    "images": {
+      "large": "",
+      "common": "",
+      "medium": "",
+      "small": "",
+      "grid": ""
+    },
+    "staff": "主题歌演出"
+  },
+  {
+    "id": 292508,
+    "name": "六花繚乱 / Angelic Remnant",
+    "name_cn": "",
+    "type": 3,
+    "images": {
+      "large": "",
+      "common": "",
+      "medium": "",
+      "small": "",
+      "grid": ""
+    },
+    "staff": "艺术家"
+  },
+  {
+    "id": 292796,
+    "name": "CANNONBALL RUNNING",
+    "name_cn": "",
+    "type": 3,
+    "images": {
+      "large": "",
+      "common": "",
+      "medium": "",
+      "small": "",
+      "grid": ""
+    },
+    "staff": "作词"
+  },
+  {
+    "id": 297283,
+    "name": "戦姫絶唱シンフォギアXD UNLIMITED キャラクターソングアルバム 1",
+    "name_cn": "",
+    "type": 3,
+    "images": {
+      "large": "",
+      "common": "",
+      "medium": "",
+      "small": "",
+      "grid": ""
+    },
+    "staff": "艺术家"
+  },
+  {
+    "id": 296155,
+    "name": "戦姫絶唱シンフォギアXD UNLIMITED キャラクターソングアルバム２",
+    "name_cn": "",
+    "type": 3,
+    "images": {
+      "large": "",
+      "common": "",
+      "medium": "",
+      "small": "",
+      "grid": ""
+    },
+    "staff": "艺术家"
+  },
+  {
+    "id": 298390,
+    "name": "「惑星のさみだれ」第⑦巻×アワーズ3号連動企画「惑星のさみだれ」ドラマCD",
+    "name_cn": "惑星公主蜥蜴骑士 Drama CD",
+    "type": 3,
+    "images": {
+      "large": "",
+      "common": "",
+      "medium": "",
+      "small": "",
+      "grid": ""
+    },
+    "staff": "艺术家"
+  },
+  {
+    "id": 298402,
+    "name": "PERFECT SYMPHONY / Xtreme Vibes",
+    "name_cn": "",
+    "type": 3,
+    "images": {
+      "large": "",
+      "common": "",
+      "medium": "",
+      "small": "",
+      "grid": ""
+    },
+    "staff": "艺术家"
+  },
+  {
+    "id": 299961,
+    "name": "FOR THE FUTURE / 未来あしたへのフリューゲル",
+    "name_cn": "",
+    "type": 3,
+    "images": {
+      "large": "",
+      "common": "",
+      "medium": "",
+      "small": "",
+      "grid": ""
+    },
+    "staff": "艺术家"
+  },
+  {
+    "id": 302744,
+    "name": "新サクラ大戦 歌謡全集",
+    "name_cn": "",
+    "type": 3,
+    "images": {
+      "large": "",
+      "common": "",
+      "medium": "",
+      "small": "",
+      "grid": ""
+    },
+    "staff": "艺术家"
+  },
+  {
+    "id": 302746,
+    "name": "桜夢見し",
+    "name_cn": "",
+    "type": 3,
+    "images": {
+      "large": "",
+      "common": "",
+      "medium": "",
+      "small": "",
+      "grid": ""
+    },
+    "staff": "艺术家"
+  },
+  {
+    "id": 290630,
+    "name": "新サクラ大戦 the Animation",
+    "name_cn": "新樱花大战 the Animation",
+    "type": 2,
+    "images": {
+      "large": "",
+      "common": "",
+      "medium": "",
+      "small": "",
+      "grid": ""
+    },
+    "staff": "主题歌演出"
+  },
+  {
+    "id": 184868,
+    "name": "STARTING NOW!",
+    "name_cn": "",
+    "type": 3,
+    "images": {
+      "large": "",
+      "common": "",
+      "medium": "",
+      "small": "",
+      "grid": ""
+    },
+    "staff": "艺术家"
+  },
+  {
+    "id": 203341,
+    "name": "NEOGENE CREATION",
+    "name_cn": "",
+    "type": 3,
+    "images": {
+      "large": "",
+      "common": "",
+      "medium": "",
+      "small": "",
+      "grid": ""
+    },
+    "staff": "艺术家"
+  },
+  {
+    "id": 292796,
+    "name": "CANNONBALL RUNNING",
+    "name_cn": "",
+    "type": 3,
+    "images": {
+      "large": "",
+      "common": "",
+      "medium": "",
+      "small": "",
+      "grid": ""
+    },
+    "staff": "作曲"
+  },
+  {
+    "id": 309214,
+    "name": "おばけずかんのうた ～いつでも どこでも～",
+    "name_cn": "",
+    "type": 3,
+    "images": {
+      "large": "",
+      "common": "",
+      "medium": "",
+      "small": "",
+      "grid": ""
+    },
+    "staff": "艺术家"
+  },
+  {
+    "id": 309215,
+    "name": "おばけずかんのうた",
+    "name_cn": "",
+    "type": 3,
+    "images": {
+      "large": "",
+      "common": "",
+      "medium": "",
+      "small": "",
+      "grid": ""
+    },
+    "staff": "艺术家"
+  },
+  {
+    "id": 2586,
+    "name": "WHITE ALBUM-後半",
+    "name_cn": "白色相簿-后半",
+    "type": 2,
+    "images": {
+      "large": "",
+      "common": "",
+      "medium": "",
+      "small": "",
+      "grid": ""
+    },
+    "staff": "主题歌演出"
+  },
+  {
+    "id": 301477,
+    "name": "おばけずかん",
+    "name_cn": "妖怪图鉴",
+    "type": 2,
+    "images": {
+      "large": "",
+      "common": "",
+      "medium": "",
+      "small": "",
+      "grid": ""
+    },
+    "staff": "主题歌演出"
+  },
+  {
+    "id": 315186,
+    "name": "FIRE SCREAM / No Rain, No Rainbow",
+    "name_cn": "",
+    "type": 3,
+    "images": {
+      "large": "",
+      "common": "",
+      "medium": "",
+      "small": "",
+      "grid": ""
+    },
+    "staff": "作词"
+  },
+  {
+    "id": 315186,
+    "name": "FIRE SCREAM / No Rain, No Rainbow",
+    "name_cn": "",
+    "type": 3,
+    "images": {
+      "large": "",
+      "common": "",
+      "medium": "",
+      "small": "",
+      "grid": ""
+    },
+    "staff": "艺术家"
+  },
+  {
+    "id": 299372,
+    "name": "D4DJ First Mix",
+    "name_cn": "",
+    "type": 2,
+    "images": {
+      "large": "",
+      "common": "",
+      "medium": "",
+      "small": "",
+      "grid": ""
+    },
+    "staff": "主题歌演出"
+  },
+  {
+    "id": 317310,
+    "name": "新サクラ大戦 the Animation オリジナルサウンドトラック",
+    "name_cn": "",
+    "type": 3,
+    "images": {
+      "large": "",
+      "common": "",
+      "medium": "",
+      "small": "",
+      "grid": ""
+    },
+    "staff": "艺术家"
+  },
+  {
+    "id": 176095,
+    "name": "しゅごキャラ！キャラクターソングコレクション",
+    "name_cn": "",
+    "type": 3,
+    "images": {
+      "large": "",
+      "common": "",
+      "medium": "",
+      "small": "",
+      "grid": ""
+    },
+    "staff": "艺术家"
+  },
+  {
+    "id": 176096,
+    "name": "しゅごキャラ！キャラクターソングコレクション2",
+    "name_cn": "",
+    "type": 3,
+    "images": {
+      "large": "",
+      "common": "",
+      "medium": "",
+      "small": "",
+      "grid": ""
+    },
+    "staff": "艺术家"
+  },
+  {
+    "id": 49279,
+    "name": "しゅごキャラ! キャラクターソングコレクション3",
+    "name_cn": "",
+    "type": 3,
+    "images": {
+      "large": "",
+      "common": "",
+      "medium": "",
+      "small": "",
+      "grid": ""
+    },
+    "staff": "艺术家"
+  },
+  {
+    "id": 148714,
+    "name": "SMASHING ANTHEMS",
+    "name_cn": "",
+    "type": 3,
+    "images": {
+      "large": "",
+      "common": "",
+      "medium": "",
+      "small": "",
+      "grid": ""
+    },
+    "staff": "艺术家"
+  },
+  {
+    "id": 62155,
+    "name": "魔法少女リリカルなのはStrikerS サウンドステージ ボーカルベストコレクション",
+    "name_cn": "",
+    "type": 3,
+    "images": {
+      "large": "",
+      "common": "",
+      "medium": "",
+      "small": "",
+      "grid": ""
+    },
+    "staff": "艺术家"
+  },
+  {
+    "id": 11007,
+    "name": "ALIVE\u0026KICKING",
+    "name_cn": "",
+    "type": 3,
+    "images": {
+      "large": "",
+      "common": "",
+      "medium": "",
+      "small": "",
+      "grid": ""
+    },
+    "staff": "艺术家"
+  },
+  {
+    "id": 308558,
+    "name": "SHAMAN KING",
+    "name_cn": "通灵王",
+    "type": 2,
+    "images": {
+      "large": "",
+      "common": "",
+      "medium": "",
+      "small": "",
+      "grid": ""
+    },
+    "staff": "主题歌演出"
+  },
+  {
+    "id": 324921,
+    "name": "Link or Chains",
+    "name_cn": "",
+    "type": 3,
+    "images": {
+      "large": "",
+      "common": "",
+      "medium": "",
+      "small": "",
+      "grid": ""
+    },
+    "staff": "艺术家"
+  },
+  {
+    "id": 325836,
+    "name": "メグミとタイヨウ",
+    "name_cn": "",
+    "type": 2,
+    "images": {
+      "large": "",
+      "common": "",
+      "medium": "",
+      "small": "",
+      "grid": ""
+    },
+    "staff": "主题歌演出"
+  },
+  {
+    "id": 323043,
+    "name": "WOW WAR TONIGHT～時には起こせよムーヴメント～",
+    "name_cn": "",
+    "type": 3,
+    "images": {
+      "large": "",
+      "common": "",
+      "medium": "",
+      "small": "",
+      "grid": ""
+    },
+    "staff": "艺术家"
+  },
+  {
+    "id": 332689,
+    "name": "Memories Off Vocal Sound Selection Best10",
+    "name_cn": "",
+    "type": 3,
+    "images": {
+      "large": "",
+      "common": "",
+      "medium": "",
+      "small": "",
+      "grid": ""
+    },
+    "staff": "艺术家"
+  },
+  {
+    "id": 333650,
+    "name": "ABC体操",
+    "name_cn": "",
+    "type": 3,
+    "images": {
+      "large": "",
+      "common": "",
+      "medium": "",
+      "small": "",
+      "grid": ""
+    },
+    "staff": "艺术家"
+  },
+  {
+    "id": 2128,
+    "name": "レイトン教授と永遠の歌姫",
+    "name_cn": "雷顿教授与永远的歌姬",
+    "type": 2,
+    "images": {
+      "large": "",
+      "common": "",
+      "medium": "",
+      "small": "",
+      "grid": ""
+    },
+    "staff": "主题歌演出"
+  },
+  {
+    "id": 336829,
+    "name": "魔法少女リリカルなのは The MOVIE 1st Ticket＆CD SPECIAL [Side N]",
+    "name_cn": "",
+    "type": 3,
+    "images": {
+      "large": "",
+      "common": "",
+      "medium": "",
+      "small": "",
+      "grid": ""
+    },
+    "staff": "艺术家"
+  },
+  {
+    "id": 336836,
+    "name": "魔法少女リリカルなのは The MOVIE 1st Ticket＆CD SPECIAL [Side F]",
+    "name_cn": "",
+    "type": 3,
+    "images": {
+      "large": "",
+      "common": "",
+      "medium": "",
+      "small": "",
+      "grid": ""
+    },
+    "staff": "艺术家"
+  },
+  {
+    "id": 350276,
+    "name": "ママンとトゥギャザーのうた 1",
+    "name_cn": "",
+    "type": 3,
+    "images": {
+      "large": "",
+      "common": "",
+      "medium": "",
+      "small": "",
+      "grid": ""
+    },
+    "staff": "艺术家"
+  },
+  {
+    "id": 351818,
+    "name": "『映画トロピカル~ジュ! プリキュア 雪のプリンセスと奇跡の指輪!』主題歌シングル",
+    "name_cn": "",
+    "type": 3,
+    "images": {
+      "large": "",
+      "common": "",
+      "medium": "",
+      "small": "",
+      "grid": ""
+    },
+    "staff": "艺术家"
+  },
+  {
+    "id": 345939,
+    "name": "Get up! Shout!",
+    "name_cn": "",
+    "type": 3,
+    "images": {
+      "large": "",
+      "common": "",
+      "medium": "",
+      "small": "",
+      "grid": ""
+    },
+    "staff": "作词"
+  },
+  {
+    "id": 345939,
+    "name": "Get up! Shout!",
+    "name_cn": "",
+    "type": 3,
+    "images": {
+      "large": "",
+      "common": "",
+      "medium": "",
+      "small": "",
+      "grid": ""
+    },
+    "staff": "艺术家"
+  },
+  {
+    "id": 353887,
+    "name": "ママンとトゥギャザーのうた 2",
+    "name_cn": "",
+    "type": 3,
+    "images": {
+      "large": "",
+      "common": "",
+      "medium": "",
+      "small": "",
+      "grid": ""
+    },
+    "staff": "艺术家"
+  },
+  {
+    "id": 354496,
+    "name": "ハートキャッチプリキュア! メモリアルアルバム",
+    "name_cn": "",
+    "type": 3,
+    "images": {
+      "large": "",
+      "common": "",
+      "medium": "",
+      "small": "",
+      "grid": ""
+    },
+    "staff": "艺术家"
+  },
+  {
+    "id": 357975,
+    "name": "NANA ACOUSTIC ONLINE",
+    "name_cn": "",
+    "type": 3,
+    "images": {
+      "large": "",
+      "common": "",
+      "medium": "",
+      "small": "",
+      "grid": ""
+    },
+    "staff": "艺术家"
+  },
+  {
+    "id": 362622,
+    "name": "Red Breeze",
+    "name_cn": "",
+    "type": 3,
+    "images": {
+      "large": "",
+      "common": "",
+      "medium": "",
+      "small": "",
+      "grid": ""
+    },
+    "staff": "艺术家"
+  },
+  {
+    "id": 366977,
+    "name": "D4DJ Groovy Mix カバートラックス vol.4",
+    "name_cn": "",
+    "type": 3,
+    "images": {
+      "large": "",
+      "common": "",
+      "medium": "",
+      "small": "",
+      "grid": ""
+    },
+    "staff": "作词"
+  },
+  {
+    "id": 373359,
+    "name": "ダブルシャッフル",
+    "name_cn": "",
+    "type": 3,
+    "images": {
+      "large": "",
+      "common": "",
+      "medium": "",
+      "small": "",
+      "grid": ""
+    },
+    "staff": "艺术家"
+  },
+  {
+    "id": 375014,
+    "name": "戦姫絶唱シンフォギア キャラクターソングコンプリートBOX",
+    "name_cn": "",
+    "type": 3,
+    "images": {
+      "large": "",
+      "common": "",
+      "medium": "",
+      "small": "",
+      "grid": ""
+    },
+    "staff": "艺术家"
+  },
+  {
+    "id": 355072,
+    "name": "トモダチゲーム",
+    "name_cn": "朋友游戏",
+    "type": 2,
+    "images": {
+      "large": "",
+      "common": "",
+      "medium": "",
+      "small": "",
+      "grid": ""
+    },
+    "staff": "主题歌演出"
+  },
+  {
+    "id": 373148,
+    "name": "ROZEN HORIZON",
+    "name_cn": "",
+    "type": 3,
+    "images": {
+      "large": "",
+      "common": "",
+      "medium": "",
+      "small": "",
+      "grid": ""
+    },
+    "staff": "作词"
+  },
+  {
+    "id": 385312,
+    "name": "Do the Dive",
+    "name_cn": "",
+    "type": 3,
+    "images": {
+      "large": "",
+      "common": "",
+      "medium": "",
+      "small": "",
+      "grid": ""
+    },
+    "staff": "艺术家"
+  },
+  {
+    "id": 386659,
+    "name": "DELIGHTED REVIVER",
+    "name_cn": "",
+    "type": 3,
+    "images": {
+      "large": "",
+      "common": "",
+      "medium": "",
+      "small": "",
+      "grid": ""
+    },
+    "staff": "作词"
+  },
+  {
+    "id": 386659,
+    "name": "DELIGHTED REVIVER",
+    "name_cn": "",
+    "type": 3,
+    "images": {
+      "large": "",
+      "common": "",
+      "medium": "",
+      "small": "",
+      "grid": ""
+    },
+    "staff": "作曲"
+  },
+  {
+    "id": 386659,
+    "name": "DELIGHTED REVIVER",
+    "name_cn": "",
+    "type": 3,
+    "images": {
+      "large": "",
+      "common": "",
+      "medium": "",
+      "small": "",
+      "grid": ""
+    },
+    "staff": "艺术家"
+  },
+  {
+    "id": 1734,
+    "name": "想い出にかわる君 〜Memories Off〜",
+    "name_cn": "沦为回忆的你 ~秋之回忆~",
+    "type": 4,
+    "images": {
+      "large": "",
+      "common": "",
+      "medium": "",
+      "small": "",
+      "grid": ""
+    },
+    "staff": "主题歌演出"
+  },
+  {
+    "id": 407964,
+    "name": "戦姫絶唱シンフォギア キャラクターソングアルバム",
+    "name_cn": "",
+    "type": 3,
+    "images": {
+      "large": "",
+      "common": "",
+      "medium": "",
+      "small": "",
+      "grid": ""
+    },
+    "staff": "艺术家"
+  },
+  {
+    "id": 407968,
+    "name": "戦姫絶唱シンフォギアG キャラクターソングアルバム",
+    "name_cn": "",
+    "type": 3,
+    "images": {
+      "large": "",
+      "common": "",
+      "medium": "",
+      "small": "",
+      "grid": ""
+    },
+    "staff": "艺术家"
+  },
+  {
+    "id": 407969,
+    "name": "戦姫絶唱シンフォギアGX キャラクターソングアルバム",
+    "name_cn": "",
+    "type": 3,
+    "images": {
+      "large": "",
+      "common": "",
+      "medium": "",
+      "small": "",
+      "grid": ""
+    },
+    "staff": "艺术家"
+  },
+  {
+    "id": 408104,
+    "name": "戦姫絶唱シンフォギアAXZ キャラクターソングアルバム",
+    "name_cn": "",
+    "type": 3,
+    "images": {
+      "large": "",
+      "common": "",
+      "medium": "",
+      "small": "",
+      "grid": ""
+    },
+    "staff": "艺术家"
+  },
+  {
+    "id": 408105,
+    "name": "戦姫絶唱シンフォギアXV キャラクターソングアルバム",
+    "name_cn": "",
+    "type": 3,
+    "images": {
+      "large": "",
+      "common": "",
+      "medium": "",
+      "small": "",
+      "grid": ""
+    },
+    "staff": "艺术家"
+  },
+  {
+    "id": 414621,
+    "name": "Call of Artemis",
+    "name_cn": "",
+    "type": 3,
+    "images": {
+      "large": "",
+      "common": "",
+      "medium": "",
+      "small": "",
+      "grid": ""
+    },
+    "staff": "艺术家"
+  },
+  {
+    "id": 400551,
+    "name": "でこぼこ魔女の親子事情",
+    "name_cn": "凹凸魔女的母女故事",
+    "type": 2,
+    "images": {
+      "large": "",
+      "common": "",
+      "medium": "",
+      "small": "",
+      "grid": ""
+    },
+    "staff": "主题歌演出"
+  },
+  {
+    "id": 378797,
+    "name": "SHAMAN KING FLOWERS",
+    "name_cn": "通灵王 FLOWERS",
+    "type": 2,
+    "images": {
+      "large": "",
+      "common": "",
+      "medium": "",
+      "small": "",
+      "grid": ""
+    },
+    "staff": "主题歌演出"
+  },
+  {
+    "id": 424861,
+    "name": "劇場版「美少女戦士セーラームーンCosmos」テーマソング・コレクション",
+    "name_cn": "美少女战士Cosmos 歌曲集",
+    "type": 3,
+    "images": {
+      "large": "",
+      "common": "",
+      "medium": "",
+      "small": "",
+      "grid": ""
+    },
+    "staff": "艺术家"
+  },
+  {
+    "id": 385767,
+    "name": "NOeL La neige 門倉千紗都ミニアルバムdepart Chisato×Nana",
+    "name_cn": "",
+    "type": 3,
+    "images": {
+      "large": "",
+      "common": "",
+      "medium": "",
+      "small": "",
+      "grid": ""
+    },
+    "staff": "艺术家"
+  },
+  {
+    "id": 454113,
+    "name": "Sugar Doughnuts",
+    "name_cn": "",
+    "type": 3,
+    "images": {
+      "large": "",
+      "common": "",
+      "medium": "",
+      "small": "",
+      "grid": ""
+    },
+    "staff": "艺术家"
+  },
+  {
+    "id": 292796,
+    "name": "CANNONBALL RUNNING",
+    "name_cn": "",
+    "type": 3,
+    "images": {
+      "large": "",
+      "common": "",
+      "medium": "",
+      "small": "",
+      "grid": ""
+    },
+    "staff": "艺术家"
+  },
+  {
+    "id": 471846,
+    "name": "Turn the World",
+    "name_cn": "",
+    "type": 3,
+    "images": {
+      "large": "",
+      "common": "",
+      "medium": "",
+      "small": "",
+      "grid": ""
+    },
+    "staff": "作词"
+  },
+  {
+    "id": 471846,
+    "name": "Turn the World",
+    "name_cn": "",
+    "type": 3,
+    "images": {
+      "large": "",
+      "common": "",
+      "medium": "",
+      "small": "",
+      "grid": ""
+    },
+    "staff": "艺术家"
+  },
+  {
+    "id": 452416,
+    "name": "劇場版「美少女戦士セーラームーンCosmos」オリジナル・サウンドトラック",
+    "name_cn": "美少女战士Cosmos 原声集",
+    "type": 3,
+    "images": {
+      "large": "",
+      "common": "",
+      "medium": "",
+      "small": "",
+      "grid": ""
+    },
+    "staff": "艺术家"
+  },
+  {
+    "id": 476423,
+    "name": "ADRENALIZED",
+    "name_cn": "",
+    "type": 3,
+    "images": {
+      "large": "",
+      "common": "",
+      "medium": "",
+      "small": "",
+      "grid": ""
+    },
+    "staff": "艺术家"
+  },
+  {
+    "id": 37746,
+    "name": "夏色の砂時計",
+    "name_cn": "夏色的砂时计",
+    "type": 4,
+    "images": {
+      "large": "",
+      "common": "",
+      "medium": "",
+      "small": "",
+      "grid": ""
+    },
+    "staff": "主题歌演出"
+  },
+  {
+    "id": 10278,
+    "name": "DOG DAYS",
+    "name_cn": "DOG DAYS",
+    "type": 2,
+    "images": {
+      "large": "",
+      "common": "",
+      "medium": "",
+      "small": "",
+      "grid": ""
+    },
+    "staff": "主题歌作词"
+  },
+  {
+    "id": 10278,
+    "name": "DOG DAYS",
+    "name_cn": "DOG DAYS",
+    "type": 2,
+    "images": {
+      "large": "",
+      "common": "",
+      "medium": "",
+      "small": "",
+      "grid": ""
+    },
+    "staff": "主题歌演出"
+  },
+  {
+    "id": 3014,
+    "name": "TALES OF SYMPHONIA THE ANIMATION シルヴァラント編",
+    "name_cn": "仙乐传说 西尔瓦蓝特篇",
+    "type": 2,
+    "images": {
+      "large": "",
+      "common": "",
+      "medium": "",
+      "small": "",
+      "grid": ""
+    },
+    "staff": "主题歌演出"
+  },
+  {
+    "id": 4480,
+    "name": "TALES OF SYMPHONIA THE ANIMATION テセアラ編",
+    "name_cn": "仙乐传说 迪赛雅兰篇",
+    "type": 2,
+    "images": {
+      "large": "",
+      "common": "",
+      "medium": "",
+      "small": "",
+      "grid": ""
+    },
+    "staff": "主题歌演出"
+  },
+  {
+    "id": 391866,
+    "name": "HIGHSPEED Étoile",
+    "name_cn": "极速星舞",
+    "type": 2,
+    "images": {
+      "large": "",
+      "common": "",
+      "medium": "",
+      "small": "",
+      "grid": ""
+    },
+    "staff": "主题歌演出"
+  },
+  {
+    "id": 391866,
+    "name": "HIGHSPEED Étoile",
+    "name_cn": "极速星舞",
+    "type": 2,
+    "images": {
+      "large": "",
+      "common": "",
+      "medium": "",
+      "small": "",
+      "grid": ""
+    },
+    "staff": "主题歌作词"
+  },
+  {
+    "id": 489015,
+    "name": "KING SUPER LIVE 2018",
+    "name_cn": "",
+    "type": 6,
+    "images": {
+      "large": "",
+      "common": "",
+      "medium": "",
+      "small": "",
+      "grid": ""
+    },
+    "staff": "主演"
+  },
+  {
+    "id": 476423,
+    "name": "ADRENALIZED",
+    "name_cn": "",
+    "type": 3,
+    "images": {
+      "large": "",
+      "common": "",
+      "medium": "",
+      "small": "",
+      "grid": ""
+    },
+    "staff": "作词"
+  },
+  {
+    "id": 334049,
+    "name": "「SHAMAN KING」オリジナル・サウンドトラック集2 \u0026 キャラクターソング集",
+    "name_cn": "",
+    "type": 3,
+    "images": {
+      "large": "",
+      "common": "",
+      "medium": "",
+      "small": "",
+      "grid": ""
+    },
+    "staff": "艺术家"
+  },
+  {
+    "id": 474770,
+    "name": "SHAMAN KING FLOWERS スペシャルCD",
+    "name_cn": "",
+    "type": 3,
+    "images": {
+      "large": "",
+      "common": "",
+      "medium": "",
+      "small": "",
+      "grid": ""
+    },
+    "staff": "艺术家"
+  },
+  {
+    "id": 414553,
+    "name": "イジらないで、長瀞さん 2nd Attack キャラクターソングCD3",
+    "name_cn": "",
+    "type": 3,
+    "images": {
+      "large": "",
+      "common": "",
+      "medium": "",
+      "small": "",
+      "grid": ""
+    },
+    "staff": "艺术家"
+  },
+  {
+    "id": 513096,
+    "name": "夏色の砂時計 サウンドコレクション",
+    "name_cn": "",
+    "type": 3,
+    "images": {
+      "large": "",
+      "common": "",
+      "medium": "",
+      "small": "",
+      "grid": ""
+    },
+    "staff": "艺术家"
+  },
+  {
+    "id": 513070,
+    "name": "夏色の砂時計 Opening themesong CD \u0026 Dorama CD 「”本当の”はじまりの物語」",
+    "name_cn": "",
+    "type": 3,
+    "images": {
+      "large": "",
+      "common": "",
+      "medium": "",
+      "small": "",
+      "grid": ""
+    },
+    "staff": "艺术家"
+  },
+  {
+    "id": 513832,
+    "name": "DEVIL'S DAUGHTER",
+    "name_cn": "",
+    "type": 3,
+    "images": {
+      "large": "",
+      "common": "",
+      "medium": "",
+      "small": "",
+      "grid": ""
+    },
+    "staff": "作词"
+  },
+  {
+    "id": 23626,
+    "name": "劇場版 BLOOD-C The Last Dark",
+    "name_cn": "BLOOD-C The Last Dark",
+    "type": 2,
+    "images": {
+      "large": "",
+      "common": "",
+      "medium": "",
+      "small": "",
+      "grid": ""
+    },
+    "staff": "主题歌演出"
+  },
+  {
+    "id": 521885,
+    "name": "ポッドキャスト ダンダ談話室",
+    "name_cn": "",
+    "type": 6,
+    "images": {
+      "large": "",
+      "common": "",
+      "medium": "",
+      "small": "",
+      "grid": ""
+    },
+    "staff": "配角"
+  },
+  {
+    "id": 409682,
+    "name": "#コンパス2.0 戦闘摂理解析システム",
+    "name_cn": "#COMPASS2.0 战斗天赋解析系统",
+    "type": 2,
+    "images": {
+      "large": "",
+      "common": "",
+      "medium": "",
+      "small": "",
+      "grid": ""
+    },
+    "staff": "主题歌演出"
+  },
+  {
+    "id": 6392,
+    "name": "Windows7 SP CD 七色ジェネレータ",
+    "name_cn": "Windows7 Ultimate 特典CD",
+    "type": 3,
+    "images": {
+      "large": "",
+      "common": "",
+      "medium": "",
+      "small": "",
+      "grid": ""
+    },
+    "staff": "艺术家"
+  },
+  {
+    "id": 531457,
+    "name": "超新世代アニソンBEST!! 2000年代編～The Sketch Rock～",
+    "name_cn": "",
+    "type": 3,
+    "images": {
+      "large": "",
+      "common": "",
+      "medium": "",
+      "small": "",
+      "grid": ""
+    },
+    "staff": "作词"
+  },
+  {
+    "id": 534673,
+    "name": "X-BRAVERS",
+    "name_cn": "",
+    "type": 3,
+    "images": {
+      "large": "",
+      "common": "",
+      "medium": "",
+      "small": "",
+      "grid": ""
+    },
+    "staff": "艺术家"
+  },
+  {
+    "id": 539300,
+    "name": "CONTEMPORARY EMOTION",
+    "name_cn": "",
+    "type": 3,
+    "images": {
+      "large": "",
+      "common": "",
+      "medium": "",
+      "small": "",
+      "grid": ""
+    },
+    "staff": "艺术家"
+  },
+  {
+    "id": 539300,
+    "name": "CONTEMPORARY EMOTION",
+    "name_cn": "",
+    "type": 3,
+    "images": {
+      "large": "",
+      "common": "",
+      "medium": "",
+      "small": "",
+      "grid": ""
+    },
+    "staff": "作曲"
+  },
+  {
+    "id": 539300,
+    "name": "CONTEMPORARY EMOTION",
+    "name_cn": "",
+    "type": 3,
+    "images": {
+      "large": "",
+      "common": "",
+      "medium": "",
+      "small": "",
+      "grid": ""
+    },
+    "staff": "作词"
+  },
+  {
+    "id": 209783,
+    "name": "シンフォギアライブ2012",
+    "name_cn": "SYMPHOGEAR LIVE 2012",
+    "type": 6,
+    "images": {
+      "large": "",
+      "common": "",
+      "medium": "",
+      "small": "",
+      "grid": ""
+    },
+    "staff": "主演"
+  },
+  {
+    "id": 209782,
+    "name": "シンフォギアライブ2013",
+    "name_cn": "SYMPHOGEAR LIVE 2013",
+    "type": 6,
+    "images": {
+      "large": "",
+      "common": "",
+      "medium": "",
+      "small": "",
+      "grid": ""
+    },
+    "staff": "主演"
+  },
+  {
+    "id": 209781,
+    "name": "シンフォギアライブ2016",
+    "name_cn": "SYMPHOGEAR LIVE 2016",
+    "type": 6,
+    "images": {
+      "large": "",
+      "common": "",
+      "medium": "",
+      "small": "",
+      "grid": ""
+    },
+    "staff": "主演"
+  },
+  {
+    "id": 268596,
+    "name": "シンフォギアライブ2018",
+    "name_cn": "SYMPHOGEAR LIVE 2018",
+    "type": 6,
+    "images": {
+      "large": "",
+      "common": "",
+      "medium": "",
+      "small": "",
+      "grid": ""
+    },
+    "staff": "主演"
+  },
+  {
+    "id": 541785,
+    "name": "シンフォギアライブ2020→2022",
+    "name_cn": "SYMPHOGEAR LIVE 2020→2022",
+    "type": 6,
+    "images": {
+      "large": "",
+      "common": "",
+      "medium": "",
+      "small": "",
+      "grid": ""
+    },
+    "staff": "主演"
+  },
+  {
+    "id": 34292,
+    "name": "愛神餐館2",
+    "name_cn": "爱神餐馆2",
+    "type": 4,
+    "images": {
+      "large": "",
+      "common": "",
+      "medium": "",
+      "small": "",
+      "grid": ""
+    },
+    "staff": "主题歌演出"
+  },
+  {
+    "id": 499169,
+    "name": "プリンセッション・オーケストラ",
+    "name_cn": "公主的管弦乐团",
+    "type": 2,
+    "images": {
+      "large": "",
+      "common": "",
+      "medium": "",
+      "small": "",
+      "grid": ""
+    },
+    "staff": "主题歌演出"
+  },
+  {
+    "id": 550798,
+    "name": "オダイバ!!超次元音楽祭 -ヨコハマからハッピーバレンタインフェス2022-",
+    "name_cn": "",
+    "type": 6,
+    "images": {
+      "large": "",
+      "common": "",
+      "medium": "",
+      "small": "",
+      "grid": ""
+    },
+    "staff": "主演"
+  },
+  {
+    "id": 2882,
+    "name": "青い文学シリーズ",
+    "name_cn": "青之文学",
+    "type": 2,
+    "images": {
+      "large": "",
+      "common": "",
+      "medium": "",
+      "small": "",
+      "grid": ""
+    },
+    "staff": "插入歌演出"
+  },
+  {
+    "id": 556188,
+    "name": "爆上戦隊ブンブンジャー EP vol.4",
+    "name_cn": "",
+    "type": 3,
+    "images": {
+      "large": "",
+      "common": "",
+      "medium": "",
+      "small": "",
+      "grid": ""
+    },
+    "staff": "艺术家"
+  },
+  {
+    "id": 533324,
+    "name": "爆上戦隊ブンブンジャー ファイナルライブツアー2025",
+    "name_cn": "爆燃战队奔奔者FINAL LIVE TOUR 2025",
+    "type": 6,
+    "images": {
+      "large": "",
+      "common": "",
+      "medium": "",
+      "small": "",
+      "grid": ""
+    },
+    "staff": "配角"
+  },
+  {
+    "id": 561527,
+    "name": "戦姫絶唱シンフォギア フィルムコンサート2025「SymphoNare（シンフォナーレ）」",
+    "name_cn": "",
+    "type": 6,
+    "images": {
+      "large": "",
+      "common": "",
+      "medium": "",
+      "small": "",
+      "grid": ""
+    },
+    "staff": "配角"
+  },
+  {
+    "id": 561960,
+    "name": "爆上戦隊ブンブンジャー 全曲集",
+    "name_cn": "",
+    "type": 3,
+    "images": {
+      "large": "",
+      "common": "",
+      "medium": "",
+      "small": "",
+      "grid": ""
+    },
+    "staff": "艺术家"
+  },
+  {
+    "id": 564118,
+    "name": "Animelo Summer Live 2017 -THE CARD-",
+    "name_cn": "",
+    "type": 6,
+    "images": {
+      "large": "",
+      "common": "",
+      "medium": "",
+      "small": "",
+      "grid": ""
+    },
+    "staff": "主演"
+  },
+  {
+    "id": 564126,
+    "name": "Animelo Summer Live 2014 -ONENESS-",
+    "name_cn": "",
+    "type": 6,
+    "images": {
+      "large": "",
+      "common": "",
+      "medium": "",
+      "small": "",
+      "grid": ""
+    },
+    "staff": "主演"
+  },
+  {
+    "id": 564128,
+    "name": "Animelo Summer Live 2013 -FLAG NINE-",
+    "name_cn": "",
+    "type": 6,
+    "images": {
+      "large": "",
+      "common": "",
+      "medium": "",
+      "small": "",
+      "grid": ""
+    },
+    "staff": "主演"
+  },
+  {
+    "id": 564195,
+    "name": "Animelo Summer Live 2011 -rainbow-",
+    "name_cn": "",
+    "type": 6,
+    "images": {
+      "large": "",
+      "common": "",
+      "medium": "",
+      "small": "",
+      "grid": ""
+    },
+    "staff": "主演"
+  },
+  {
+    "id": 564198,
+    "name": "Animelo Summer Live 2010 -evolution-",
+    "name_cn": "",
+    "type": 6,
+    "images": {
+      "large": "",
+      "common": "",
+      "medium": "",
+      "small": "",
+      "grid": ""
+    },
+    "staff": "主演"
+  },
+  {
+    "id": 564201,
+    "name": "Animelo Summer Live 2009 -RE:BRIDGE-",
+    "name_cn": "",
+    "type": 6,
+    "images": {
+      "large": "",
+      "common": "",
+      "medium": "",
+      "small": "",
+      "grid": ""
+    },
+    "staff": "主演"
+  },
+  {
+    "id": 564203,
+    "name": "Animelo Summer Live 2008 -Challenge-",
+    "name_cn": "",
+    "type": 6,
+    "images": {
+      "large": "",
+      "common": "",
+      "medium": "",
+      "small": "",
+      "grid": ""
+    },
+    "staff": "主演"
+  },
+  {
+    "id": 564205,
+    "name": "Animelo Summer Live 2007　Generation-A",
+    "name_cn": "",
+    "type": 6,
+    "images": {
+      "large": "",
+      "common": "",
+      "medium": "",
+      "small": "",
+      "grid": ""
+    },
+    "staff": "主演"
+  },
+  {
+    "id": 564206,
+    "name": "Animelo Summer Live 2006 -OUTRIDE-",
+    "name_cn": "",
+    "type": 6,
+    "images": {
+      "large": "",
+      "common": "",
+      "medium": "",
+      "small": "",
+      "grid": ""
+    },
+    "staff": "主演"
+  },
+  {
+    "id": 564208,
+    "name": "Animelo Summer Live 2005 -THE BRIDGE-",
+    "name_cn": "",
+    "type": 6,
+    "images": {
+      "large": "",
+      "common": "",
+      "medium": "",
+      "small": "",
+      "grid": ""
+    },
+    "staff": "主演"
+  },
+  {
+    "id": 564959,
+    "name": "全プリキュア 20th Anniversary LIVE！",
+    "name_cn": "",
+    "type": 6,
+    "images": {
+      "large": "",
+      "common": "",
+      "medium": "",
+      "small": "",
+      "grid": ""
+    },
+    "staff": "主演"
+  },
+  {
+    "id": 564962,
+    "name": "プリキュア15周年 Anniversary ライブ ~15☆Dreams Come True~",
+    "name_cn": "",
+    "type": 6,
+    "images": {
+      "large": "",
+      "common": "",
+      "medium": "",
+      "small": "",
+      "grid": ""
+    },
+    "staff": "主演"
+  },
+  {
+    "id": 571782,
+    "name": "阴阳师 三周年庆生番外",
+    "name_cn": "",
+    "type": 2,
+    "images": {
+      "large": "",
+      "common": "",
+      "medium": "",
+      "small": "",
+      "grid": ""
+    },
+    "staff": "主题歌演出"
+  },
+  {
+    "id": 223892,
+    "name": "叛逆性ミリオンアーサー",
+    "name_cn": "叛逆性百万亚瑟王",
+    "type": 4,
+    "images": {
+      "large": "",
+      "common": "",
+      "medium": "",
+      "small": "",
+      "grid": ""
+    },
+    "staff": "主题歌演出"
+  },
+  {
+    "id": 581475,
+    "name": "ボイスラッガー",
+    "name_cn": "声优战队",
+    "type": 6,
+    "images": {
+      "large": "",
+      "common": "",
+      "medium": "",
+      "small": "",
+      "grid": ""
+    },
+    "staff": "配角"
+  },
+  {
+    "id": 622711,
+    "name": "THE MUSEUM IV",
+    "name_cn": "",
+    "type": 3,
+    "images": {
+      "large": "",
+      "common": "",
+      "medium": "",
+      "small": "",
+      "grid": ""
+    },
+    "staff": "艺术家"
+  },
+  {
+    "id": 34902,
+    "name": "戦姫絶唱シンフォギア キャラクターソング3 風鳴 翼",
+    "name_cn": "战姬绝唱SYMPHOGEAR 角色歌#3 风鸣翼",
+    "type": 3,
+    "images": {
+      "large": "",
+      "common": "",
+      "medium": "",
+      "small": "",
+      "grid": ""
+    },
+    "staff": "艺术家"
+  },
+  {
+    "id": 603366,
+    "name": "真紅の荊",
+    "name_cn": "",
+    "type": 3,
+    "images": {
+      "large": "",
+      "common": "",
+      "medium": "",
+      "small": "",
+      "grid": ""
+    },
+    "staff": "艺术家"
+  },
+  {
+    "id": 603748,
+    "name": "みなみけ ドラマCD",
+    "name_cn": "",
+    "type": 3,
+    "images": {
+      "large": "",
+      "common": "",
+      "medium": "",
+      "small": "",
+      "grid": ""
+    },
+    "staff": "艺术家"
+  },
+  {
+    "id": 603751,
+    "name": "みなみけ おかわり ドラマCD",
+    "name_cn": "",
+    "type": 3,
+    "images": {
+      "large": "",
+      "common": "",
+      "medium": "",
+      "small": "",
+      "grid": ""
+    },
+    "staff": "艺术家"
+  },
+  {
+    "id": 603753,
+    "name": "みなみけ おかえり ドラマCD",
+    "name_cn": "",
+    "type": 3,
+    "images": {
+      "large": "",
+      "common": "",
+      "medium": "",
+      "small": "",
+      "grid": ""
+    },
+    "staff": "艺术家"
+  },
+  {
+    "id": 603754,
+    "name": "みなみけ ただいま ドラマCD Vol.1",
+    "name_cn": "",
+    "type": 3,
+    "images": {
+      "large": "",
+      "common": "",
+      "medium": "",
+      "small": "",
+      "grid": ""
+    },
+    "staff": "艺术家"
+  },
+  {
+    "id": 604535,
+    "name": "WWW.WORKING!! ドラマCD「恋人なら手を繋ごう」",
+    "name_cn": "",
+    "type": 3,
+    "images": {
+      "large": "",
+      "common": "",
+      "medium": "",
+      "small": "",
+      "grid": ""
+    },
+    "staff": "艺术家"
+  },
+  {
+    "id": 604533,
+    "name": "WWW.WORKING!! ドラマCD「河野、ワグナリア辞めるってよ」",
+    "name_cn": "",
+    "type": 3,
+    "images": {
+      "large": "",
+      "common": "",
+      "medium": "",
+      "small": "",
+      "grid": ""
+    },
+    "staff": "艺术家"
+  },
+  {
+    "id": 622711,
+    "name": "THE MUSEUM IV",
+    "name_cn": "",
+    "type": 3,
+    "images": {
+      "large": "",
+      "common": "",
+      "medium": "",
+      "small": "",
+      "grid": ""
+    },
+    "staff": "作词"
+  },
+  {
+    "id": 604544,
+    "name": "WEB版 WORKING!! 4 ドラマCD",
+    "name_cn": "",
+    "type": 3,
+    "images": {
+      "large": "",
+      "common": "",
+      "medium": "",
+      "small": "",
+      "grid": ""
+    },
+    "staff": "艺术家"
+  },
+  {
+    "id": 604545,
+    "name": "WEB版 WORKING!! 5 ドラマCD",
+    "name_cn": "",
+    "type": 3,
+    "images": {
+      "large": "",
+      "common": "",
+      "medium": "",
+      "small": "",
+      "grid": ""
+    },
+    "staff": "艺术家"
+  },
+  {
+    "id": 626442,
+    "name": "SAVE THE WORLD",
+    "name_cn": "",
+    "type": 3,
+    "images": {
+      "large": "",
+      "common": "",
+      "medium": "",
+      "small": "",
+      "grid": ""
+    },
+    "staff": "艺术家"
+  },
+  {
+    "id": 530729,
+    "name": "魔法少女リリカルなのは EXCEEDS Gun Blaze Vengeance",
+    "name_cn": "魔法少女奈叶 EXCEEDS Gun Blaze Vengeance",
+    "type": 2,
+    "images": {
+      "large": "",
+      "common": "",
+      "medium": "",
+      "small": "",
+      "grid": ""
+    },
+    "staff": "主题歌演出"
+  },
+  {
+    "id": 564090,
+    "name": "Animelo Summer Live 2025 “ThanXX!”",
+    "name_cn": "",
+    "type": 6,
+    "images": {
+      "large": "",
+      "common": "",
+      "medium": "",
+      "small": "",
+      "grid": ""
+    },
+    "staff": "主演"
+  }
+]

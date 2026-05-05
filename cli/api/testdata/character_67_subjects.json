@@ -1,0 +1,86 @@
+[
+  {
+    "id": 232,
+    "name": "AIR",
+    "name_cn": "",
+    "type": 4,
+    "images": {
+      "large": "",
+      "common": "",
+      "medium": "",
+      "small": "",
+      "grid": ""
+    },
+    "staff": "主角"
+  },
+  {
+    "id": 234,
+    "name": "AIR",
+    "name_cn": "",
+    "type": 2,
+    "images": {
+      "large": "",
+      "common": "",
+      "medium": "",
+      "small": "",
+      "grid": ""
+    },
+    "staff": "配角"
+  },
+  {
+    "id": 2127,
+    "name": "AIR IN SUMMER",
+    "name_cn": "AIR 夏季篇",
+    "type": 2,
+    "images": {
+      "large": "",
+      "common": "",
+      "medium": "",
+      "small": "",
+      "grid": ""
+    },
+    "staff": "主角"
+  },
+  {
+    "id": 3410,
+    "name": "Air 劇場版",
+    "name_cn": "AIR 剧场版",
+    "type": 2,
+    "images": {
+      "large": "",
+      "common": "",
+      "medium": "",
+      "small": "",
+      "grid": ""
+    },
+    "staff": "客串"
+  },
+  {
+    "id": 333598,
+    "name": "かぎなど",
+    "name_cn": "键等",
+    "type": 2,
+    "images": {
+      "large": "",
+      "common": "",
+      "medium": "",
+      "small": "",
+      "grid": ""
+    },
+    "staff": "配角"
+  },
+  {
+    "id": 363880,
+    "name": "かぎなど シーズン2",
+    "name_cn": "键等 第二季",
+    "type": 2,
+    "images": {
+      "large": "",
+      "common": "",
+      "medium": "",
+      "small": "",
+      "grid": ""
+    },
+    "staff": "配角"
+  }
+]

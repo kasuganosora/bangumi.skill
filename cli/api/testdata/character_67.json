@@ -1,0 +1,49 @@
+{
+  "id": 67,
+  "name": "裏葉",
+  "type": 1,
+  "images": {
+    "large": "https://lain.bgm.tv/pic/crt/l/75/22/67_crt_Ho0oO.jpg",
+    "medium": "https://lain.bgm.tv/r/400/pic/crt/l/75/22/67_crt_Ho0oO.jpg",
+    "small": "https://lain.bgm.tv/r/100/pic/crt/l/75/22/67_crt_Ho0oO.jpg",
+    "grid": "https://lain.bgm.tv/pic/crt/g/75/22/67_crt_Ho0oO.jpg"
+  },
+  "summary": "陪同着柳也神奈逃出的，也是守护侍候着神奈的一位女性。为人能干并且处事谨慎，温柔和蔼可亲可人这些词都可以加在她的身上，然而呢，虽然偶尔也是有着一些小不正经的性格，常常弄得柳也与“小孩子般的”神奈满头雾水（她个人的戏份也大多是动画的风趣之处所在），可是相较之下并不平常的是，她跟柳也一样，在平和的外表下有着一颗不平静的心，拥有着泰山崩于面前也能毫不动容的冷静与坚毅。据神奈的母亲说她的身上具有“方术”这样的能力，最终与柳也共结连理，因练有法术而世代传承下来，国崎往人的能力便是来自于此。",
+  "locked": false,
+  "infobox": [
+    {
+      "key": "简体中文名",
+      "value": "里叶"
+    },
+    {
+      "key": "别名",
+      "value": [
+        {
+          "k": "日文名",
+          "v": "裏葉"
+        },
+        {
+          "k": "纯假名",
+          "v": "うらは"
+        },
+        {
+          "k": "罗马字",
+          "v": "Uraha"
+        }
+      ]
+    },
+    {
+      "key": "性别",
+      "value": "女"
+    }
+  ],
+  "gender": "female",
+  "blood_type": null,
+  "birth_year": null,
+  "birth_mon": null,
+  "birth_day": null,
+  "stat": {
+    "comments": 5,
+    "collects": 36
+  }
+}

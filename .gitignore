@@ -1,0 +1,20 @@
+# CLI build output
+cli/bin/
+skill/bangumi
+skill/bangumi.exe
+
+# Test + Build artifacts
+*.out
+coverage.*
+*.txt
+cli/api.test
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# temp
+temp_bangumi_api/

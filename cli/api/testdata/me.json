@@ -1,0 +1,12 @@
+{
+  "id": 999999,
+  "username": "demo_user",
+  "nickname": "DemoUser",
+  "user_group": 10,
+  "avatar": {
+    "large": "https://lain.bgm.tv/pic/user/l/icon.jpg",
+    "medium": "https://lain.bgm.tv/pic/user/m/icon.jpg",
+    "small": "https://lain.bgm.tv/pic/user/s/icon.jpg"
+  },
+  "sign": "This is a demo account for testing"
+}

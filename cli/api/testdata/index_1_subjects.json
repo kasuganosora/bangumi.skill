@@ -1,0 +1,77 @@
+{
+  "data": [
+    {
+      "id": 12,
+      "type": 2,
+      "name": "ちょびっツ",
+      "comment": "因为篇幅关系动画大部分时间都用在卖萌上了，结局与漫画大相径庭",
+      "added_at": "2010-06-05T20:36:32+08:00",
+      "images": {
+        "large": "https://lain.bgm.tv/pic/cover/l/c2/0a/12_q23bZ.jpg",
+        "common": "https://lain.bgm.tv/r/400/pic/cover/l/c2/0a/12_q23bZ.jpg",
+        "medium": "https://lain.bgm.tv/r/800/pic/cover/l/c2/0a/12_q23bZ.jpg",
+        "small": "https://lain.bgm.tv/r/200/pic/cover/l/c2/0a/12_q23bZ.jpg",
+        "grid": "https://lain.bgm.tv/r/100/pic/cover/l/c2/0a/12_q23bZ.jpg"
+      }
+    },
+    {
+      "id": 497,
+      "type": 1,
+      "name": "ちょびっツ",
+      "comment": "大妈们青年漫画的试水之作，漫画剧情保持了一贯的水准",
+      "added_at": "2010-06-05T20:36:41+08:00",
+      "images": {
+        "large": "https://lain.bgm.tv/pic/cover/l/73/80/497_7mGTv.jpg",
+        "common": "https://lain.bgm.tv/r/400/pic/cover/l/73/80/497_7mGTv.jpg",
+        "medium": "https://lain.bgm.tv/r/800/pic/cover/l/73/80/497_7mGTv.jpg",
+        "small": "https://lain.bgm.tv/r/200/pic/cover/l/73/80/497_7mGTv.jpg",
+        "grid": "https://lain.bgm.tv/r/100/pic/cover/l/73/80/497_7mGTv.jpg"
+      }
+    },
+    {
+      "id": 11,
+      "type": 1,
+      "name": "ちょびっツの「ツ」の字 - Chobits Fan Book",
+      "comment": "",
+      "added_at": "2010-06-05T20:36:25+08:00",
+      "images": {
+        "large": "https://lain.bgm.tv/pic/cover/l/65/12/11_bsxG3.jpg",
+        "common": "https://lain.bgm.tv/r/400/pic/cover/l/65/12/11_bsxG3.jpg",
+        "medium": "https://lain.bgm.tv/r/800/pic/cover/l/65/12/11_bsxG3.jpg",
+        "small": "https://lain.bgm.tv/r/200/pic/cover/l/65/12/11_bsxG3.jpg",
+        "grid": "https://lain.bgm.tv/r/100/pic/cover/l/65/12/11_bsxG3.jpg"
+      }
+    },
+    {
+      "id": 4989,
+      "type": 3,
+      "name": "Let Me Be With You",
+      "comment": "主题曲",
+      "added_at": "2013-01-21T14:24:25+08:00",
+      "images": {
+        "large": "https://lain.bgm.tv/pic/cover/l/c4/57/4989_GDmg2.jpg",
+        "common": "https://lain.bgm.tv/r/400/pic/cover/l/c4/57/4989_GDmg2.jpg",
+        "medium": "https://lain.bgm.tv/r/800/pic/cover/l/c4/57/4989_GDmg2.jpg",
+        "small": "https://lain.bgm.tv/r/200/pic/cover/l/c4/57/4989_GDmg2.jpg",
+        "grid": "https://lain.bgm.tv/r/100/pic/cover/l/c4/57/4989_GDmg2.jpg"
+      }
+    },
+    {
+      "id": 4994,
+      "type": 3,
+      "name": "Raison d'être",
+      "comment": "",
+      "added_at": "2010-06-05T20:37:14+08:00",
+      "images": {
+        "large": "https://lain.bgm.tv/pic/cover/l/1f/d0/4994_abaIR.jpg",
+        "common": "https://lain.bgm.tv/r/400/pic/cover/l/1f/d0/4994_abaIR.jpg",
+        "medium": "https://lain.bgm.tv/r/800/pic/cover/l/1f/d0/4994_abaIR.jpg",
+        "small": "https://lain.bgm.tv/r/200/pic/cover/l/1f/d0/4994_abaIR.jpg",
+        "grid": "https://lain.bgm.tv/r/100/pic/cover/l/1f/d0/4994_abaIR.jpg"
+      }
+    }
+  ],
+  "total": 7,
+  "limit": 5,
+  "offset": 0
+}
