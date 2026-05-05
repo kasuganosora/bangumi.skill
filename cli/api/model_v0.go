@@ -185,6 +185,13 @@ type CharacterFull struct {
 	Persons  []CharacterPerson  `json:"persons"`
 }
 
+// PersonFull 人物完整信息（详情 + 参与作品 + 配音角色）
+type PersonFull struct {
+	Detail     PersonDetail       `json:"detail"`
+	Subjects   []V0RelatedSubject `json:"subjects"`
+	Characters []CharacterPerson  `json:"characters"`
+}
+
 // CharacterPerson 角色关联的人物（声优）
 type CharacterPerson struct {
 	ID            int           `json:"id"`

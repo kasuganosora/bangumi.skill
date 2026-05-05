@@ -49,11 +49,34 @@ var personGetCmd = &cobra.Command{
 		if err != nil {
 			return err
 		}
-		p, err := client.GetPersonByID(BackgroundCtx(), id)
-		if err != nil {
-			return err
+		ctx := BackgroundCtx()
+
+		// 并行获取人物详情 + 参与作品 + 配音角色
+		type result struct {
+			p     *api.PersonDetail
+			sub   []api.V0RelatedSubject
+			chars []api.CharacterPerson
 		}
-		return PrintOutput(p, formatPerson(p))
+		ch := make(chan result, 1)
+		go func() {
+			var r result
+			r.p, _ = client.GetPersonByID(ctx, id)
+			r.sub, _ = client.GetPersonSubjects(ctx, id)
+			r.chars, _ = client.GetPersonCharacters(ctx, id)
+			ch <- r
+		}()
+		r := <-ch
+
+		if r.p == nil {
+			return fmt.Errorf("未找到人物 (ID: %d)", id)
+		}
+
+		full := &api.PersonFull{
+			Detail:     *r.p,
+			Subjects:   r.sub,
+			Characters: r.chars,
+		}
+		return PrintOutput(full, formatPersonFull(full))
 	},
 }
 
@@ -107,27 +130,61 @@ var personCharactersCmd = &cobra.Command{
 	},
 }
 
-func formatPerson(p *api.PersonDetail) fmt.Stringer {
+func formatPersonFull(f *api.PersonFull) fmt.Stringer {
 	return stringerFunc(func() string {
 		var b strings.Builder
-		b.WriteString(fmt.Sprintf("👤 %s [ID:%d]\n", p.Name, p.ID))
+		p := f.Detail
+
+		// ── 基本信息 ──
+		fmt.Fprintf(&b, "👤 %s [ID:%d]\n", p.Name, p.ID)
 		if len(p.Career) > 0 {
-			b.WriteString(fmt.Sprintf("职业: %s\n", strings.Join(p.Career, "/")))
+			fmt.Fprintf(&b, "职业: %s\n", strings.Join(p.Career, "/"))
 		}
 		if p.Gender != "" {
-			b.WriteString(fmt.Sprintf("性别: %s", p.Gender))
+			fmt.Fprintf(&b, "性别: %s", p.Gender)
 		}
 		if p.BloodType != nil {
-			b.WriteString(fmt.Sprintf(" | 血型: %s", bloodName(*p.BloodType)))
+			fmt.Fprintf(&b, " | 血型: %s", bloodName(*p.BloodType))
 		}
 		b.WriteString("\n")
 		if p.BirthYear != nil {
-			b.WriteString(fmt.Sprintf("生日: %d-%d-%d\n", *p.BirthYear, *p.BirthMon, *p.BirthDay))
+			fmt.Fprintf(&b, "生日: %d-%d-%d\n", *p.BirthYear, *p.BirthMon, *p.BirthDay)
 		}
-		b.WriteString(fmt.Sprintf("收藏数: %d | 评论数: %d\n", p.Stat.Collects, p.Stat.Comments))
+		fmt.Fprintf(&b, "收藏数: %d | 评论数: %d\n", p.Stat.Collects, p.Stat.Comments)
 		if p.Summary != "" {
-			b.WriteString(fmt.Sprintf("简介: %s\n", p.Summary))
+			fmt.Fprintf(&b, "简介: %s\n", p.Summary)
 		}
+
+		// ── 参与作品 ──
+		if len(f.Subjects) > 0 {
+			b.WriteString("\n")
+			fmt.Fprintf(&b, "参与作品 (%d 项):\n", len(f.Subjects))
+			for i, s := range f.Subjects {
+				fmt.Fprintf(&b, "  %d. %s", i+1, s.Name)
+				if s.NameCN != "" {
+					fmt.Fprintf(&b, " (%s)", s.NameCN)
+				}
+				fmt.Fprintf(&b, " [ID:%d]", s.ID)
+				if s.Staff != "" {
+					fmt.Fprintf(&b, " - %s", s.Staff)
+				}
+				b.WriteString("\n")
+			}
+		}
+
+		// ── 配音角色 ──
+		if len(f.Characters) > 0 {
+			b.WriteString("\n")
+			fmt.Fprintf(&b, "配音角色 (%d 人):\n", len(f.Characters))
+			for i, c := range f.Characters {
+				fmt.Fprintf(&b, "  %d. %s [ID:%d] | 出自: %s", i+1, c.Name, c.ID, c.SubjectName)
+				if c.SubjectNameCN != "" {
+					fmt.Fprintf(&b, " (%s)", c.SubjectNameCN)
+				}
+				b.WriteString("\n")
+			}
+		}
+
 		return b.String()
 	})
 }
