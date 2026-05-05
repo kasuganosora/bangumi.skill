@@ -127,29 +127,29 @@ var collectionCmd = &cobra.Command{
 }
 
 var collectionListCmd = &cobra.Command{
-	Use:   "list [用户ID]",
+	Use:   "list [用户名]",
 	Short: "列出收藏（默认自己）",
 	Long: `列出用户收藏的条目，可按类型和收藏状态筛选。不传默认查看自己的收藏。
 
 筛选示例:
   bangumi collection list                                     # 自己的全部收藏
   bangumi collection list --subject-type 2 --collection-type 3 # 自己在看的动画
-  bangumi collection list 1 --subject-type 2                   # ID=1的动画收藏`,
+  bangumi collection list sai --subject-type 2                 # sai的动画收藏`,
 	Args: cobra.MaximumNArgs(1),
 	RunE: func(cmd *cobra.Command, args []string) error {
 		client, _, err := NewAPIClient()
 		if err != nil {
 			return err
 		}
-		uid := 0
+		username := ""
 		if len(args) == 1 {
-			uid, _ = parseInt(args[0])
+			username = args[0]
 		} else {
 			me, err := client.GetMe(BackgroundCtx())
 			if err != nil {
-				return fmt.Errorf("请指定用户ID或确保已登录: %w", err)
+				return fmt.Errorf("请指定用户名或确保已登录: %w", err)
 			}
-			uid = me.ID
+			username = me.Username
 		}
 		var st *api.SubjectType
 		var ct *api.SubjectCollectionType
@@ -166,7 +166,7 @@ var collectionListCmd = &cobra.Command{
 		limit, _ := cmd.Flags().GetInt("limit")
 		offset, _ := cmd.Flags().GetInt("offset")
 
-		result, err := client.GetUserCollections(BackgroundCtx(), fmt.Sprintf("%d", uid), st, ct, limit, offset)
+		result, err := client.GetUserCollections(BackgroundCtx(), username, st, ct, limit, offset)
 		if err != nil {
 			return err
 		}
@@ -382,30 +382,30 @@ var collectionUpdateEpisodeCmd = &cobra.Command{
 // ── collection characters ──
 
 var collectionCharactersCmd = &cobra.Command{
-	Use:   "characters [用户ID]",
+	Use:   "characters [用户名]",
 	Short: "查看收藏的角色（默认自己）",
 	Long: `查看用户收藏的角色列表。不传参数默认查看自己。
 
 示例:
   bangumi collection characters              # 自己的收藏
-  bangumi collection characters 10718        # 指定用户ID`,
+  bangumi collection characters sai          # sai的收藏`,
 	Args: cobra.MaximumNArgs(1),
 	RunE: func(cmd *cobra.Command, args []string) error {
 		client, _, err := NewAPIClient()
 		if err != nil {
 			return err
 		}
-		uid := 0
+		username := ""
 		if len(args) == 1 {
-			uid, _ = parseInt(args[0])
+			username = args[0]
 		} else {
 			me, err := client.GetMe(BackgroundCtx())
 			if err != nil {
-				return fmt.Errorf("请指定用户ID或确保已登录: %w", err)
+				return fmt.Errorf("请指定用户名或确保已登录: %w", err)
 			}
-			uid = me.ID
+			username = me.Username
 		}
-		chars, err := client.GetUserCharacterCollections(BackgroundCtx(), fmt.Sprintf("%d", uid))
+		chars, err := client.GetUserCharacterCollections(BackgroundCtx(), username)
 		if err != nil {
 			return err
 		}
@@ -416,30 +416,30 @@ var collectionCharactersCmd = &cobra.Command{
 // ── collection persons ──
 
 var collectionPersonsCmd = &cobra.Command{
-	Use:   "persons [用户ID]",
+	Use:   "persons [用户名]",
 	Short: "查看收藏的人物（默认自己）",
 	Long: `查看用户收藏的人物列表（声优/导演等）。不传参数默认查看自己。
 
 示例:
   bangumi collection persons                  # 自己的收藏
-  bangumi collection persons 10718            # 指定用户ID`,
+  bangumi collection persons sai              # sai的收藏`,
 	Args: cobra.MaximumNArgs(1),
 	RunE: func(cmd *cobra.Command, args []string) error {
 		client, _, err := NewAPIClient()
 		if err != nil {
 			return err
 		}
-		uid := 0
+		username := ""
 		if len(args) == 1 {
-			uid, _ = parseInt(args[0])
+			username = args[0]
 		} else {
 			me, err := client.GetMe(BackgroundCtx())
 			if err != nil {
-				return fmt.Errorf("请指定用户ID或确保已登录: %w", err)
+				return fmt.Errorf("请指定用户名或确保已登录: %w", err)
 			}
-			uid = me.ID
+			username = me.Username
 		}
-		persons, err := client.GetUserPersonCollections(BackgroundCtx(), fmt.Sprintf("%d", uid))
+		persons, err := client.GetUserPersonCollections(BackgroundCtx(), username)
 		if err != nil {
 			return err
 		}
