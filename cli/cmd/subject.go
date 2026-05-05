@@ -148,11 +148,11 @@ func formatSubjectDetail(s *api.Subject) fmt.Stringer {
 			b.WriteString(fmt.Sprintf("标签: %s\n", strings.Join(tags, ", ")))
 		}
 		if s.Summary != "" {
-			summary := s.Summary
+			summary := []rune(s.Summary)
 			if len(summary) > 200 {
-				summary = summary[:200] + "..."
+				summary = append(summary[:200], []rune("...")...)
 			}
-			b.WriteString(fmt.Sprintf("\n简介: %s\n", summary))
+			fmt.Fprintf(&b, "\n简介: %s\n", string(summary))
 		}
 		return b.String()
 	})
