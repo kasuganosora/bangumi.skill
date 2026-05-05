@@ -1,22 +1,42 @@
 # Bangumi Skill
 
-AI Agent 友好的 [Bangumi (bgm.tv)](https://bgm.tv) 命令行工具，用于管理番剧追番、条目搜索、角色/声优查询等功能。作为 Ai Agent Skill 使用，也可独立运行。
+AI Agent 友好的 [Bangumi (bgm.tv)](https://bgm.tv) 命令行工具，用于管理番剧追番、条目搜索、角色/声优查询等功能。作为 **CodeBuddy Agent Skill** 使用，也可独立运行。
 
-## 快速开始
+## 安装到 AI Agent（CodeBuddy）
 
-### 1. 下载
+### 方式一：从 Release 安装（推荐）
 
-从 [Releases](https://github.com/kasuganosora/bangumi.skill/releases) 下载对应平台的 zip 包，解压到 `skill/` 目录。
+1. 从 [Releases](https://github.com/kasuganosora/bangumi.skill/releases) 下载对应平台的 zip 包
+2. 解压到你的工作目录下，确保 `skill/` 目录结构如下：
 
-### 2. 设置令牌
+```
+你的项目/
+└── skill/
+    ├── SKILL.md
+    └── bangumi(.exe)
+```
+
+3. Agent 会自动发现 `skill/SKILL.md` 并启用该技能
+
+### 方式二：从源码安装
+
+```bash
+git clone https://github.com/kasuganosora/bangumi.skill.git
+cd bangumi.skill/cli
+go build -o ../skill/bangumi .
+```
+
+### 配置令牌
+
+安装后，在任意终端执行一次令牌配置（Agent 后续会复用）：
 
 ```bash
 skill/bangumi auth login --token "你的令牌"
 ```
 
-令牌申请：https://next.bgm.tv/demo/access-token
+> 令牌申请：https://next.bgm.tv/demo/access-token
 
-### 3. 开始使用
+## 快速开始
 
 ```bash
 # 查看今日放送
