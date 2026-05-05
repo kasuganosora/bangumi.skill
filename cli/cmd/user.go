@@ -124,24 +124,33 @@ var collectionCmd = &cobra.Command{
 }
 
 var collectionListCmd = &cobra.Command{
-	Use:   "list <用户名>",
-	Short: "列出用户收藏",
-	Long: `列出指定用户收藏的条目，可按类型和收藏状态筛选。
+	Use:   "list [用户名]",
+	Short: "列出收藏（默认自己）",
+	Long: `列出用户收藏的条目，可按类型和收藏状态筛选。不传用户名默认查看自己的收藏。
 
 使用场景:
-  - 查看某人看过哪些动画
-  - 查看某人正在追哪些番
-  - 获取用户某类条目的收藏列表
+  - 查看自己看过/在看/想看的动画
+  - 查看某人的收藏列表
 
 筛选示例:
-  bangumi collection list sai --subject-type 2 --collection-type 3    # sai在看的动画
-  bangumi collection list sai --subject-type 2 --collection-type 2    # sai看过的动画
-  bangumi collection list sai --limit 10                              # 前10条`,
-	Args: cobra.ExactArgs(1),
+  bangumi collection list                                     # 自己的全部收藏
+  bangumi collection list --subject-type 2 --collection-type 3 # 自己在看的动画
+  bangumi collection list sai --subject-type 2                 # sai的动画收藏`,
+	Args: cobra.MaximumNArgs(1),
 	RunE: func(cmd *cobra.Command, args []string) error {
 		client, _, err := NewAPIClient()
 		if err != nil {
 			return err
+		}
+		username := ""
+		if len(args) == 1 {
+			username = args[0]
+		} else {
+			me, err := client.GetMe(BackgroundCtx())
+			if err != nil {
+				return fmt.Errorf("请指定用户名或确保已登录: %w", err)
+			}
+			username = me.Username
 		}
 		var st *api.SubjectType
 		var ct *api.SubjectCollectionType
@@ -158,7 +167,7 @@ var collectionListCmd = &cobra.Command{
 		limit, _ := cmd.Flags().GetInt("limit")
 		offset, _ := cmd.Flags().GetInt("offset")
 
-		result, err := client.GetUserCollections(BackgroundCtx(), args[0], st, ct, limit, offset)
+		result, err := client.GetUserCollections(BackgroundCtx(), username, st, ct, limit, offset)
 		if err != nil {
 			return err
 		}
