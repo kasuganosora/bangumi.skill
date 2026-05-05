@@ -359,14 +359,20 @@ type UserEpisodeCollection struct {
 
 // UserCharacterCollection 用户角色收藏
 type UserCharacterCollection struct {
-	CharacterID int    `json:"character_id"`
-	CreatedAt   string `json:"created_at"`
+	ID        int          `json:"id"`
+	Type      int          `json:"type"`
+	Name      string       `json:"name"`
+	Images    PersonImages `json:"images"`
+	CreatedAt string       `json:"created_at"`
 }
 
 // UserPersonCollection 用户人物收藏
 type UserPersonCollection struct {
-	PersonID  int    `json:"person_id"`
-	CreatedAt string `json:"created_at"`
+	ID        int          `json:"id"`
+	Type      int          `json:"type"`
+	Name      string       `json:"name"`
+	Images    PersonImages `json:"images"`
+	CreatedAt string       `json:"created_at"`
 }
 
 // ===========================================================================

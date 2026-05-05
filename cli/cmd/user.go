@@ -412,7 +412,7 @@ var collectionCharactersCmd = &cobra.Command{
 		if err != nil {
 			return err
 		}
-		return LoadFormat().Print(chars)
+		return LoadFormat().Print(formatCharCollection(chars))
 	},
 }
 
@@ -446,7 +446,7 @@ var collectionPersonsCmd = &cobra.Command{
 		if err != nil {
 			return err
 		}
-		return LoadFormat().Print(persons)
+		return LoadFormat().Print(formatPersonCollection(persons))
 	},
 }
 
@@ -573,4 +573,28 @@ func collectionTypeName(t api.SubjectCollectionType) string {
 	default:
 		return "未知"
 	}
+}
+
+func formatCharCollection(items []api.UserCharacterCollection) fmt.Stringer {
+	return stringerFunc(func() string {
+		var b strings.Builder
+		b.WriteString(fmt.Sprintf("收藏的角色 (%d 项):\n", len(items)))
+		b.WriteString(strings.Repeat("─", 40) + "\n")
+		for i, c := range items {
+			b.WriteString(fmt.Sprintf("%d. %s [ID:%d]  %s\n", i+1, c.Name, c.ID, c.CreatedAt))
+		}
+		return b.String()
+	})
+}
+
+func formatPersonCollection(items []api.UserPersonCollection) fmt.Stringer {
+	return stringerFunc(func() string {
+		var b strings.Builder
+		b.WriteString(fmt.Sprintf("收藏的人物 (%d 项):\n", len(items)))
+		b.WriteString(strings.Repeat("─", 40) + "\n")
+		for i, p := range items {
+			b.WriteString(fmt.Sprintf("%d. %s [ID:%d]  %s\n", i+1, p.Name, p.ID, p.CreatedAt))
+		}
+		return b.String()
+	})
 }
