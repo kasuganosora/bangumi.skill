@@ -188,28 +188,6 @@ func formatCharacterFull(f *api.CharacterFull) fmt.Stringer {
 	})
 }
 
-func formatCharacter(c *api.CharacterDetail) fmt.Stringer {
-	return stringerFunc(func() string {
-		var b strings.Builder
-		fmt.Fprintf(&b, "🎭 %s [ID:%d]\n", c.Name, c.ID)
-		if c.Gender != "" {
-			fmt.Fprintf(&b, "性别: %s", c.Gender)
-		}
-		if c.BloodType != nil {
-			fmt.Fprintf(&b, " | 血型: %s", bloodName(*c.BloodType))
-		}
-		b.WriteString("\n")
-		if c.BirthYear != nil {
-			fmt.Fprintf(&b, "生日: %d-%d-%d\n", *c.BirthYear, *c.BirthMon, *c.BirthDay)
-		}
-		fmt.Fprintf(&b, "收藏数: %d | 评论数: %d\n", c.Stat.Collects, c.Stat.Comments)
-		if c.Summary != "" {
-			fmt.Fprintf(&b, "简介: %s\n", c.Summary)
-		}
-		return b.String()
-	})
-}
-
 func formatCharSubjects(subs []api.V0RelatedSubject) fmt.Stringer {
 	return stringerFunc(func() string {
 		var b strings.Builder
