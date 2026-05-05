@@ -112,12 +112,12 @@ var characterPersonsCmd = &cobra.Command{
 func formatCharacter(c *api.CharacterDetail) fmt.Stringer {
 	return stringerFunc(func() string {
 		var b strings.Builder
-		b.WriteString(fmt.Sprintf("🎭 %s [ID:%d]\n", c.Name, c.ID))
+		fmt.Fprintf(&b, "🎭 %s [ID:%d]\n", c.Name, c.ID)
 		if c.Gender != "" {
-			b.WriteString(fmt.Sprintf("性别: %s", c.Gender))
+			fmt.Fprintf(&b, "性别: %s", c.Gender)
 		}
 		if c.BloodType != nil {
-			b.WriteString(fmt.Sprintf(" | 血型: %s", bloodName(*c.BloodType)))
+			fmt.Fprintf(&b, " | 血型: %s", bloodName(*c.BloodType))
 		}
 		b.WriteString("\n")
 		if c.BirthYear != nil {

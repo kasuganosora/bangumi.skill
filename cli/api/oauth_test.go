@@ -66,7 +66,7 @@ func (s *OAuthSuite) handleAccessToken(w http.ResponseWriter, r *http.Request) {
 	// 模拟无效 code
 	if r.FormValue("code") == "invalid" {
 		w.WriteHeader(http.StatusBadRequest)
-		w.Write([]byte(`{"error":"invalid_grant","error_description":"Invalid code"}`))
+		_, _ = w.Write([]byte(`{"error":"invalid_grant","error_description":"Invalid code"}`))
 		return
 	}
 
