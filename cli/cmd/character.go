@@ -121,11 +121,11 @@ func formatCharacter(c *api.CharacterDetail) fmt.Stringer {
 		}
 		b.WriteString("\n")
 		if c.BirthYear != nil {
-			b.WriteString(fmt.Sprintf("生日: %d-%d-%d\n", *c.BirthYear, *c.BirthMon, *c.BirthDay))
+			fmt.Fprintf(&b, "生日: %d-%d-%d\n", *c.BirthYear, *c.BirthMon, *c.BirthDay)
 		}
-		b.WriteString(fmt.Sprintf("收藏数: %d | 评论数: %d\n", c.Stat.Collects, c.Stat.Comments))
+		fmt.Fprintf(&b, "收藏数: %d | 评论数: %d\n", c.Stat.Collects, c.Stat.Comments)
 		if c.Summary != "" {
-			b.WriteString(fmt.Sprintf("简介: %s\n", c.Summary))
+			fmt.Fprintf(&b, "简介: %s\n", c.Summary)
 		}
 		return b.String()
 	})
