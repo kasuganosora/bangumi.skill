@@ -140,9 +140,9 @@ func formatCharSubjects(subs []api.V0RelatedSubject) fmt.Stringer {
 			if s.NameCN != "" {
 				fmt.Fprintf(&b, " (%s)", s.NameCN)
 			}
-			b.WriteString(fmt.Sprintf(" [ID:%d]", s.ID))
+			fmt.Fprintf(&b, " [ID:%d]", s.ID)
 			if s.Staff != "" {
-				b.WriteString(fmt.Sprintf(" - %s", s.Staff))
+				fmt.Fprintf(&b, " - %s", s.Staff)
 			}
 			b.WriteString("\n")
 		}
@@ -153,12 +153,12 @@ func formatCharSubjects(subs []api.V0RelatedSubject) fmt.Stringer {
 func formatCharPersons(persons []api.CharacterPerson) fmt.Stringer {
 	return stringerFunc(func() string {
 		var b strings.Builder
-		b.WriteString(fmt.Sprintf("声优列表 (%d 项):\n", len(persons)))
+		fmt.Fprintf(&b, "声优列表 (%d 项):\n", len(persons))
 		for i, p := range persons {
-			b.WriteString(fmt.Sprintf("%d. %s [ID:%d]", i+1, p.Name, p.ID))
-			b.WriteString(fmt.Sprintf(" | 角色: %s", p.SubjectName))
+			fmt.Fprintf(&b, "%d. %s [ID:%d]", i+1, p.Name, p.ID)
+			fmt.Fprintf(&b, " | 角色: %s", p.SubjectName)
 			if p.SubjectNameCN != "" {
-				b.WriteString(fmt.Sprintf(" (%s)", p.SubjectNameCN))
+				fmt.Fprintf(&b, " (%s)", p.SubjectNameCN)
 			}
 			b.WriteString("\n")
 		}
