@@ -142,21 +142,25 @@ skill/bangumi episode get <章节ID>
 ### 角色
 
 ```bash
-skill/bangumi character get "神尾观铃"
-skill/bangumi character subjects "神尾观铃"     # 出演作品
-skill/bangumi character persons "神尾观铃"      # 声优
+skill/bangumi character get "神尾观铃"          # 详情 + 出演作品 + 声优（一次返回聚合数据）
+skill/bangumi character subjects "神尾观铃"     # 仅出演作品
+skill/bangumi character persons "神尾观铃"      # 仅声优
 skill/bangumi character collect "神尾观铃"      # 收藏（需令牌）
 skill/bangumi character uncollect "神尾观铃"    # 取消收藏
 ```
 
+> **注意：** `character get` 会自动附带该角色的出演作品列表和声优列表，无需再单独调用 subjects/persons。
+
 ### 人物（声优/导演）
 
 ```bash
-skill/bangumi person get "神尾观铃"
-skill/bangumi person subjects "神尾观铃"        # 参与作品
-skill/bangumi person characters "神尾观铃"      # 配音角色
+skill/bangumi person get "神尾观铃"             # 详情 + 参与作品 + 配音角色（一次返回聚合数据）
+skill/bangumi person subjects "神尾观铃"        # 仅参与作品
+skill/bangumi person characters "神尾观铃"      # 仅配音角色
 skill/bangumi person collect "神尾观铃"         # 收藏
 ```
+
+> **注意：** `person get` 会自动附带该人物的参与作品列表和配音角色列表，无需再单独调用 subjects/characters。
 
 ### 用户
 
