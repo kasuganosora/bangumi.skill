@@ -7,6 +7,35 @@ description: Manage Bangumi (番组计划) anime tracking. Use this skill whenev
 
 通过 `skill/bangumi` (Linux/macOS) 或 `skill/bangumi.exe` (Windows) 命令行工具管理 Bangumi (bgm.tv) 账号
 
+## ⚡ 核心原则 — 重要！必须遵守！
+
+**1. 直接传名字，不要先搜索再标记！**
+
+```bash
+# ✅ 正确 — 一条命令搞定
+skill/bangumi collection update "史上最强的大魔王转生为村民A" --type 3
+skill/bangumi collection update-episode "史上最强的大魔王转生为村民A" --ep 1 --type 2
+
+# ❌ 错误 — 不要这样！先搜索找ID再标记是多余的
+skill/bangumi search subjects "xxx"    # ← 不需要！
+skill/bangumi collection update 12345 --type 3  # ← 多此一举！
+```
+
+**2. 用户说"标记在看第N话" = 需要两条命令：**
+
+```bash
+skill/bangumi collection update "作品名" --type 3          # 标记在看
+skill/bangumi collection update-episode "作品名" --ep N --type 2  # 标记第N话看过
+```
+
+**3. 名称找不到时先搜索确认正确名称：**
+
+```bash
+# 如果直接传名字报错"未找到"，搜一下确认 Bangumi 上的准确名称
+skill/bangumi search subjects "关键词" --limit 3
+# 然后用搜索结果中的准确名字重新执行
+```
+
 ## 前置条件
 
 首次使用前必须配置令牌：
