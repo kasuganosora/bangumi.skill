@@ -45,11 +45,15 @@ var configProxyCmd = &cobra.Command{
 		val := args[0]
 		if val == "none" || val == "" {
 			cfg.Proxy = ""
-			if err := config.SaveConfig(cfg); err != nil { return err }
+			if err := config.SaveConfig(cfg); err != nil {
+				return err
+			}
 			fmt.Println("代理已清除。")
 		} else {
 			cfg.Proxy = val
-			if err := config.SaveConfig(cfg); err != nil { return err }
+			if err := config.SaveConfig(cfg); err != nil {
+				return err
+			}
 			fmt.Printf("代理已设置为: %s\n", val)
 		}
 		return nil

@@ -13,10 +13,10 @@ import (
 type Level = slog.Level
 
 const (
-	LevelDebug = slog.LevelDebug
-	LevelInfo  = slog.LevelInfo
-	LevelWarn  = slog.LevelWarn
-	LevelError = slog.LevelError
+	LevelDebug  = slog.LevelDebug
+	LevelInfo   = slog.LevelInfo
+	LevelWarn   = slog.LevelWarn
+	LevelError  = slog.LevelError
 	LevelSilent = slog.Level(12) // 高于所有级别，完全静默
 )
 

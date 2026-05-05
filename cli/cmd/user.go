@@ -217,7 +217,9 @@ var collectionUpdateCmd = &cobra.Command{
 		} else if len(args) == 1 {
 			var err error
 			sid, err = ResolveSubjectID(client, args[0])
-			if err != nil { return err }
+			if err != nil {
+				return err
+			}
 		} else {
 			return fmt.Errorf("请指定作品名称或通过 --id 指定条目ID")
 		}
@@ -284,7 +286,9 @@ var collectionEpisodesCmd = &cobra.Command{
 		} else if len(args) == 1 {
 			var err error
 			sid, err = ResolveSubjectID(client, args[0])
-			if err != nil { return err }
+			if err != nil {
+				return err
+			}
 		} else {
 			return fmt.Errorf("请指定作品名称或通过 --id 指定条目ID")
 		}
@@ -331,10 +335,14 @@ var collectionUpdateEpisodeCmd = &cobra.Command{
 				sid = subjID
 			} else {
 				sid, err = ResolveSubjectID(client, args[0])
-				if err != nil { return err }
+				if err != nil {
+					return err
+				}
 			}
 			eid, err = resolveEpisodeID(client, "", sid, epNum)
-			if err != nil { return err }
+			if err != nil {
+				return err
+			}
 		} else if len(args) == 1 {
 			// 直接章节ID
 			eid, _ = parseInt(args[0])

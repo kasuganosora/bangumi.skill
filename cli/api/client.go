@@ -124,12 +124,12 @@ func BuildUserAgent(v string) string {
 
 // HTTPClient 是 Client 接口的 HTTP 实现。
 type HTTPClient struct {
-	baseURL      *url.URL
-	oauthBaseURL    *url.URL
-	httpClient      *http.Client
-	userAgent       string
-	accessToken     string
-	onUnauthorized  func() // 401 回调：清除令牌并提示重新登录
+	baseURL        *url.URL
+	oauthBaseURL   *url.URL
+	httpClient     *http.Client
+	userAgent      string
+	accessToken    string
+	onUnauthorized func() // 401 回调：清除令牌并提示重新登录
 }
 
 // ClientOption 函数式选项模式
