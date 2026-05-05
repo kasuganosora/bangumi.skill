@@ -61,9 +61,9 @@ func NewAPIClient() (*api.HTTPClient, *config.TokenData, error) {
 		}
 		if td == nil || td.AccessToken == "" {
 			client, _ := api.NewClient(opts...)
-		return client, nil, fmt.Errorf(
-			"未设置个人令牌\n\n请先申请个人令牌: https://next.bgm.tv/demo/access-token\n然后运行: bangumi auth login --token <你的令牌>",
-		)
+			return client, nil, fmt.Errorf(
+				"未设置个人令牌\n\n请先申请个人令牌: https://next.bgm.tv/demo/access-token\n然后运行: bangumi auth login --token <你的令牌>",
+			)
 		}
 		opts = append(opts, api.WithAccessToken(td.AccessToken))
 	}

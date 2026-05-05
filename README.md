@@ -1,40 +1,35 @@
 # Bangumi Skill
 
-AI Agent 友好的 [Bangumi (bgm.tv)](https://bgm.tv) 命令行工具，用于管理番剧追番、条目搜索、角色/声优查询等功能。作为 **CodeBuddy Agent Skill** 使用，也可独立运行。
+[Bangumi (bgm.tv)](https://bgm.tv) 的 AI Agent Skill — 让 Agent 直接操作番剧追番、条目搜索、角色/声优查询。
 
-## 安装到 AI Agent（CodeBuddy）
+## 🤖 AI 安装说明（给 Agent 看的）
 
-### 方式一：从 Release 安装（推荐）
+**一句话：** 下载 Release zip → 解压到项目 `skill/` 目录 → 配置令牌 → Agent 自动启用。
 
-1. 从 [Releases](https://github.com/kasuganosora/bangumi.skill/releases) 下载对应平台的 zip 包
-2. 解压到你的工作目录下，确保 `skill/` 目录结构如下：
-
+**目录结构：**
 ```
 你的项目/
 └── skill/
-    ├── SKILL.md
-    └── bangumi(.exe)
+    ├── SKILL.md          ← Agent 读到这个自动加载技能
+    └── bangumi(.exe)     ← SKILL.md 里命令调用的工具
 ```
 
-3. Agent 会自动发现 `skill/SKILL.md` 并启用该技能
-
-### 方式二：从源码安装
+**完整命令：**
 
 ```bash
-git clone https://github.com/kasuganosora/bangumi.skill.git
-cd bangumi.skill/cli
-go build -o ../skill/bangumi .
+# 1. 从 Release 下载对应平台 zip 并解压到 skill/
+# https://github.com/kasuganosora/bangumi.skill/releases
+
+# 2. 配置令牌（只需一次）
+./skill/bangumi auth login --token "你的令牌"
+# 令牌申请: https://next.bgm.tv/demo/access-token
+
+# 3. 完成 — Agent 会自动根据用户意图调用 skill/bangumi
 ```
 
-### 配置令牌
+> **原理：** Agent 扫描工作目录下的 `skill/SKILL.md`，读取技能定义后，根据用户意图自动选择命令执行。用户无需手动教 Agent 怎么用。
 
-安装后，在任意终端执行一次令牌配置（Agent 后续会复用）：
-
-```bash
-skill/bangumi auth login --token "你的令牌"
-```
-
-> 令牌申请：https://next.bgm.tv/demo/access-token
+---
 
 ## 快速开始
 
@@ -80,7 +75,7 @@ skill/bangumi collection update-episode "AIR" --ep 1 --type 2  # 第1话看过
 
 输出默认为人类可读文本，可用 `--output json` 切换为 JSON。
 
-## 构建
+## 开发
 
 ```bash
 cd cli
@@ -88,9 +83,11 @@ go build -o bin/bangumi .
 go test ./...
 ```
 
+Git pre-commit hook 自动执行 `gofmt` + `golangci-lint`。
+
 ## CI / Release
 
-Push 到 main/master 触发 lint + test。打 `v*` tag 自动构建 6 平台（Linux/Windows/macOS × x86_64/ARM64）并发布 Release。
+Push → lint + test。打 `v*` tag → 构建 6 平台 Release（Linux/Windows/macOS × x86_64/ARM64）。
 
 ## 项目结构
 
@@ -104,5 +101,6 @@ bangumi.skill/
 │   ├── cmd/           # Cobra CLI 命令
 │   ├── internal/      # 配置/输出模块
 │   └── log/           # slog 日志封装
+├── scripts/           # pre-commit hook 等
 └── .github/workflows/ # CI/CD
 ```
