@@ -114,14 +114,15 @@ var collectionCmd = &cobra.Command{
   1=想看  2=看过  3=在看  4=搁置  5=抛弃
 
 典型追番流程:
-  1. collection update --subject "作品名" --type 3         # 标记"在看"
-  2. collection update-episode --subject "作品名" --ep 1 --type 2  # 标记第1话看过
-  3. collection update --subject "作品名" --type 2 --rate 9       # 看完后评分
+  1. collection watch "作品名" --ep 3                      # 在看，并标记第 1-3 话看过
+  2. collection update "作品名" --type 2 --rate 9          # 看完后评分
+  3. collection update-episode "作品名" --ep 1 --type 2    # 只改某一话
 
 子命令:
   list            - 列出用户收藏列表
   get             - 查看某条目的收藏详情
   update          - 修改收藏状态/评分/标签
+  watch           - 标记看到第 N 话
   episodes        - 查看章节观看进度
   update-episode  - 标记某一话看过/未看`,
 }
@@ -184,7 +185,10 @@ var collectionGetCmd = &cobra.Command{
 		if err != nil {
 			return err
 		}
-		sid, _ := parseInt(args[1])
+		sid, err := parsePositiveID(args[1], "条目ID")
+		if err != nil {
+			return err
+		}
 		c, err := client.GetUserSubjectCollection(BackgroundCtx(), args[0], sid)
 		if err != nil {
 			return err
@@ -219,17 +223,9 @@ var collectionUpdateCmd = &cobra.Command{
 		if err != nil {
 			return err
 		}
-		var sid int
-		if cmd.Flags().Changed("id") {
-			sid, _ = cmd.Flags().GetInt("id")
-		} else if len(args) == 1 {
-			var err error
-			sid, err = ResolveSubjectID(client, args[0])
-			if err != nil {
-				return err
-			}
-		} else {
-			return fmt.Errorf("请指定作品名称或通过 --id 指定条目ID")
+		subj, err := resolveSubjectArg(cmd, args, client)
+		if err != nil {
+			return err
 		}
 
 		var req api.UserSubjectCollectionUpdate
@@ -264,11 +260,20 @@ var collectionUpdateCmd = &cobra.Command{
 			req.Private = &v
 		}
 
-		if err := client.UpdateUserSubjectCollection(BackgroundCtx(), sid, req); err != nil {
+		if err := client.UpdateUserSubjectCollection(BackgroundCtx(), subj.ID, req); err != nil {
 			return err
 		}
-		fmt.Println("✅ 收藏状态已更新")
-		return nil
+		return PrintOutput(
+			map[string]interface{}{
+				"status":     "ok",
+				"subject_id": subj.ID,
+				"name":       subj.Name,
+				"name_cn":    subj.NameCN,
+			},
+			stringerFunc(func() string {
+				return fmt.Sprintf("已匹配: %s\n✅ 收藏状态已更新", formatSubjectMatch(subj))
+			}),
+		)
 	},
 }
 
@@ -333,27 +338,31 @@ var collectionUpdateEpisodeCmd = &cobra.Command{
 		t, _ := cmd.Flags().GetInt("type")
 
 		var eid int
+		var matched string
 		subjID, _ := cmd.Flags().GetInt("id")
 		epNum, _ := cmd.Flags().GetInt("ep")
 
 		// 通过 --ep + 名称/ID 自动查找章节
-		if epNum > 0 && (len(args) == 1 || subjID > 0) {
-			var sid int
-			if subjID > 0 {
-				sid = subjID
+		if epNum > 0 && (len(args) == 1 || cmd.Flags().Changed("id")) {
+			var subj api.Subject
+			if cmd.Flags().Changed("id") {
+				subj, err = subjectByID(client, subjID)
 			} else {
-				sid, err = ResolveSubjectID(client, args[0])
-				if err != nil {
-					return err
-				}
+				subj, err = resolveSubjectForWrite(client, args[0])
 			}
-			eid, err = resolveEpisodeID(client, "", sid, epNum)
+			if err != nil {
+				return err
+			}
+			matched = formatSubjectMatch(subj)
+			eid, err = resolveEpisodeID(client, subj.ID, epNum)
 			if err != nil {
 				return err
 			}
 		} else if len(args) == 1 {
-			// 直接章节ID
-			eid, _ = parseInt(args[0])
+			eid, err = parsePositiveID(args[0], "章节ID")
+			if err != nil {
+				return fmt.Errorf("请指定章节ID，或用 '作品名 --ep 集数' 自动查找: %w", err)
+			}
 		} else {
 			return fmt.Errorf("请指定章节ID，或用 '作品名 --ep 集数' 自动查找")
 		}
@@ -374,7 +383,10 @@ var collectionUpdateEpisodeCmd = &cobra.Command{
 		default:
 			emoji = "✅ 已更新"
 		}
-		fmt.Println(emoji)
+		if matched != "" {
+			fmt.Printf("已匹配: %s\n", matched)
+		}
+		fmt.Printf("%s [章节ID:%d]\n", emoji, eid)
 		return nil
 	},
 }
@@ -447,45 +459,19 @@ var collectionPersonsCmd = &cobra.Command{
 	},
 }
 
-// resolveEpisodeID 根据作品名/ID + 集数查找章节ID
-func resolveEpisodeID(client *api.HTTPClient, subjectName string, subjectID int, epNum int) (int, error) {
-	ctx := BackgroundCtx()
-
-	// Step 1: 获取条目ID
-	if subjectID == 0 {
-		result, err := client.SearchSubjects(ctx, api.SearchSubjectRequest{
-			Keyword: subjectName,
-			Sort:    "match",
-		}, 5, 0)
-		if err != nil {
-			return 0, fmt.Errorf("搜索作品 '%s' 失败: %w", subjectName, err)
-		}
-		if len(result.Data) == 0 {
-			return 0, fmt.Errorf("未找到作品 '%s'", subjectName)
-		}
-		subjectID = result.Data[0].ID
-	}
-
-	// Step 2: 获取章节列表
+// resolveEpisodeID 根据条目 ID 和集数查找本篇章节 ID，会翻页直到找完。
+func resolveEpisodeID(client *api.HTTPClient, subjectID int, epNum int) (int, error) {
 	onlyMain := api.EpMainStory
-	eps, err := client.GetEpisodes(ctx, subjectID, &onlyMain, 200, 0)
+	eps, err := listEpisodes(BackgroundCtx(), client, subjectID, &onlyMain)
 	if err != nil {
-		return 0, fmt.Errorf("获取章节列表失败: %w", err)
+		return 0, err
 	}
-
-	// Step 3: 匹配集数
-	for _, ep := range eps.Data {
-		if int(ep.Ep) == epNum || int(ep.Sort) == epNum {
+	for _, ep := range eps {
+		if n, ok := episodeNumber(ep); ok && n == epNum {
 			return ep.ID, nil
 		}
 	}
-	// 放宽匹配：检查 sort
-	for _, ep := range eps.Data {
-		if int(ep.Sort) == epNum {
-			return ep.ID, nil
-		}
-	}
-	return 0, fmt.Errorf("未找到作品 ID=%d 的第 %d 话 (共 %d 话)", subjectID, epNum, len(eps.Data))
+	return 0, fmt.Errorf("未找到作品 ID=%d 的第 %d 话（已加载 %d 话本篇）", subjectID, epNum, len(eps))
 }
 
 func init() {

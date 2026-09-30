@@ -78,7 +78,10 @@ var episodeGetCmd = &cobra.Command{
 	Long:  "获取指定章节的详细信息（标题/时长/放送日期/简介等）。",
 	Args:  cobra.ExactArgs(1),
 	RunE: func(cmd *cobra.Command, args []string) error {
-		id, _ := parseInt(args[0])
+		id, err := parsePositiveID(args[0], "章节ID")
+		if err != nil {
+			return err
+		}
 		client, _, err := NewAPIClient()
 		if err != nil {
 			return err

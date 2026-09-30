@@ -13,20 +13,22 @@ description: Manage Bangumi (番组计划) anime tracking. Use this skill whenev
 
 ```bash
 # ✅ 正确 — 一条命令搞定
-skill/bangumi collection update "史上最强的大魔王转生为村民A" --type 3
-skill/bangumi collection update-episode "史上最强的大魔王转生为村民A" --ep 1 --type 2
+skill/bangumi collection watch "史上最强的大魔王转生为村民A" --ep 3
 
 # ❌ 错误 — 不要这样！
 skill/bangumi search subjects "xxx"    # ← 不需要！
 skill/bangumi collection update 12345 --type 3  # ← 多此一举！
 ```
 
-**2. "标记在看第N话" = 两条命令：**
+**2. "看到第N话" = 一条命令：**
 
 ```bash
-skill/bangumi collection update "作品名" --type 3           # 标记在看
-skill/bangumi collection update-episode "作品名" --ep N --type 2  # 标记第N话看过
+skill/bangumi collection watch "作品名" --ep N
 ```
+
+这条命令会把收藏改成在看、进度设为第 N 话，并把第 1 到第 N 话标成看过。已经是「看过」不会被改回在看，进度也不会往回调。名称对上多个条目时会列出候选并停止，不会写入。
+
+只改某一话、或只改收藏状态时，再用 `update` / `update-episode`。
 
 **3. 名称找不到时先搜索确认：**
 
@@ -43,6 +45,8 @@ skill/bangumi auth login --token <access_token>
 ```
 
 令牌申请: https://next.bgm.tv/demo/access-token
+
+令牌写在用户配置目录（Linux 一般为 `~/.config/bangumi/token.json`）。环境变量 `BANGUMI_TOKEN` 会覆盖文件。
 
 > 令牌失效时 CLI 自动清除并提示重新设置。
 
@@ -86,7 +90,10 @@ skill/bangumi search persons "神尾观铃"
 
 ```bash
 skill/bangumi calendar
+skill/bangumi calendar --today
 ```
+
+`--today` 只输出今天播出的动画。代理和超时与其他命令一样，读取 `config proxy` / `--proxy`。
 
 ### 条目详情
 
@@ -103,8 +110,9 @@ skill/bangumi subject get --id 12         # ID精确查找
 ### 追番管理 ⭐
 
 ```bash
-skill/bangumi collection update "AIR" --type 3              # 在看
-skill/bangumi collection update-episode "AIR" --ep 1 --type 2  # 第1话看过
+skill/bangumi collection watch "AIR" --ep 3                 # 在看，并标记第1-3话看过
+skill/bangumi collection update "AIR" --type 3              # 只改收藏状态
+skill/bangumi collection update-episode "AIR" --ep 1 --type 2  # 只改第1话
 skill/bangumi collection update "AIR" --type 2 --rate 9     # 看过+评分
 skill/bangumi collection update "AIR" --tags "经典,催泪"     # 加标签
 ```
@@ -182,7 +190,7 @@ skill/bangumi index collect <目录ID>
 
 ## 注意事项
 
-- 所有名称搜索取第一个匹配结果，用 `--id` 精确指定
-- `update-episode --ep N` 自动查找章节 ID，无需手动查
+- 读取时名称搜索取第一个匹配结果。写入（`watch` / `update` / `update-episode`）在多个结果对不上唯一名称时列出候选并停止，用 `--id` 精确指定
+- `collection watch --ep N` 标记第 1 到第 N 话；`update-episode --ep N` 只改某一话
 - `calendar` 无需令牌，其他命令需令牌
 - 长文本用 `--comment-file <路径>` 从文件读取

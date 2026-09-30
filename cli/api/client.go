@@ -65,6 +65,7 @@ type Client interface {
 	UpdateUserSubjectCollection(ctx context.Context, subjectID int, req UserSubjectCollectionUpdate) error
 	GetUserSubjectEpisodeCollection(ctx context.Context, subjectID int, limit, offset int) (*Paged[UserEpisodeCollection], error)
 	UpdateUserEpisodeCollection(ctx context.Context, episodeID int, typ EpisodeCollectionType) error
+	PatchUserEpisodeCollections(ctx context.Context, subjectID int, episodeIDs []int, typ EpisodeCollectionType) error
 	GetUserCharacterCollections(ctx context.Context, username string) ([]UserCharacterCollection, error)
 	UpdateUserCharacterCollection(ctx context.Context, characterID int) error
 	GetUserPersonCollections(ctx context.Context, username string) ([]UserPersonCollection, error)

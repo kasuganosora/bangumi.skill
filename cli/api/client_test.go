@@ -52,6 +52,7 @@ type MockClient struct {
 	UpdateUserSubjectCollectionFunc     func(ctx context.Context, subjectID int, req UserSubjectCollectionUpdate) error
 	GetUserSubjectEpisodeCollectionFunc func(ctx context.Context, subjectID int, limit, offset int) (*Paged[UserEpisodeCollection], error)
 	UpdateUserEpisodeCollectionFunc     func(ctx context.Context, episodeID int, typ EpisodeCollectionType) error
+	PatchUserEpisodeCollectionsFunc     func(ctx context.Context, subjectID int, episodeIDs []int, typ EpisodeCollectionType) error
 	GetUserCharacterCollectionsFunc     func(ctx context.Context, username string) ([]UserCharacterCollection, error)
 	UpdateUserCharacterCollectionFunc   func(ctx context.Context, characterID int) error
 	GetUserPersonCollectionsFunc        func(ctx context.Context, username string) ([]UserPersonCollection, error)
@@ -272,6 +273,12 @@ func (m *MockClient) GetUserSubjectEpisodeCollection(ctx context.Context, sid, l
 func (m *MockClient) UpdateUserEpisodeCollection(ctx context.Context, eid int, t EpisodeCollectionType) error {
 	if m.UpdateUserEpisodeCollectionFunc != nil {
 		return m.UpdateUserEpisodeCollectionFunc(ctx, eid, t)
+	}
+	return fmt.Errorf("not mocked")
+}
+func (m *MockClient) PatchUserEpisodeCollections(ctx context.Context, subjectID int, episodeIDs []int, typ EpisodeCollectionType) error {
+	if m.PatchUserEpisodeCollectionsFunc != nil {
+		return m.PatchUserEpisodeCollectionsFunc(ctx, subjectID, episodeIDs, typ)
 	}
 	return fmt.Errorf("not mocked")
 }

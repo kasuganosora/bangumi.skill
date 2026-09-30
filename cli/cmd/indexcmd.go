@@ -91,7 +91,10 @@ var indexEditCmd = &cobra.Command{
 
 	Args: cobra.ExactArgs(1),
 	RunE: func(cmd *cobra.Command, args []string) error {
-		id, _ := parseInt(args[0])
+		id, err := parsePositiveID(args[0], "目录ID")
+		if err != nil {
+			return err
+		}
 		client, _, err := NewAPIClient()
 		if err != nil {
 			return err
@@ -131,7 +134,10 @@ var indexSubjectsCmd = &cobra.Command{
 	Long:  "查看指定目录中收录的条目列表。",
 	Args:  cobra.ExactArgs(1),
 	RunE: func(cmd *cobra.Command, args []string) error {
-		id, _ := parseInt(args[0])
+		id, err := parsePositiveID(args[0], "目录ID")
+		if err != nil {
+			return err
+		}
 		client, _, err := NewAPIClient()
 		if err != nil {
 			return err
@@ -163,8 +169,14 @@ var indexAddSubjectCmd = &cobra.Command{
 
 	Args: cobra.ExactArgs(2),
 	RunE: func(cmd *cobra.Command, args []string) error {
-		iid, _ := parseInt(args[0])
-		sid, _ := parseInt(args[1])
+		iid, err := parsePositiveID(args[0], "目录ID")
+		if err != nil {
+			return err
+		}
+		sid, err := parsePositiveID(args[1], "条目ID")
+		if err != nil {
+			return err
+		}
 		client, _, err := NewAPIClient()
 		if err != nil {
 			return err
@@ -189,8 +201,14 @@ var indexEditSubjectCmd = &cobra.Command{
 	Long:  "修改目录中指定条目的备注描述。",
 	Args:  cobra.ExactArgs(2),
 	RunE: func(cmd *cobra.Command, args []string) error {
-		iid, _ := parseInt(args[0])
-		sid, _ := parseInt(args[1])
+		iid, err := parsePositiveID(args[0], "目录ID")
+		if err != nil {
+			return err
+		}
+		sid, err := parsePositiveID(args[1], "条目ID")
+		if err != nil {
+			return err
+		}
 		commentFile, _ := cmd.Flags().GetString("comment-file")
 		commentVal, _ := cmd.Flags().GetString("comment")
 		comment, err := FileOrValue(commentFile, commentVal, "comment")
@@ -219,8 +237,14 @@ var indexDeleteSubjectCmd = &cobra.Command{
 	Long:  "从指定目录中移除条目。",
 	Args:  cobra.ExactArgs(2),
 	RunE: func(cmd *cobra.Command, args []string) error {
-		iid, _ := parseInt(args[0])
-		sid, _ := parseInt(args[1])
+		iid, err := parsePositiveID(args[0], "目录ID")
+		if err != nil {
+			return err
+		}
+		sid, err := parsePositiveID(args[1], "条目ID")
+		if err != nil {
+			return err
+		}
 		client, _, err := NewAPIClient()
 		if err != nil {
 			return err
@@ -241,7 +265,10 @@ var indexCollectCmd = &cobra.Command{
 	Long:  "收藏指定目录。",
 	Args:  cobra.ExactArgs(1),
 	RunE: func(cmd *cobra.Command, args []string) error {
-		id, _ := parseInt(args[0])
+		id, err := parsePositiveID(args[0], "目录ID")
+		if err != nil {
+			return err
+		}
 		client, _, err := NewAPIClient()
 		if err != nil {
 			return err
@@ -260,7 +287,10 @@ var indexUncollectCmd = &cobra.Command{
 	Long:  "取消收藏指定目录。",
 	Args:  cobra.ExactArgs(1),
 	RunE: func(cmd *cobra.Command, args []string) error {
-		id, _ := parseInt(args[0])
+		id, err := parsePositiveID(args[0], "目录ID")
+		if err != nil {
+			return err
+		}
 		client, _, err := NewAPIClient()
 		if err != nil {
 			return err

@@ -2,8 +2,13 @@ package cmd
 
 import (
 	"context"
+	"errors"
 	"fmt"
+	"net/http"
 	"os"
+	"strconv"
+	"strings"
+	"sync"
 
 	"github.com/kasuganosora/bangumi.skill/cli/api"
 	"github.com/kasuganosora/bangumi.skill/cli/internal/config"
@@ -47,25 +52,38 @@ func loadFormat() output.Format {
 	return output.FormatTxt
 }
 
-// NewAPIClient 创建带 token 和 proxy 的 API 客户端
+// NewAPIClient 创建带令牌、代理和超时的 API 客户端。没有令牌时返回错误。
 func NewAPIClient() (*api.HTTPClient, *config.TokenData, error) {
-	var opts []api.ClientOption
+	return buildAPIClient(true)
+}
 
-	// --token 标志优先
+// NewPublicClient 创建 API 客户端。有令牌就带上，没有也能访问公开接口。代理和超时仍然生效。
+func NewPublicClient() (*api.HTTPClient, error) {
+	client, _, err := buildAPIClient(false)
+	return client, err
+}
+
+func buildAPIClient(requireToken bool) (*api.HTTPClient, *config.TokenData, error) {
+	var opts []api.ClientOption
+	var td *config.TokenData
+
 	if tokenFlag != "" {
 		opts = append(opts, api.WithAccessToken(tokenFlag))
+		td = &config.TokenData{AccessToken: tokenFlag}
 	} else {
-		td, err := config.LoadToken()
+		loaded, err := config.LoadToken()
 		if err != nil {
-			return nil, nil, err
-		}
-		if td == nil || td.AccessToken == "" {
-			client, _ := api.NewClient(opts...)
-			return client, nil, fmt.Errorf(
+			if requireToken {
+				return nil, nil, err
+			}
+		} else if loaded != nil && loaded.AccessToken != "" {
+			opts = append(opts, api.WithAccessToken(loaded.AccessToken))
+			td = loaded
+		} else if requireToken {
+			return nil, nil, fmt.Errorf(
 				"未设置个人令牌\n\n请先申请个人令牌: https://next.bgm.tv/demo/access-token\n然后运行: bangumi auth login --token <你的令牌>",
 			)
 		}
-		opts = append(opts, api.WithAccessToken(td.AccessToken))
 	}
 
 	// --proxy 标志优先，否则从 config.json 读取
@@ -86,15 +104,53 @@ func NewAPIClient() (*api.HTTPClient, *config.TokenData, error) {
 		opts = append(opts, api.WithTimeout(60))
 	}
 
-	opts = append(opts, api.WithOnUnauthorized(func() {
-		_ = config.DeleteToken()
-		fmt.Fprintln(os.Stderr, "\n⚠️ 令牌已失效，已清除本地令牌。")
-		fmt.Fprintln(os.Stderr, "请重新设置: bangumi auth login --token <新令牌>")
-		fmt.Fprintln(os.Stderr, "令牌申请: https://next.bgm.tv/demo/access-token")
-	}))
+	if td != nil {
+		opts = append(opts, api.WithOnUnauthorized(func() {
+			_ = config.DeleteToken()
+			fmt.Fprintln(os.Stderr, "\n⚠️ 令牌已失效，已清除本地令牌。")
+			if config.TokenFromEnv() {
+				fmt.Fprintln(os.Stderr, "当前仍设置了环境变量 BANGUMI_TOKEN，请更新或取消该变量。")
+			}
+			fmt.Fprintln(os.Stderr, "请重新设置: bangumi auth login --token <新令牌>")
+			fmt.Fprintln(os.Stderr, "令牌申请: https://next.bgm.tv/demo/access-token")
+		}))
+	}
 
 	client, err := api.NewClient(opts...)
-	return client, &config.TokenData{}, err
+	if td == nil {
+		td = &config.TokenData{}
+	}
+	return client, td, err
+}
+
+// parsePositiveID 解析正整数 ID。
+func parsePositiveID(s, label string) (int, error) {
+	n, err := strconv.Atoi(strings.TrimSpace(s))
+	if err != nil || n <= 0 {
+		return 0, fmt.Errorf("%s需要正整数，收到 %q", label, s)
+	}
+	return n, nil
+}
+
+// isNotFound 判断错误是否为 API 404。
+func isNotFound(err error) bool {
+	var apiErr *api.APIError
+	return errors.As(err, &apiErr) && apiErr.StatusCode == http.StatusNotFound
+}
+
+// waitAll 并行执行函数，返回合并后的错误。
+func waitAll(fns ...func() error) error {
+	errs := make([]error, len(fns))
+	var wg sync.WaitGroup
+	wg.Add(len(fns))
+	for i, fn := range fns {
+		go func(i int, fn func() error) {
+			defer wg.Done()
+			errs[i] = fn()
+		}(i, fn)
+	}
+	wg.Wait()
+	return errors.Join(errs...)
 }
 
 // FileOrValue 取 file 内容或 val

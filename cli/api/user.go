@@ -137,6 +137,39 @@ func (c *HTTPClient) UpdateUserEpisodeCollection(ctx context.Context, episodeID 
 	return c.do(req, nil)
 }
 
+const episodeCollectionBatchSize = 100
+
+// PatchUserEpisodeCollections 批量更新当前用户对同一条目下多个章节的收藏状态。
+// 空列表不发请求。超过接口单次数量时按批提交。
+func (c *HTTPClient) PatchUserEpisodeCollections(ctx context.Context, subjectID int, episodeIDs []int, typ EpisodeCollectionType) error {
+	if len(episodeIDs) == 0 {
+		return nil
+	}
+	for start := 0; start < len(episodeIDs); start += episodeCollectionBatchSize {
+		end := start + episodeCollectionBatchSize
+		if end > len(episodeIDs) {
+			end = len(episodeIDs)
+		}
+		body := map[string]interface{}{
+			"episode_id": episodeIDs[start:end],
+			"type":       int(typ),
+		}
+		data, err := json.Marshal(body)
+		if err != nil {
+			return fmt.Errorf("marshal episode batch: %w", err)
+		}
+		req, err := c.newRequest(ctx, http.MethodPatch, fmt.Sprintf("/v0/users/-/collections/%d/episodes", subjectID), strings.NewReader(string(data)))
+		if err != nil {
+			return err
+		}
+		req.Header.Set("Content-Type", "application/json")
+		if err := c.do(req, nil); err != nil {
+			return fmt.Errorf("patch episode collections: %w", err)
+		}
+	}
+	return nil
+}
+
 // GetUserCharacterCollections 获取用户角色收藏
 func (c *HTTPClient) GetUserCharacterCollections(ctx context.Context, username string) ([]UserCharacterCollection, error) {
 	req, err := c.newRequest(ctx, http.MethodGet, fmt.Sprintf("/v0/users/%s/collections/-/characters", username), nil)

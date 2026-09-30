@@ -18,3 +18,7 @@ cli/api.test
 
 # temp
 temp_bangumi_api/
+
+# local credentials (user config dir, or the legacy file next to the binary)
+token.json
+config.json

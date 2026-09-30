@@ -19,7 +19,8 @@ func init() {
 var authCmd = &cobra.Command{
 	Use:   "auth",
 	Short: "管理 Bangumi 认证令牌",
-	Long: `首次使用前需要设置个人访问令牌，令牌保存在 token.json 中。
+	Long: `首次使用前需要设置个人访问令牌。
+令牌保存在用户配置目录的 token.json 中，也可用环境变量 BANGUMI_TOKEN 覆盖。
 
 ⚠️ 没有令牌时，所有需要认证的命令会提示你先设置令牌。
 
@@ -31,7 +32,8 @@ var authLoginCmd = &cobra.Command{
 	Short: "设置并验证个人令牌",
 	Long: `设置 Bangumi 个人令牌，会自动验证有效性后保存。
 
-令牌保存在当前二进制文件同级目录下的 token.json 中，供所有命令自动读取。
+令牌保存在用户配置目录的 token.json 中（Linux 一般为 ~/.config/bangumi/token.json）。
+也可用环境变量 BANGUMI_TOKEN 覆盖文件中的令牌。
 
 示例:
   bangumi auth login --token "your_token_here"              # 直接指定令牌
@@ -83,6 +85,9 @@ var authLoginCmd = &cobra.Command{
 		} else {
 			fmt.Printf("✅ 令牌已保存 - %s (ID: %d)\n", me.Nickname, status.UserID)
 		}
+		if path, pathErr := config.TokenPath(); pathErr == nil && outputFormat != "json" {
+			fmt.Printf("保存位置: %s\n", path)
+		}
 		log.Info("token saved", "user_id", status.UserID)
 		return nil
 	},
@@ -123,6 +128,11 @@ var authStatusCmd = &cobra.Command{
 		} else {
 			fmt.Printf("令牌有效 ✅\n用户 ID: %d\n客户端 ID: %s\n过期时间戳: %d\n",
 				status.UserID, status.ClientID, status.Expires)
+			if config.TokenFromEnv() {
+				fmt.Println("令牌来源: 环境变量 BANGUMI_TOKEN")
+			} else if path, pathErr := config.TokenPath(); pathErr == nil {
+				fmt.Printf("令牌文件: %s\n", path)
+			}
 		}
 		return nil
 	},
@@ -137,6 +147,9 @@ var authLogoutCmd = &cobra.Command{
 			return err
 		}
 		fmt.Println("令牌已删除。")
+		if config.TokenFromEnv() {
+			fmt.Println("环境变量 BANGUMI_TOKEN 仍在生效，请取消该变量后才会真正退出登录。")
+		}
 		log.Info("token deleted")
 		return nil
 	},

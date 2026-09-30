@@ -50,31 +50,39 @@ var characterGetCmd = &cobra.Command{
 			return err
 		}
 		ctx := BackgroundCtx()
-
-		// 并行获取角色详情 + 出演作品 + 声优
-		type result struct {
-			c   *api.CharacterDetail
-			sub []api.V0RelatedSubject
-			ps  []api.CharacterPerson
+		var (
+			detail  *api.CharacterDetail
+			subs    []api.V0RelatedSubject
+			persons []api.CharacterPerson
+		)
+		err = waitAll(
+			func() error {
+				var e error
+				detail, e = client.GetCharacterByID(ctx, id)
+				return e
+			},
+			func() error {
+				var e error
+				subs, e = client.GetCharacterSubjects(ctx, id)
+				return e
+			},
+			func() error {
+				var e error
+				persons, e = client.GetCharacterPersons(ctx, id)
+				return e
+			},
+		)
+		if err != nil {
+			return err
 		}
-		ch := make(chan result, 1)
-		go func() {
-			var r result
-			r.c, _ = client.GetCharacterByID(ctx, id)
-			r.sub, _ = client.GetCharacterSubjects(ctx, id)
-			r.ps, _ = client.GetCharacterPersons(ctx, id)
-			ch <- r
-		}()
-		r := <-ch
-
-		if r.c == nil {
+		if detail == nil {
 			return fmt.Errorf("未找到角色 (ID: %d)", id)
 		}
 
 		full := &api.CharacterFull{
-			Detail:   *r.c,
-			Subjects: r.sub,
-			Persons:  r.ps,
+			Detail:   *detail,
+			Subjects: subs,
+			Persons:  persons,
 		}
 		return PrintOutput(full, formatCharacterFull(full))
 	},

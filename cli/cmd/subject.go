@@ -225,13 +225,6 @@ func subjectTypeName(t api.SubjectType) string {
 	}
 }
 
-// 简单辅助
-func parseInt(s string) (int, error) {
-	var n int
-	_, err := fmt.Sscanf(s, "%d", &n)
-	return n, err
-}
-
 type stringerFunc func() string
 
 func (f stringerFunc) String() string { return f() }
